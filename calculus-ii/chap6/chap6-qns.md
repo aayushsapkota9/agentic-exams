@@ -1,10 +1,9 @@
 # Chapter 6: Partial Differential Equations - Past Questions
 
-### Question 7a (2023)
+### 7(a) <small>2023</small>
 
 Find the general solution of $2u_x+2u_y-u=0$.
 
-**Copy-paste entire question into LLM:**
 ```markdown
 7.
 Solve Any Two: [2x5]
@@ -21,11 +20,10 @@ $$
 
 ---
 
-### Question 7b (2023)
+### 7(b) <small>2023</small>
 
 Derive the one-dimensional traffic flow model using conservation law.
 
-**Copy-paste entire question into LLM:**
 ```markdown
 7.
 Solve Any Two: [2x5]
@@ -42,7 +40,7 @@ $$
 
 ---
 
-### Question 7c (2023)
+### 7(c) <small>2023</small>
 
 Show that the value under integral sign 
 
@@ -52,7 +50,6 @@ $$
 
  is exact and evaluate the integral.
 
-**Copy-paste entire question into LLM:**
 ```markdown
 7.
 Solve Any Two: [2x5]
@@ -69,11 +66,10 @@ $$
 
 ---
 
-### Question 7a (2024)
+### 7(a) <small>2024</small>
 
 Find the general solution of the partial differential equation $u_x+u_y=u$.
 
-**Copy-paste entire question into LLM:**
 ```markdown
 7.
 Write short notes on: (Any two) [2x5]
@@ -84,11 +80,10 @@ c) A particle moves along the curve $x=t^3+1, y=t^2, z=2t+5$. Find the velocity 
 
 ---
 
-### Question 7b (2024)
+### 7(b) <small>2024</small>
 
 Derive the one-dimensional traffic flow model using conservation law.
 
-**Copy-paste entire question into LLM:**
 ```markdown
 7.
 Write short notes on: (Any two) [2x5]
@@ -99,11 +94,10 @@ c) A particle moves along the curve $x=t^3+1, y=t^2, z=2t+5$. Find the velocity 
 
 ---
 
-### Question 7c (2024)
+### 7(c) <small>2024</small>
 
 A particle moves along the curve $x=t^3+1, y=t^2, z=2t+5$. Find the velocity and acceleration at $t=1$.
 
-**Copy-paste entire question into LLM:**
 ```markdown
 7.
 Write short notes on: (Any two) [2x5]
@@ -114,11 +108,10 @@ c) A particle moves along the curve $x=t^3+1, y=t^2, z=2t+5$. Find the velocity 
 
 ---
 
-### Question 7a (2025-2)
+### 7(a) <small>2025-2</small>
 
 Solve: $u_t + 2uu_x = 0, u(x,0) = e^{-x}$.
 
-**Copy-paste entire question into LLM:**
 ```markdown
 7.
 Attempt any two questions. [2x5]
@@ -129,11 +122,10 @@ c) Find the angle between the surfaces $xy^2z-3x-z^2=0$ and $3x^2+2z=1+y^2$ at $
 
 ---
 
-### Question 7b (2025-2)
+### 7(b) <small>2025-2</small>
 
 Derive the one-dimensional traffic flow model using conservation law.
 
-**Copy-paste entire question into LLM:**
 ```markdown
 7.
 Attempt any two questions. [2x5]
@@ -144,11 +136,10 @@ c) Find the angle between the surfaces $xy^2z-3x-z^2=0$ and $3x^2+2z=1+y^2$ at $
 
 ---
 
-### Question 7c (2025-2)
+### 7(c) <small>2025-2</small>
 
 Find the angle between the surfaces $xy^2z-3x-z^2=0$ and $3x^2+2z=1+y^2$ at $(1, -2, 1)$.
 
-**Copy-paste entire question into LLM:**
 ```markdown
 7.
 Attempt any two questions. [2x5]
@@ -159,11 +150,10 @@ c) Find the angle between the surfaces $xy^2z-3x-z^2=0$ and $3x^2+2z=1+y^2$ at $
 
 ---
 
-### Question 2a (first-term) <small><em>[8]</em></small>
+### 2(a) <small>first-term</small> <small>[8]</small>
 
-Find the area bounded by the parabolas $x = y^2 - 1$ and $x = 2y^2 - 2$ by using double integration. <small><em>[8]</em></small>
+Find the area bounded by the parabolas $x = y^2 - 1$ and $x = 2y^2 - 2$ by using double integration. <small>[8]</small>
 
-**Copy-paste entire question into LLM:**
 ```markdown
 2.
 a) Find the area bounded by the parabolas $x = y^2 - 1$ and $x = 2y^2 - 2$ by using double integration. [8]
@@ -172,11 +162,10 @@ b) Find the volume under the parabolic cylinder $z = x^2$ above the region bound
 
 ---
 
-### Question 2b (first-term) <small><em>[7]</em></small>
+### 2(b) <small>first-term</small> <small>[7]</small>
 
-Find the volume under the parabolic cylinder $z = x^2$ above the region bounded the parabola $y = 6 - x^2$ and the line $y=x$ in xy-plane. <small><em>[7]</em></small>
+Find the volume under the parabolic cylinder $z = x^2$ above the region bounded the parabola $y = 6 - x^2$ and the line $y=x$ in xy-plane. <small>[7]</small>
 
-**Copy-paste entire question into LLM:**
 ```markdown
 2.
 a) Find the area bounded by the parabolas $x = y^2 - 1$ and $x = 2y^2 - 2$ by using double integration. [8]
@@ -185,7 +174,7 @@ b) Find the volume under the parabolic cylinder $z = x^2$ above the region bound
 
 ---
 
-### Question 7b (qualifying-test) <small><em>[2.5]</em></small>
+### 7(b) <small>qualifying-test</small> <small>[2.5]</small>
 
 Check exactness condition of the value under the integral sign 
 
@@ -193,9 +182,8 @@ $$
 \int_{(0,1)}^{(2,3)} [(2x+y^3) dx + (3xy^2+4) dy]
 $$
 
- and then evaluate the integral. <small><em>[2.5]</em></small>
+ and then evaluate the integral. <small>[2.5]</small>
 
-**Copy-paste entire question into LLM:**
 ```markdown
 7.
 a) Find the Laplace transform of $te^{2t}$. [2.5]

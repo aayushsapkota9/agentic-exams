@@ -1,10 +1,9 @@
 # Chapter 5: Fourier Series - Past Questions
 
-### Question 6a (2023) <small><em>[7]</em></small>
+### 6(a) <small>2023</small> <small>[7]</small>
 
-Find the fourier series of $f(x) = x+|x|$ for $-\pi < x < \pi$. <small><em>[7]</em></small>
+Find the fourier series of $f(x) = x+|x|$ for $-\pi < x < \pi$. <small>[7]</small>
 
-**Copy-paste entire question into LLM:**
 ```markdown
 6.
 a) Find the fourier series of $f(x) = x+|x|$ for $-\pi < x < \pi$. [7]
@@ -19,7 +18,7 @@ $$
 
 ---
 
-### Question 6b (2023) <small><em>[8]</em></small>
+### 6(b) <small>2023</small> <small>[8]</small>
 
 Expand the function $f(x)=x^2$ in the interval $0 < x < \pi$ in half range Fourier cosine series and show that 
 
@@ -27,9 +26,8 @@ $$
 \frac{\pi^2}{6} = 1 + \frac{1}{4} + \frac{1}{9} + \frac{1}{16} + \dots
 $$
 
- <small><em>[8]</em></small>
+ <small>[8]</small>
 
-**Copy-paste entire question into LLM:**
 ```markdown
 6.
 a) Find the fourier series of $f(x) = x+|x|$ for $-\pi < x < \pi$. [7]
@@ -44,7 +42,7 @@ $$
 
 ---
 
-### Question 6a (2024) <small><em>[7]</em></small>
+### 6(a) <small>2024</small> <small>[7]</small>
 
 Find the Fourier series of $f(x)=x+|x|, -\pi < x < \pi$ and show that 
 
@@ -52,9 +50,8 @@ $$
 \frac{\pi^2}{8} = 1 + \frac{1}{9} + \frac{1}{25} + \dots
 $$
 
- <small><em>[7]</em></small>
+ <small>[7]</small>
 
-**Copy-paste entire question into LLM:**
 ```markdown
 6.
 a) Find the Fourier series of $f(x)=x+|x|, -\pi < x < \pi$ and show that 
@@ -69,11 +66,10 @@ b) Find the Fourier sine and cosine series for the function $f(x)=x^2$ in the in
 
 ---
 
-### Question 6b (2024) <small><em>[8]</em></small>
+### 6(b) <small>2024</small> <small>[8]</small>
 
-Find the Fourier sine and cosine series for the function $f(x)=x^2$ in the interval $0<x<L$. <small><em>[8]</em></small>
+Find the Fourier sine and cosine series for the function $f(x)=x^2$ in the interval $0<x<L$. <small>[8]</small>
 
-**Copy-paste entire question into LLM:**
 ```markdown
 6.
 a) Find the Fourier series of $f(x)=x+|x|, -\pi < x < \pi$ and show that 
@@ -88,11 +84,10 @@ b) Find the Fourier sine and cosine series for the function $f(x)=x^2$ in the in
 
 ---
 
-### Question 6a (2025-2) <small><em>[7]</em></small>
+### 6(a) <small>2025-2</small> <small>[7]</small>
 
-Find the fourier series of $f(x)=x+|x|$ for $-\pi < x < \pi$. <small><em>[7]</em></small>
+Find the fourier series of $f(x)=x+|x|$ for $-\pi < x < \pi$. <small>[7]</small>
 
-**Copy-paste entire question into LLM:**
 ```markdown
 6.
 a) Find the fourier series of $f(x)=x+|x|$ for $-\pi < x < \pi$. [7]
@@ -107,7 +102,7 @@ $$
 
 ---
 
-### Question 6b (2025-2) <small><em>[8]</em></small>
+### 6(b) <small>2025-2</small> <small>[8]</small>
 
 Find the fourier cosine series of $f(x)=x\sin x$, $0<x<\pi$ then show that 
 
@@ -115,9 +110,8 @@ $$
 \frac{\pi-2}{4} = \frac{1}{1.3} - \frac{1}{3.5} + \frac{1}{5.7} - \dots
 $$
 
- <small><em>[8]</em></small>
+ <small>[8]</small>
 
-**Copy-paste entire question into LLM:**
 ```markdown
 6.
 a) Find the fourier series of $f(x)=x+|x|$ for $-\pi < x < \pi$. [7]
@@ -132,7 +126,7 @@ $$
 
 ---
 
-### Question 6a (qualifying-test) <small><em>[7]</em></small>
+### 6(a) <small>qualifying-test</small> <small>[7]</small>
 
 Find Fourier series of the periodic function 
 
@@ -140,9 +134,8 @@ $$
 f(x) = \frac{x^2}{2}
 $$
 
- for $-\pi \le x \le \pi$. <small><em>[7]</em></small>
+ for $-\pi \le x \le \pi$. <small>[7]</small>
 
-**Copy-paste entire question into LLM:**
 ```markdown
 6.
 a) Find Fourier series of the periodic function 
@@ -157,11 +150,10 @@ b) Find Fourier sine as well as cosine series representation of the half range f
 
 ---
 
-### Question 6b (qualifying-test) <small><em>[8]</em></small>
+### 6(b) <small>qualifying-test</small> <small>[8]</small>
 
-Find Fourier sine as well as cosine series representation of the half range function $f(x)=e^x$ for $0 < x < L$. <small><em>[8]</em></small>
+Find Fourier sine as well as cosine series representation of the half range function $f(x)=e^x$ for $0 < x < L$. <small>[8]</small>
 
-**Copy-paste entire question into LLM:**
 ```markdown
 6.
 a) Find Fourier series of the periodic function 
@@ -176,7 +168,7 @@ b) Find Fourier sine as well as cosine series representation of the half range f
 
 ---
 
-### Question 7c (qualifying-test) <small><em>[2.5]</em></small>
+### 7(c) <small>qualifying-test</small> <small>[2.5]</small>
 
 Define periodic function. Find the smallest period of the function 
 
@@ -184,9 +176,8 @@ $$
 f(x) = \sin(\frac{2n\pi x}{k})
 $$
 
- where n and k are constants. <small><em>[2.5]</em></small>
+ where n and k are constants. <small>[2.5]</small>
 
-**Copy-paste entire question into LLM:**
 ```markdown
 7.
 a) Find the Laplace transform of $te^{2t}$. [2.5]
