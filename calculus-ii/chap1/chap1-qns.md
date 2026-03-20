@@ -353,3 +353,27 @@ b) Find the volume in the first octant bounded by the coordinate planes, the cyl
 
 ---
 
+### 2(a) <small>first-term</small> <small>[8]</small>
+
+Find the area bounded by the parabolas $x = y^2 - 1$ and $x = 2y^2 - 2$ by using double integration. <small>[8]</small>
+
+```markdown
+2.
+a) Find the area bounded by the parabolas $x = y^2 - 1$ and $x = 2y^2 - 2$ by using double integration. [8]
+b) Find the volume under the parabolic cylinder $z = x^2$ above the region bounded the parabola $y = 6 - x^2$ and the line $y=x$ in xy-plane. [7]
+```
+
+---
+
+### 2(b) <small>first-term</small> <small>[7]</small>
+
+Find the volume under the parabolic cylinder $z = x^2$ above the region bounded the parabola $y = 6 - x^2$ and the line $y=x$ in xy-plane. <small>[7]</small>
+
+```markdown
+2.
+a) Find the area bounded by the parabolas $x = y^2 - 1$ and $x = 2y^2 - 2$ by using double integration. [8]
+b) Find the volume under the parabolic cylinder $z = x^2$ above the region bounded the parabola $y = 6 - x^2$ and the line $y=x$ in xy-plane. [7]
+```
+
+---
+
