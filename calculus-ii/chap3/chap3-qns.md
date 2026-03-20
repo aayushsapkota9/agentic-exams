@@ -2,9 +2,9 @@
 
 ### 3(a) <small>2023</small> <small>[8]</small>
 
-State First Shifting Theorem of Laplace transforms. <small>[8]</small>
-i. Find the Laplace transform of $t e^{-t} \cosh t$
-ii. Find the inverse Laplace transform of 
+i. State First Shifting Theorem of Laplace transforms. <small>[8]</small>
+ii. Find the Laplace transform of $t e^{-t} \cosh t$
+iii. Find the inverse Laplace transform of 
 
 $$
 \frac{1}{s^2-5s+6}
@@ -82,8 +82,8 @@ $$
 
 . [7]
 b)
-i) State second shifting property for Laplace transform and using this, find the Laplace transform of $e^{-3t} u(t-3)$. [4]
-ii) Find the inverse Laplace transform of 
+i. State second shifting property for Laplace transform and using this, find the Laplace transform of $e^{-3t} u(t-3)$. [4]
+ii. Find the inverse Laplace transform of 
 
 $$
 \frac{\pi}{(s-3)^2+\pi^2}
@@ -96,8 +96,8 @@ $$
 
 ### 3(b) <small>2024</small> <small>[4]</small>
 
-i) State second shifting property for Laplace transform and using this, find the Laplace transform of $e^{-3t} u(t-3)$. <small>[4]</small>
-ii) Find the inverse Laplace transform of 
+i. State second shifting property for Laplace transform and using this, find the Laplace transform of $e^{-3t} u(t-3)$. <small>[4]</small>
+ii. Find the inverse Laplace transform of 
 
 $$
 \frac{\pi}{(s-3)^2+\pi^2}
@@ -115,8 +115,8 @@ $$
 
 . [7]
 b)
-i) State second shifting property for Laplace transform and using this, find the Laplace transform of $e^{-3t} u(t-3)$. [4]
-ii) Find the inverse Laplace transform of 
+i. State second shifting property for Laplace transform and using this, find the Laplace transform of $e^{-3t} u(t-3)$. [4]
+ii. Find the inverse Laplace transform of 
 
 $$
 \frac{\pi}{(s-3)^2+\pi^2}
@@ -129,13 +129,13 @@ $$
 
 ### 2(a) <small>2025-1</small> <small>[8]</small>
 
-i) Find the Laplace Transform of: <small>[8]</small>
+i. Find the Laplace Transform of: <small>[8]</small>
 
 $$
 \frac{\sin^2 t}{t}
 $$
 
-ii) Find the inverse Laplace Transform of:
+ii. Find the inverse Laplace Transform of:
 
 $$
 \frac{s}{s^2+w^2}
@@ -150,7 +150,7 @@ $$
 \frac{\sin^2 t}{t}
 $$
 
-ii) Find the inverse Laplace Transform of:
+ii. Find the inverse Laplace Transform of:
 
 $$
 \frac{s}{s^2+w^2}
@@ -186,7 +186,7 @@ $$
 \frac{\sin^2 t}{t}
 $$
 
-ii) Find the inverse Laplace Transform of:
+ii. Find the inverse Laplace Transform of:
 
 $$
 \frac{s}{s^2+w^2}
@@ -207,11 +207,7 @@ where $y(0)=2, y'(0)=-14$.
 
 Evaluate the following:
 i. $L(t \sin wt)$
-ii. 
-
-$$
-L^{-1} (\frac{1}{s^2(s^2+w^2)})
-$$
+ii. $L^{-1} (\frac{1}{s^2(s^2+w^2)})$
 
 ```markdown
 3.
@@ -244,17 +240,8 @@ $$
 ### 3(b) <small>first-term</small> <small>[8]</small>
 
 Evaluate:
-i. 
-
-$$
-L\{\frac{\sinh t}{t}\}
-$$
-
-ii. 
-
-$$
-L^{-1}(\cot^{-1} \frac{s}{w})
-$$
+i. $L\{\frac{\sinh t}{t}\}$
+ii. $L^{-1}(\cot^{-1} \frac{s}{w})$
 
   <small>[8]</small>
 
@@ -355,18 +342,9 @@ b) Show that $\vec{V} = 2xyz^3 \vec{i} + x^2z^3 \vec{j} + 3x^2yz^2 \vec{k}$ is i
 ### 3(a) <small>qualifying-test</small> <small>[7]</small>
 
 Evaluate (any two):
-i) $L(e^{-2t}\cos 5t)$
-ii) 
-
-$$
-L^{-1}(\frac{1}{s^2(s^2+w^2)})
-$$
-
-iii) 
-
-$$
-L^{-1}(\cot^{-1} \frac{s}{w})
-$$
+i. $L(e^{-2t}\cos 5t)$
+ii. $L^{-1}(\frac{1}{s^2(s^2+w^2)})$
+iii. $L^{-1}(\cot^{-1} \frac{s}{w})$
 
   <small>[7]</small>
 
@@ -380,7 +358,7 @@ $$
 L^{-1}(\frac{1}{s^2(s^2+w^2)})
 $$
 
-iii) 
+iii. 
 
 $$
 L^{-1}(\cot^{-1} \frac{s}{w})
@@ -418,7 +396,7 @@ $$
 L^{-1}(\frac{1}{s^2(s^2+w^2)})
 $$
 
-iii) 
+iii. 
 
 $$
 L^{-1}(\cot^{-1} \frac{s}{w})
