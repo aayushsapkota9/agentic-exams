@@ -1,0 +1,33 @@
+**POKHARA UNIVERSITY**
+
+**Level: Bachelor**  
+**Semester: Spring**  
+**Year: 2024 (A)**  
+**Programme: BE**  
+**Full Marks: 100**  
+**Course: Microprocessor and ALP (New)**  
+**Pass Marks: 45**  
+**Time: 3 hrs.**
+
+*Candidates are required to give their answers in their own words as far as practicable.*  
+*The figures in the margin indicate full marks.*  
+*Attempt all the questions.*
+
+1. a) Show your insight on the development of the very first microprocessor till todays processors. [7]
+   b) What is addressing mode? Explain the addressing modes of 8085 with examples. [8]
+
+2. a) Write an assembly language program in 8085 find the sum of Even numbers located from address D050H-D059H and store the result in E055H memory address. [7]
+   b) List the machine cycles of 8085 microprocessor. Explain the timing diagram for the 8085 instruction XRI 25H. [8]
+
+3. a) What is the role of pipelining and segmentation in 8086 microprocessor? Explain. [8]
+   b) What is macro assembler? Differentiate between macros and procedures. [7]
+
+4. a) Write an 8086 ALP to check whether the given string is palindrome or not. [8]
+   b) What are the FLAGS of 8086 microprocessor? List them out with examples. [7]
+   **OR**
+   Define address decoding. Differentiate between I/O and memory mapped I/O. [7]
+
+5. a) What is address decoding? Design an address decoding circuit to interface 4KB PROM, 8KB RAM and 16KB EPROM. Is this decoding a full or partial? [8]
+   b) Draw and explain the architecture of 8251 USART along with its pins. [7]
+
+6. a) How multiple interrupts can be handled using Priority Interrupt Controller? Explain with the help of suitable block diagram. [7]

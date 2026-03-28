@@ -1,0 +1,32 @@
+**POKHARA UNIVERSITY**
+
+**Level: Bachelor**  
+**Semester: Fall**  
+**Year: 2021 (B)**  
+**Programme: BE**  
+**Full Marks: 100**  
+**Course: Microprocessors**  
+**Pass Marks: 45**  
+**Time: 3 hrs.**
+
+*Candidates are required to give their answers in their own words as far as practicable.*  
+*The figures in the margin indicate full marks.*  
+*Attempt all the questions.*
+
+1. a) What is microprocessor? Explain the evolution of microprocessors. [7]
+   b) Draw the internal architecture of 8085 microprocessor. Also, explain each blocks in brief. [8]
+
+2. a) What is addressing mode? Explain different addressing modes of 8085 with examples. [8]
+   b) Define machine cycle and instruction cycle. Draw the neat and labeled timing diagram for 8085 instruction NOP. [7]
+
+3. a) Write an ALP in 8085 to check whether the number stored in memory location 2060H is prime or not. If the number is prime, store FFH in memory location C00FH else store 00H. [8]
+   b) Define tri-state buffer. Explain with suitable circuit diagram how read and write operations are performed in SRAM chip. [7]
+
+4. a) Design an address decoding circuit to interface one ROM chip of 2KB and one RAM chip of 4KB at address 0000H and E000H respectively. [8]
+   b) Draw the suitable block diagram of 8255A PPI and explain [7]
+
+5. a) What are assembler directives? Explain any six different assembler directives of 8086 microprocessor. [8]
+   b) Define IVT. Explain different pre-defined interrupts in 8086 microprocessor along with suitable block diagram [7]
+
+6. a) Write an 8086 program to enter a string from the keyboard. Count the number of repetitions of letter 'a' or 'A'. If the count is even, display "POKHARA" else display "UNIVERSITY". [7]
+   b) Define DTE and DCE in serial communication. Explain RS232C serial data standard along with suitable circuit diagram. [8]

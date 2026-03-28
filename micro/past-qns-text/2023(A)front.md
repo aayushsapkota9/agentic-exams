@@ -1,0 +1,36 @@
+**POKHARA UNIVERSITY**
+
+**Level: Bachelor**  
+**Semester: Fall**  
+**Year: 2023 (A)**  
+**Programme: BE**  
+**Full Marks: 100**  
+**Course: Microprocessor and ALP (New)**  
+**Pass Marks: 45**  
+**Time: 3 hrs.**
+
+*Candidates are required to give their answers in their own words as far as practicable.*  
+*The figures in the margin indicate full marks.*  
+*Attempt all the questions.*
+
+1. a) Define microprocessor. Differentiate between Von Neumann and Harvard architecture along with its block diagram. [7]
+   b) Draw the functional block diagram of intel 8085 microprocessor and explain each block. [8]
+
+2. a) Draw and explain a well-labelled timing diagram of the instruction LXI B, D050H and calculate the time required to execute the instruction if frequency = 4MHz. [8]
+   b) Write an ALP in 8085 to transfer 10 bytes of data of memory address starting from 5000H to 6000H. Comment in each line indicate full marks. [7]
+
+3. a) What are the major changes and advantages of 8086 over 8085 microprocessors? Explain addressing modes of 8086. [8]
+   **OR**
+   What are the types of FLAGS available in 8086 microprocessors? Show the Flag position and explain in brief with examples. [7]
+   b) Write a 8086 program to find square root of a number. [7]
+
+4. a) What are the assembler directives of 8086? List out some common directives that are used while programming. [7]
+   **OR**
+   What are Macros? Explain DOS interrupt functions. [8]
+   b) Design an address decoding circuit to interface 2KB RAM, 4 KB ROM and 8 KB RAM with initial address 2000H. [7]
+
+5. a) Define parallel interface. Explain 8255 PPI. [8]
+   b) Draw and explain the architecture of 8251 USART along with its pins. [7]
+
+6. a) What is the difference between polled and Vectored interrupt handling technique? Explain with necessary diagram. [8]
+   b) What are the sources of interrupt? Explain interrupt vector Table. [7]

@@ -1,0 +1,32 @@
+**POKHARA UNIVERSITY**
+
+**Level: Bachelor**  
+**Semester: Fall**  
+**Year: 2022**  
+**Programme: BE**  
+**Full Marks: 100**  
+**Course: Microprocessors**  
+**Pass Marks: 45**  
+**Time: 3 hrs.**
+
+*Candidates are required to give their answers in their own words as far as practicable.*  
+*The figures in the margin indicate full marks.*  
+*Attempt all the questions.*
+
+1. a) Define Microprocessor along with its applications. Differentiate Harvard and Von-Neumann architecture on the basis of storage. [7]
+   b) What are the types of instruction depending upon word size? Explain different type of addressing modes of 8085 microprocessor. [8]
+
+2. a) Write an 8085 program to find smallest number among array of numbers. [8]
+   b) Define T-state. Draw the labelled timing diagram of the instruction LXI H, 5051H. [7]
+
+3. a) Design an Addressing Decoding circuit to interface 16KB ROM chips with 8085 microprocessors. [8]
+   b) Draw a well labelled architecture of 8086 microprocessor and discuss about BIU and EU. [7]
+
+4. a) Explain about IVT of 8086. [7]
+   b) What are serial and parallel communication? Explain basics of RS-232. [8]
+
+5. a) Explain the working of DMA. Mention its advantages over programmed and interrupt driven I/O. [8]
+   b) Write an ALP in 8086 to display POKHARA UNIVERSITY without using 09h function. [7]
+
+6. a) What is the Asynchronous serial data communication? Compare serial and parallel communication. Draw the Block diagram of 8251A USART and explain functionally in detail. [8]
+   b) What is the importance of DAA instruction? Explain it with an appropriate example along with the necessary calculations. [7]
