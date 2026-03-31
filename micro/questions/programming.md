@@ -7,44 +7,40 @@ This document contains a consolidated list of Assembly Language Programming (ALP
 ## 8085 ALP Questions
 
 ### Array & Data Manipulation
-- **Smallest Number:** Write an ALP in 8085 to find the smallest number among ten 8-bit data stored in memory locations D000H to D009H. Also, store the result in F000H and display it on output device 48H.
-- **Greatest Number:** Write an ALP in 8085 to find out the greatest number among ten 8-bit data stored in memory locations C000H to C009H. Also store that value in D000H.
-- **Data Transfer:** Write an ALP in 8085 to transfer 10 bytes of data from memory address starting from 5000H to 6000H.
-- **Positive/Negative Check:** Write an ALP in 8085 to check whether the number stored in memory location D001H is positive or negative.
+- **Smallest Number:** Write an ALP in 8085 to find the smallest number among ten 8-bit data stored in memory locations D000H to D009H. Also, store the result in F000H and display it on output device 48H. [2(a) OR 2024(B), 7M]
+- **Greatest Number:** Write an ALP in 8085 to find out the greatest number among ten 8-bit data stored in memory locations C000H to C009H. Also store that value in D000H. [2(b) 2023(B), 7M]
+- **Data Transfer:** Write an ALP in 8085 to transfer 10 bytes of data from memory address starting from 5000H to 6000H. [2(b) 2023(A), 7M]
+- **Positive/Negative Check:** Write an ALP in 8085 to check whether the number stored in memory location D001H is positive or negative. [2(a) 2019(A), 8M]
 
 ### Arithmetic & Series
-- **Addition of 32-bit Numbers:** Write an ALP in 8085 to add two 32-bit numbers stored in memory locations starting from 2000H and 3000H respectively.
-- **Sum of Even Numbers:** Write an ALP in 8085 to find the sum of even numbers located from address D050H-D059H and store the result in E055H.
-- **Sum of Odd Numbers:** Write an ALP in 8085 to find the sum of odd numbers located from memory address C000H to C005H and store the result in C006H.
-- **Sum of Squares:** Write an ALP in 8085 to perform the following addition: $1^2 + 2^2 + 3^2 + ... + 9^2$.
-- **Fibonacci Series:** Write 8085 assembly programming language to generate the Fibonacci series of the first 10 terms starting from 1.
+- **Addition of 32-bit Numbers:** Write an ALP in 8085 to add two 32-bit numbers stored in memory locations starting from 2000H and 3000H respectively. [2(a) 2018(B), 8M]
+- **Sum of Even Numbers:** Write an ALP in 8085 to find the sum of even numbers located from address D050H-D059H and store the result in E055H. [2(a) 2024(A), 7M]
+- **Sum of Odd Numbers:** Write an ALP in 8085 to find the sum of odd numbers located from memory address C000H to C005H and store the result in C006H. [2(b) 2024(C), 7M]
+- **Sum of Squares:** Write an ALP in 8085 to perform the following addition: $1^2 + 2^2 + 3^2 + ... + 9^2$. [2(b) 2019(B), 7M]
+- **Fibonacci Series:** Write 8085 assembly programming language to generate the Fibonacci series of the first 10 terms starting from 1. [2(b) 2024(B), 7M]
 
 ### Logical & Mathematical Checks
-- **Prime Number Check:** Write an ALP in 8085 to check whether the number stored in memory location 2060H is prime or not. If the number is prime, store FFH in memory location C00FH, else store 00H.
-
----
-
-## 8086 ALP Questions
+- **Prime Number Check:** Write an ALP in 8085 to check whether the number stored in memory location 2060H is prime or not. If the number is prime, store FFH in memory location C00FH, else store 00H. [3(a) 2021(B), 8M]
 
 ### Interfacing & I/O
-- **8255 PPI Status:** Write an 8085 program to take input from 4 switches connected to PC0-PC3 and display the status of the switches to 4 LEDs connected to PC4-PC7 of 8255 PPI.
+- **8255 PPI Status:** Write an 8085 program to take input from 4 switches connected to PC0-PC3 and display the status of the switches to 4 LEDs connected to PC4-PC7 of 8255 PPI. [3(b) 2015, 7M]
 
 ---
 
 ## 8086 ALP Questions
 
 ### String manipulation
-- **Palindrome Check:** Write an 8086 ALP to check whether the given string is a palindrome or not.
-- **Reverse String Display:** Write an 8086 ALP to display the string "POKHARA UNIVERSITY" in reverse order.
-- **Display String (Console):** Write an 8086 ALP to display the string "Computer Engineering" at the console.
-- **Reverse User Input:** Write an ALP for 8086 to take a string input from the keyboard and display its reverse form on the screen.
-- **Print Word by Word:** Write an 8086 ALP for MASM in DOS mode to print each word of a string on different lines.
-- **Case Conversion:** Write a program in 8086 to display "MICROPROCESSOR IS EASY TO LEARN" in lower case.
+- **Palindrome Check:** Write an 8086 ALP to check whether the given string is a palindrome or not. [4(a) 2024(A), 8M]
+- **Reverse String Display:** Write an 8086 ALP to display the string "POKHARA UNIVERSITY" in reverse order. [4(b) 2019(A), 7M]
+- **Display String (Console):** Write an 8086 ALP to display the string "Computer Engineering" at the console. [4(b) 2018(A), 8M]
+- **Reverse User Input:** Write an ALP for 8086 to take a string input from the keyboard and display its reverse form on the screen. [6(a) 2023(B), 7M]
+- **Print Word by Word:** Write an 8086 ALP for MASM in DOS mode to print each word of a string on different lines. [5(b) 2019(B), 8M]
+- **Case Conversion:** Write a program in 8086 to display "MICROPROCESSOR IS EASY TO LEARN" in lower case. [5(b) 2018(B), 7M]
 
 ### Arithmetic & Functions
-- **Square Root:** Write an 8086 program to find the square root of a given number. (Assume the number is a perfect square of two digits).
-- **Positive/Negative Check:** Write a program in 8086 to find whether a number is positive or negative.
-- **Display without 09H:** Write an ALP in 8086 to display "POKHARA UNIVERSITY" without using the 09H function of INT 21H.
+- **Square Root:** Write an 8086 program to find the square root of a given number. (Assume the number is a perfect square of two digits). [5(b) 2015, 8M]
+- **Positive/Negative Check:** Write a program in 8086 to find whether a number is positive or negative. [5(a) 2024(C), 8M]
+- **Display without 09H:** Write an ALP in 8086 to display "POKHARA UNIVERSITY" without using the 09H function of INT 21H. [5(b) 2022, 7M]
 
 ---
 
