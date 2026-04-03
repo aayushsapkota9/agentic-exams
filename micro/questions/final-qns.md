@@ -1,193 +1,115 @@
-# Microprocessor and ALP - Final Questions
+# Microprocessor and ALP - Consolidated Questions (2020-2024)
 
-## chap 1 qns
+## Chapter 1 Questions
 
-- Compare Von-Neumann's Architecture with Harvard architecture. **(2018, 2019)**
-- Define Microcontroller. What are the essential difference between Von Neumann and Harvard architecture? **(2021)**
-- Define Microprocessor along with its applications. Differentiate Harvard and Von-Neumann architecture on the basis of storage. **(2022)**
-- Define microprocessor. Differentiate between Von Neumann and Harvard architecture along with its block diagram. **(2023)**
-- Differentiate between Microprocessor and Microcontrollers. Explain how the microprocessor is organized in microprocessor-based system. **(2023)**
-- Differentiate between Von Neumann and Harvard architecture. Explain fetch, decode and execute cycle in microprocessor with block diagram. **(2018, 2024)**
-- Enlist the greatest breakthrough in microprocessor so that modern processors are available for personal computer. **(2015)**
-- Evolution of Microprocessors. **(2024)**
-- Explain the Instruction execution Cycle of microprocessor. **(2019)**
-- Explain the microcomputer Architecture. **(2018)**
-- Microcontroller and applications. **(2023)**
-- Microprocessor vs. Microcontroller. **(2018)**
-- Show your insight on the development of the very first microprocessor till todays processors. **(2024)**
-- What are the major differences between Microprocessor and Microcontroller? **(2019)**
-- What is microprocessor? Explain the evolution of microprocessors. **(2021)**
-- Why the speed of Von-Neumann architecture is low than Harvard architecture? Explain Von-Neumann architecture with various registers used in it. **(2024)**
-- With reference of bus advancement, differentiate between Harvard Architecture and Von Neumann architecture. **(2015)**
+### Short Questions
+- Differentiate between Microprocessor and Microcontrollers. Explain how the microprocessor is organized in microprocessor-based system **(2023)**
+- Differentiate between Von Neumann and Harvard architecture based on storage and performance. **(2021, 2022, 2023, 2024)**
+- Evolution of Microprocessors **(2024)**
+- Microcontroller and applications **(2023)**
+- Show your insight on the development of the very first microprocessor till todays processors **(2024)**
+- What is microprocessor? Explain the evolution of microprocessors **(2021)**
 
-## chap 2 qns
+## Chapter 2 Questions
 
-- Define flags and addressing modes. What are the different addressing modes used in 8085 microprocessor? Explain with examples. **(2024)**
-- Define instruction set and formats, opcodes, mnemonics and operands with examples. **(2015)**
-- Define machine cycle and instruction cycle. Draw the neat and labeled timing diagram for 8085 instruction NOP. **(2021)**
-- Define T-state, Machine cycle and Instruction cycle. What are the different addressing modes available in 8085 microprocessor? **(2018)**
-- Define T-state. Draw the labelled timing diagram for the instruction XRA B. **(2018)**
-- Define T-state. Draw the labelled timing diagram of the instruction LXI H, 5051H. **(2022)**
-- Define T-state. Draw the neat and labeled timing diagram for instruction MOV M, B. **(2019)**
-- Define T-state. Draw the timing diagrams for the instruction OUT 0FH. **(2015)**
-- Draw and explain a well labelled timing diagram of the instruction LDA 2000H and calculate the total execution time if clock frequency is 2 KHZ. **(2023)**
-- Draw and explain a well labelled timing diagram of the instruction MVI A, 32H and calculate the total execution time if clock frequency is 2 MHz. **(2018)**
-- Draw and explain a well-labelled timing diagram of the instruction ADD M and calculate the time required to execute this instruction if the frequency is 3MHz. **(2024)**
-- Draw and explain a well-labelled timing diagram of the instruction LXI B, D050H and calculate the time required to execute the instruction if frequency = 4MHz. **(2023)**
-- Draw and explain the timing diagram of MVI M, 05H. **(2018)**
-- Draw the functional architecture of a 8-bit microprocessor along with diagram and briefly describe about the interrupts available in it.  (Note: 8-bit refers to 8085 here). **(2018)**
-- Draw the functional block diagram of intel 8085 microprocessor and explain each block. **(2023)**
-- Draw the internal architecture of 8085 microprocessor. Also, explain each blocks in brief. **(2021)**
-- Draw the timing diagrams for the instruction STA E040H. ... **(2021)**
-- Explain the architecture of 8085 microprocessor? **(2021)**
-- Explain the block diagram of the 8085 microprocessors. **(2023)**
-- Explain the instruction: MVI, ANI, CMP, JNC, NOP. **(2019)**
-- Explain why 8085 microprocessor is called accumulator based microprocessor? What are different type of addressing modes of 8085microprocessors? Explain. **(2024)**
-- Explain with example the addressing mode of 8085 microprocessor. **(2015)**
-- List the machine cycles of 8085 microprocessor. Explain the timing diagram for the 8085 instruction XRI 25H. **(2024)**
-- RIM and SIM Instruction. **(2019)**
-- What are Flags? Draw a well label functional diagram of 8085 with associated signals. **(2024)**
-- What are Flags? Write the function of all the flags present in 8085 microprocessor. **(2019)**
-- What are the different flags of 8085 microprocessor? Explain the addressing modes of 8085 microprocessor with examples of each. **(2019)**
-- What are the different types of machine cycles in 8085 instructions? Draw the labelled timing diagram for the instruction LDA 30DA H. **(2019)**
-- What are the types of instruction depending upon word size? Explain different type of addressing modes of 8085 microprocessor. **(2022)**
-- What is addressing mode? Explain the addressing modes of 8085 with examples. **(2021, 2024)**
-- What is flag? Discuss about 8085 associated flags. With suitable examples show how these flags are affected by arithmetic and logical group of instructions. **(2023)**
-- What is the importance of DAA instruction? Explain it with an appropriate example along with the necessary calculations. **(2022)**
-- What is the significance of timing diagram? Draw and Explain a well labelled timing diagram of the instruction XRA B and calculate the total execution time if clock frequency is 2 MHZ. **(2024)**
-- Write 8085 assembly programming language to find the smallest number among ten 8-bit data's stored in memory location 5000H to 5009H. ... **(2018)**
-- Write 8085 assembly programming language to generate the Fibonacci series of first 10 terms starting from 1. **(2024)**
-- Write an 8085 program for the following type of addition $1^2 + 2^2 + 3^2 + ... + 9^2$. **(2015)**
-- Write an 8085 program to find smallest number among array of numbers. **(2022)**
-- Write an ALP in 8085 microprocessors to add two 32-bit numbers stored in memory locations starting from 2000H and 3000H respectively. **(2018)**
-- Write an ALP in 8085 to check whether the number stored in memory location 2060H is prime or not. ... **(2021)**
-- Write an ALP in 8085 to perform the following addition: $1^2 + 2^2 + 3^2 + 4^2 + 5^2 + 6^2 + 7^2 + 8^2 + 9^2$. **(2019)**
-- Write an ALP in 8085 to transfer 10 bytes of data of memory address starting from 5000H to 6000H. **(2023)**
-- Write an ALP to find out the greatest number among ten 8-bit data stored in memory location C000H to C009H. Also store that value in D000H. **(2023)**
-- Write an assembly language program in 8085 find the sum of Even numbers located from address D050H-D059H and store the result in E055H memory address. **(2024)**
-- Write and assembly language program in 8085 to check whether the number stored in memory location D001 H is positive or negative. ... **(2019)**
-- Write and assembly language program in 8085 to find sum of odd numbers located from memory address [C000H] - [C005H] and store the result in [C006H]. **(2024)**
-- Write the RTL for the instruction LXI D, 9050H in 8085 microprocessor. Explain the operations and uses of DAA, SHLD and LHLD instructions in 8085. **(2021)**
+### Short Questions
+- Draw and explain the internal architecture/block diagram of 8085 microprocessor. **(2021, 2023)**
+- What are Flags? Draw a well label functional diagram of 8085 with associated signals **(2024)**
+- What is addressing mode? Explain the different addressing modes of 8085 microprocessor with examples. **(2021, 2022, 2024)**
+- What is flag? Discuss about 8085 associated flags. With suitable examples show how these flags are affected by arithmetic and logical group of instructions **(2023)**
+- What is the importance of DAA instruction? Explain it with an appropriate example along with the necessary calculations **(2022)**
+- Write 8085 assembly programming language to generate the Fibonacci series of first 10 terms starting from 1 **(2024)**
+- Write an 8085 program to find smallest number among array of numbers **(2022)**
+- Write an assembly language program in 8085 find the sum of Even numbers located from address D050H-D059H and store the result in E055H memory address **(2024)**
+- Write and assembly language program in 8085 to find sum of odd numbers located from memory address [C000H] - [C005H] and store the result in [C006H] **(2024)**
+- Write the RTL for the instruction LXI D, 9050H in 8085 microprocessor. Explain the operations and uses of DAA, SHLD and LHLD instructions in 8085 **(2021)**
 
-## chap 3 qns
+### Long Questions
+- Draw the timing diagram for various instructions (e.g., ADD M and calculate the time required to execute this instruction if the frequency is 3MHz, LDA 2000H and calculate the total execution time if clock frequency is 2 KHZ, LXI B, LXI H). **(2021, 2022, 2023, 2024)**
+- Write an ALP for various tasks (e.g., check whether the number store..., find out the greatest number a..., transfer 10 bytes of data of m...). **(2021, 2023)**
 
-- ALP development tools. **(2024)**
-- Assembler Directives. **(2024)**
-- Do you think micro assembler is essential for microprocessor to execute the program? If yes, explain... **(2015)**
-- Draw a well labelled architecture of 8086 microprocessor and discuss about BIU and EU. **(2022)**
-- Draw and explain the internal architecture of 8086 microprocessor. Explain flag register of 8086 microprocessor.  (Note: Incorrectly mapping label? 5a in 2023B is 8086 arch). **(2023)**
-- Draw the pin diagram of 8086 microprocessor and explain the different types of FLAGS of 8086. **(2019)**
-- Explain the addressing modes of 8086 with suitable example. **(2018)**
-- Explain the salient features of 8086 microprocessor over its predecessor 8085. **(2023)**
-- Explain with an example the flags of 8086 microprocessor. **(2015, 2024)**
-- Flags in 8086. **(2022)**
-- Maximum mode and minimum mode of 8086. **(2018)**
-- Operation of CALL and RET instructions. **(2021)**
-- Procedures and Macros. **(2015, 2019)**
-- Stack and subroutine. **(2024)**
-- What are assembler directives? Explain any six different assembler directives of 8086 microprocessor. **(2021)**
-- What are BIU and EU in 8086 microprocessor? Explain with necessary diagram. **(2024)**
-- What are Macros? Explain DOS interrupt functions. **(2023)**
-- What are the assembler directives of 8086? List out some common directives that are used while programming. **(2023)**
-- What are the FLAGS of 8086 microprocessor? List them out with examples. **(2024)**
-- What are the major changes and advantages of 8086 over 8085 microprocessors? Explain addressing modes of 8086. **(2023)**
-- What are the significance of assemblers directive in microprocessor? List all the assembler's directive of 8086 microprocessor and explain them with example. **(2019, 2024)**
-- What are the types of FLAGS available in 8086 microprocessors? Show the Flag position and explain in brief with examples. **(2023)**
-- What do you mean by identifiers and statements? Explain the following directives: TITLE, DOSSEG, MODEL, CODE, DATA, ENDP. **(2018)**
-- What do you understand by macros and procedures? State and explain the different types of assembler directives in 8086. **(2018)**
-- What is addressing mode? Explain the addressing modes in 8086. **(2024)**
-- What is interrupt vector table? Explain procedures and macros. **(2021)**
-- What is macro assembler? Differentiate between macros and procedures. **(2019, 2024)**
-- What is the role of pipelining and segmentation in 8086 microprocessor? Explain. **(2024)**
-- Write a 8086 program to find square root of a number. **(2023)**
-- Write a program in 8086 to display "MICROPROCESSOR IS EASY TO LEARN" in lower case. **(2018)**
-- Write a program in 8086 to find whether a number is positive or negative. **(2024)**
-- Write a program in MASM to find square root of a number. **(2024)**
-- Write an 8086 ALP for MASM in DOS mode to print each word of a string in different lines. **(2019)**
-- Write an 8086 ALP to check whether the given string is palindrome or not. **(2021, 2024)**
-- Write an 8086 ALP to display the string "POKHARA UNIVERSITY" in reverse order. **(2019)**
-- Write an 8086 program to find square root of a given number. Given that number is a perfect square of two digits. **(2015)**
-- Write an ALP for 8086 to user input a string from the keyboard and display its reverse form in the screen. **(2023)**
-- Write an ALP in 8086 to display POKHARA UNIVERSITY without using 09h function. **(2022)**
-- Write an assembly language program in 8086 to display the string "Computer Engineering" at console. **(2018)**
+## Chapter 3 Questions
 
-## chap 4 qns
+### Short Questions
+- Assembler Directives **(2024)**
+- Explain the salient features of 8086 microprocessor over its predecessor 8085 **(2023)**
+- Explain with an example the flags of 8086 microprocessor **(2024)**
+- Flags in 8086 **(2022)**
+- Operation of CALL and RET instructions **(2021)**
+- Stack and subroutine **(2024)**
+- What are assembler directives? Explain any six different assembler directives of 8086 microprocessor **(2021)**
+- What are BIU and EU in 8086 microprocessor? Explain with necessary diagram **(2024)**
+- What are Macros? Explain DOS interrupt functions **(2023)**
+- What are the assembler directives of 8086? List out some common directives that are used while programming **(2023)**
+- What are the FLAGS of 8086 microprocessor? List them out with examples **(2024)**
+- What are the significance of assemblers directive in microprocessor? List all the assembler's directive of 8086 microprocessor and explain them with example **(2024)**
+- What are the types of FLAGS available in 8086 microprocessors? Show the Flag position and explain in brief with examples **(2023)**
+- What is addressing mode? Explain the different addressing modes of 8085 microprocessor with examples. **(2023)**
+- What is addressing mode? Explain the different addressing modes of 8086 microprocessor with examples. **(2024)**
+- What is interrupt vector table? Explain procedures and macros **(2021)**
+- What is macro assembler? Differentiate between macros and procedures **(2024)**
+- What is the role of pipelining and segmentation in 8086 microprocessor? Explain **(2024)**
+- Write a 8086 program to find square root of a number **(2023)**
+- Write a program in 8086 to find whether a number is positive or negative **(2024)**
+- Write a program in MASM to find square root of a number **(2024)**
 
-- 8251-USART. **(2018)**
-- 8255 PPI. **(2015)**
-- Compare RS232 and RS422. Explain how two computers can communicate with each other using RS232 standard. **(2021)**
-- Define address decoding. Differentiate between I/O and memory mapped I/O. **(2024)**
-- Define DTE and DCE in serial communication. Explain RS232C serial data standard along with suitable circuit diagram. **(2021)**
-- Define parallel interface. Explain 8255 PPI. **(2023)**
-- Define tri-state buffer. Explain with suitable circuit diagram how read and write operations are performed in SRAM chip. **(2021)**
-- Design an address decoding circuit to interface one ROM chip of 2KB and one RAM chip of 4KB at address 0000H and E000H respectively. **(2021)**
-- Design an Addressing Decoding circuit to interface 16KB ROM chips with 8085 microprocessors. **(2022)**
-- Design an Addressing Decoding circuit to interface 2kB RAM, chips each of size 256 bytes with starting address 1001 H. **(2019)**
-- Difference between absolute and partial decoding. **(2018)**
-- Differentiate between I/O mapped I/O and Memory mapped I/O.  (Note: Part of a composite question). **(2019, 2024)**
-- Differentiate between partial and complete address decoding. Design an address decoding circuits for two 16KB ROMs at address 2000H. **(2019)**
-- Differentiate between synchronous and asynchronous serial data communication and explain the uses of BISYNC protocol in communication. **(2018)**
-- Draw a circuit for 8085 to interface 2KB RAM and 4KB ROM, With initial address 2000H. **(2024)**
-- Draw and explain the architecture of 8251 USART along with its pins. **(2023, 2024)**
-- Draw and explain the control word for 8255A PPI. Also, explain the different operating modes of 8255 PPI. **(2018)**
+### Long Questions
+- Draw and explain the internal architecture/block diagram of 8086 microprocessor. **(2022, 2023)**
+- Write an ALP for various tasks (e.g., check whether a given string i..., check whether the given string..., display POKHARA UNIVERSITY wit...). **(2021, 2022, 2023, 2024)**
+
+## Chapter 4 Questions
+
+### Short Questions
+- Define address decoding. Differentiate between I/O mapped I/O and memory mapped I/O. **(2021, 2022, 2024)**
+- Define parallel interface. Explain 8255 PPI **(2023)**
+- Draw a circuit for 8085 to interface 2KB RAM and 4KB ROM, With initial address 2000H **(2024)**
 - Draw the suitable block diagram of 8255A PPI and explain **(2021)**
 - Explain BSR mode and I/O mode of 8255A PPI. What would be the control word if port A and port C lower are operating as input port while port B and port C higher operate as output port. (Assume that group A operate in mode 1 and group B operate in mode 0) **(2024)**
-- Explain memory interfacing? How do you interface two chips of 4K RAM and one chips of 2K ROM of 8085 with and without fold back addresses, starting address is 8000H? **(2019)**
-- Explain memory interfacing? How do you Interface two PROM and one RAM with 4kb and 2kb memory respectively with 8085 microprocessor. **(2018)**
-- Explain the functional block of 8237 DMA controller with its pin and internal register. **(2018)**
-- Explain the working of DMA. Mention its advantages over programmed and interrupt driven I/O. **(2022)**
-- Handshaking signals. **(2021)**
-- How can you transfer the data between two computers without using modem? Draw and explain the interface with handshake Signal. **(2019)**
-- How DTE and DCE is interfaced with minimum lines using RS232 cable? Explain how two computers can be connected without modem. **(2018)**
-- Memory mapped I/O and I/O mapped I/O. **(2021, 2022)**
-- RS 423A. **(2019, 2024)**
-- RS-232C standard. **(2018)**
-- RS232 forms a basis for serial data communication standard. Explain with diagram. **(2024)**
-- RS232 Standard. **(2019)**
-- Synchronous and Asynchronous Bus. **(2023)**
-- Synchronous Vs asynchronous serial data communication. **(2021)**
-- Unique and Non Unique address decoding. **(2024)**
-- What are advantages of serial i/o communication over parallel i/o. Explain how the handshaking assures the reliability in data transfer in parallel i/o communication with examples. **(2023)**
-- What are serial and parallel communication? Explain basics of RS-232. **(2022)**
-- What are the different methods of parallel data communication? Explain in detail. **(2018)**
-- What are the three basic functions microprocessor should satisfy to interface any memory chip? Explain how $4096 \times 8$ PROM is interfaced with 8085 microprocessor. **(2018)**
-- What do you mean by unique and non-unique address decoding? Differentiate between synchronous and asynchronous bus. **(2021)**
-- What do you understand by memory interfacing? Design an interfacing circuit to interface one 4KB EPROM and two 2KB RAM for 8085 microprocessor using 3*8 decoder. **(2021)**
+- Explain the RS-232C serial data standard and DTE/DCE interfacing. **(2021, 2024)**
+- Explain the working of DMA. Mention its advantages over programmed and interrupt driven I/O **(2022)**
+- Explain unique and non-unique address decoding with suitable examples. **(2021, 2024)**
+- Handshaking signals **(2021)**
+- RS 423A **(2024)**
+- Synchronous and Asynchronous Bus **(2023)**
+- Synchronous Vs asynchronous serial data communication **(2021)**
+- What are advantages of serial i/o communication over parallel i/o. Explain how the handshaking assures the reliability in data transfer in parallel i/o communication with examples **(2023)**
+- What are serial and parallel communication? Explain basics of RS-232 **(2022)**
+- What is DMA and why do we need it? Explain block diagram of 8237 DMA controller and how it works **(2024)**
+- Why do we need DMA in microprocessor? Explain the block diagram of DMA controller **(2023)**
+
+### Long Questions
+- Define DTE and DCE in serial communication. Explain RS232C serial data standard along with suitable circuit diagram **(2021)**
+- Define tri-state buffer. Explain with suitable circuit diagram how read and write operations are performed in SRAM chip **(2021)**
+- Design an address decoding circuit to interface one ROM chip of 2KB and one RAM chip of 4KB at address 0000H and E000H respectively **(2021)**
+- Design an Addressing Decoding circuit to interface 16KB ROM chips with 8085 microprocessors **(2022)**
+- Draw and explain the architecture of 8251 USART along with its pins **(2023, 2024)**
+- Draw and explain the architecture of 8251 USART controller **(2024)**
+- What do you understand by memory interfacing? Design an interfacing circuit to interface one 4KB EPROM and two 2KB RAM for 8085 microprocessor using 3*8 decoder **(2021)**
 - What is address decoding? Design an address decoding circuit to interface 4KB PROM, 8KB RAM and 16KB EPROM. Is this decoding a full or partial? **(2024)**
-- What is DMA and why do we need it? Explain block diagram of 8237 DMA controller and how it works. **(2024)**
-- What is Memory interfacing? Design a circuit to interface 8 KB ROM, 4 KB PROM and 2 KB EPROM with an 8085 Microprocessor. Starting address of ROM is 2000H. **(2024)**
-- What is memory interfacing? Interface two PROM and one RAM with 8KB and 4KB memory respectively with 8085. **(2015)**
-- What is Synchronous and Asynchronous data transmission? Explain the RS232C standard for serial communication. **(2019)**
-- What is the Asynchronous serial data communication? Compare serial and parallel communication. Draw the Block diagram of 8251A USART and explain functionally in detail. **(2022)**
-- What is the Asynchronous serial data communication? Compare serial and parallel communication. Draw the Block diagram of Intel 8251A USART and explain functionally in detail. **(2021)**
-- What is the significance of 8255 PPI? Draw and explain the control word for 8255 PPI in I/O mode. **(2023)**
-- What is the significance of memory interfacing? Design an address decoding circuit for 8KB RAM and 16KB ROM at address 2000H. **(2024)**
-- Why do we need DMA in microprocessor? Explain the block diagram of DMA controller. **(2023)**
-- Write a program to take input from 4-switches connected to PC0-PC3 and display the status of the switches to 4 LEDs connected to PC4-PC7 of 8255 PPI. **(2015)**
-- Write the difference between serial and parallel communication. Explain the RS232C standard for serial communication. **(2015)**
-- Write the function of DMA with suitable diagram and explain the execution of DMA in Master mode and Slave mode. **(2019)**
+- What is Memory interfacing? Design a circuit to interface 8 KB ROM, 4 KB PROM and 2 KB EPROM with an 8085 Microprocessor. Starting address of ROM is 2000H **(2024)**
+- What is the Asynchronous serial data communication? Compare serial and parallel communication. Draw the Block diagram of 8251A USART and explain functionally in detail **(2022)**
+- What is the Asynchronous serial data communication? Compare serial and parallel communication. Draw the Block diagram of Intel 8251A USART and explain functionally in detail **(2021)**
+- What is the significance of 8255 PPI? Draw and explain the control word for 8255 PPI in I/O mode **(2023)**
+- What is the significance of memory interfacing? Design an address decoding circuit for 8KB RAM and 16KB ROM at address 2000H **(2024)**
 
-## chap 5 qns
+## Chapter 5 Questions
 
-- 8259 PIC. **(2023)**
-- Define interrupts.  (Note: Part of a composite question). **(2024)**
-- Define IVT. Explain different pre-defined interrupts in 8086 microprocessor along with suitable block diagram **(2021)**
-- Draw and explain block diagram of 8259A programmable interrupt controller in detail. **(2023)**
-- Draw and explain the functional block diagram of 8259-PIC. **(2021)**
-- Explain about IVT of 8086. **(2022)**
-- Explain Polled and Vectored interrupt with suitable block diagram. **(2019)**
-- Explain the mechanism of handling multiple interrupts with proper diagram. **(2024)**
-- Explain the operating mechanism of 8259-PIC with its well labelled functional block diagram. **(2024)**
-- Explain the Programmable Interrupt Controller (8259 A) with a suitable block diagram. **(2015)**
-- How multiple interrupts can be handled using Priority Interrupt Controller? Explain with the help of suitable block diagram. **(2024)**
-- Interrupt Vector Table. **(2024)**
-- Polled and vectored Interrupt. **(2024)**
-- Types of interrupt. **(2021)**
-- What are the different dedicated interrupt pointers in 8086 microprocessor? Draw and explain the block diagram of 8086 IVT. **(2018, 2019)**
-- What are the different pre-defined interrupts in 8086 microprocessor? Explain with the help of block diagram of 8086 IVT. **(2019)**
-- What are the interrupt pins of 8085 microprocessor? Explain the different methods of handling multiple interrupts. **(2019)**
-- What are the sources of interrupt? Explain interrupt vector Table. **(2023)**
-- What is Interrupt Vector Table (IVT)? Draw the IVT for 8086 microprocessor and explain different types of 8086 interrupts with respect to interrupt vector table. **(2018, 2024)**
-- What is the difference between polled and Vectored interrupt handling technique? Explain with necessary diagram. **(2023)**
-- What is the use of 8259 PIC? Draw and explain the functional block diagram of 8259 PIC. **(2018)**
+### Short Questions
+- 8259 PIC **(2023)**
+- Define interrupts **(2024)**
+- Draw and explain the internal architecture/block diagram of 8086 microprocessor. **(2021)**
+- Explain about IVT of 8086 **(2022)**
+- Explain the mechanism of handling multiple interrupts with proper diagram **(2024)**
+- Explain the operating mechanism of 8259-PIC with its well labelled functional block diagram **(2024)**
+- How multiple interrupts can be handled using Priority Interrupt Controller? Explain with the help of suitable block diagram **(2024)**
+- Interrupt Vector Table **(2024)**
+- Polled and vectored Interrupt **(2024)**
+- Types of interrupt **(2021)**
+- What are the sources of interrupt? Explain interrupt vector Table **(2023)**
+- What is Interrupt vector table? Draw the IVT for 8086 microprocessor and explain different types of 8086 interrupts with respect to interrupt vector table **(2024)**
+- What is the difference between polled and Vectored interrupt handling technique? Explain with necessary diagram **(2023)**
+
+### Long Questions
+- Draw and explain block diagram of 8259A programmable interrupt controller in detail **(2023)**
+- Draw and explain the functional block diagram of 8259-PIC **(2021)**
 
