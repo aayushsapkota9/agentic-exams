@@ -1,7 +1,7 @@
 # Chapter 6: Impairments & Compression - Past Questions
 
 ### Quick Navigation
-[3(a)](#3a) | [3(b)](#3b) | [4(a)](#4a) | [4(b)](#4b) | [6(a)](#6a) | [7(a)](#7a) | [7(b)](#7b) | [8(a)](#8a) | [8(b)](#8b)
+[3(a)](#3a) | [3(b)](#3b) | [4(a)](#4a) | [4(b)](#4b) | [6(a)](#6a) | [7(a)](#7a) | [7(b)](#7b) | [7(c)](#7c) | [8(a)](#8a) | [8(b)](#8b)
 
 ---
 
@@ -35,6 +35,11 @@
 4. (a) Why burst error is difficult to handle than single error? Explain why CRC is better than parity method of error detection. [8]
 ```
 
+##### 2021 A Front [?]
+```markdown
+4. (a) How error can be defined? Explain different error detection techniques. [7]
+```
+
 ---
 
 ## 4(b)
@@ -51,6 +56,11 @@ Probability: 0.4, 0.2, 0.2, 0.1, 0.1
 ##### 2023 Fall (2024 Spring Back) [?]
 ```markdown
 4. (b) Compare and contrast between lossless and lossy compression. [7]
+```
+
+##### 2018 B Front [?]
+```markdown
+4. (b) Explain attenuation and distortion with example. If a signal at the beginning of a cable with 0.3 dB/km has a power of 2mW, what is the power of a signal at 5km? Comment on a result. [8]
 ```
 
 ---
@@ -106,6 +116,15 @@ m1 = 0.2, m2 = 0.2, m3 = 0.2, m4 = 0.2, m5 = 0.2
 ```markdown
 7. (b) Differentiate between lossless and lossy compression. Encode following symbols using Huffman coding. [7]
 m1 = 0.3, m2 = 0.25, m3 = 0.25, m4 = 0.1, m5 = 0.1
+```
+
+---
+
+## 7(c)
+
+##### 2018 B Back [?]
+```markdown
+7. (c) Data Compression Techniques [5]
 ```
 
 ---

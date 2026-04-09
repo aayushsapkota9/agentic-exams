@@ -46,7 +46,7 @@
 
 ##### 2018 B Front [?]
 ```markdown
-1. (a) What are the various components of a data communication system? Briefly describe with the help of a relevant block diagram. [8]
+1. (a) Draw a generic digital model of a data communication system and explain in brief the basic signal processing operations at each block. [8]
 ```
 
 ##### 2017 (2021 B Back) [?]
@@ -78,14 +78,14 @@
 1. (b) What are the various types of standard organizations for Data communication? Why is it necessary to define various protocols? [7]
 ```
 
+##### 2021 A Back [?]
+```markdown
+1. (b) What are the various types of standard organizations for Data communication? Why is it necessary to define various protocols? [7]
+```
+
 ##### 2019 Spring (2023 B Front) [?]
 ```markdown
 1. (b) What are the various types of standard organizations for data communication? Explain why various protocol elements are necessary to define. [7]
-```
-
-##### 2018 B Front [?]
-```markdown
-1. (b) Define protocols. List the elements of a protocol and describe their roles? [7]
 ```
 
 ---
@@ -115,3 +115,11 @@
 5. b) Distinguish between analog and digital data communication. [4]
 ```
 
+---
+
+## 7(b)
+
+##### 2021 A Back [?]
+```markdown
+7. (b) Digital Data Transmission [5]
+```

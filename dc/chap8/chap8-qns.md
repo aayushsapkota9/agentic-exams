@@ -1,7 +1,7 @@
 # Chapter 8: Multiplexing & Switching - Past Questions
 
 ### Quick Navigation
-[5(a)](#5a) | [5(b)](#5b) | [6(a)](#6a) | [6(c)](#6c) | [9(a)](#9a) | [9(b)](#9b) | [10(b)](#10b)
+[5(a)](#5a) | [5(b)](#5b) | [6(a)](#6a) | [6(c)](#6c) | [7(c)](#7c) | [9(a)](#9a) | [9(b)](#9b) | [10(b)](#10b)
 
 ---
 
@@ -10,6 +10,16 @@
 ##### 2022 B Back (2019 B) [?]
 ```markdown
 5. a) Explain the multiplexing technique applied in digital telephony with its importance and hierarchy. [8]
+```
+
+##### 2018 B Front [?]
+```markdown
+5. (b) Mention the hierarchy of multiplexing used in digital telephony. [7]
+```
+
+##### 2021 A Front [?]
+```markdown
+5. (a) What is multiplexing? Explain FDM hierarchy in telephone system. [7]
 ```
 
 ##### 2019 Spring (2023 B Front / Back) [?]
@@ -40,6 +50,20 @@
 6. (a) Is switching and routing same? Differentiate between message switching, circuit switching and packet switching. [8]
 ```
 
+##### 2021 A Front [?]
+```markdown
+6. (a) What are the different techniques of multiplexing? [7]
+```
+
+---
+
+## 7(c)
+
+##### 2021 A Back [?]
+```markdown
+7. (c) Private Branch Exchange [5]
+```
+
 ---
 
 ## 6(c)
@@ -56,11 +80,6 @@
 ##### 2021 A Back [?]
 ```markdown
 9. (a) Explain various multiplexing types and their applications. Determine the bandwidth of a link using FDM to support 10 voice channels of 4 kHz each with 500 Hz guard bands. [8]
-```
-
-##### 2018 B Back [?]
-```markdown
-9. (a) What is multiplexing? Explain multiplexing technique applied in digital telephony along with its hierarchy. [8]
 ```
 
 ##### 2017 (2021 B Back) [?]

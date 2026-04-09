@@ -1,7 +1,16 @@
 # Chapter 2: Data Transmission - Past Questions
 
 ### Quick Navigation
-[1(b)](#1b) | [2(a)](#2a) | [2(b)](#2b) | [4(b)](#4b) | [5(b)](#5b) | [6(a)](#6a)
+[1(a)](#1a) | [1(b)](#1b) | [2(a)](#2a) | [2(b)](#2b) | [4(b)](#4b) | [5(b)](#5b) | [6(a)](#6a)
+
+---
+
+## 1(a)
+
+##### 2021 A Front [?]
+```markdown
+1. (a) On a transmission channel, 600 characters message using 7 bit code is used. For sync data stream two sync characters and single error detection is added. In asynchronous data transmission, there is one start bit, one stop bit and error detection character is added. Calculate the efficiency of transmission in both transmission modes. [7]
+```
 
 ---
 
@@ -17,6 +26,11 @@
 1. (b) Differentiate between different types of transmission modes. Briefly explain RS-232C. [7]
 ```
 
+##### 2018 B Front [?]
+```markdown
+1. (b) Define Baud rate. An analog signal has a bit rate of 8000 bps and a baud rate of 1000 baud. How many data elements are carried by each signal element? [7]
+```
+
 ---
 
 ## 2(a)
@@ -26,14 +40,14 @@
 2. (a) Differentiate between different types of transmission modes. Briefly explain RS-232C. [7]
 ```
 
-##### 2018 B Front [?]
-```markdown
-2. (a) Distinguish between different types of transmission modes. Find the maximum bit rate for a noiseless channel having bandwidth of 3100 Hz and transmitting a signal with 16 signal levels. [8]
-```
-
 ##### 2021 B Back (2017) [?]
 ```markdown
 2. (a) Discuss the RS-232C interface and describe the DTE and DCE. [7]
+```
+
+##### 2021 A Back [?]
+```markdown
+2. (a) Describe DTE and DCE. What do you mean by null-modem? Explain properly. [7]
 ```
 
 ---

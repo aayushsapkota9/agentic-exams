@@ -19,12 +19,12 @@
 
 ##### 2018 B Front [?]
 ```markdown
-6. (a) Define modulation. Derive expression for Amplitude Modulation (AM). [8]
+6. (a) Differentiate between encoding and modulation. Differentiate between PSK and DPSK with a relevant example? [8]
 ```
 
 ##### 2021 A Front [?]
 ```markdown
-6. (a) Differentiate between unipolar, polar and bipolar signaling with their mathematical relation and relevant diagram. [7]
+5. (b) Differentiate between encoding and modulation. With diagram, explain QPSK technique. [8]
 ```
 
 ##### 2021 B Back (2017) [?]
@@ -49,6 +49,33 @@
 ##### 2023 Spring (2023 A Front) [?]
 ```markdown
 6. (a) Differentiate between unipolar, polar, and bipolar signaling with a relevant diagram. [8]
+```
+
+##### 2018 B Back [?]
+```markdown
+6. (b) An audio signal of 5 sin 500πt is used for AM with a carrier of 25 sin 100000πt. Calculate: [7]
+i. Modulation Index
+ii. Required bandwidth
+iii. Total power
+iv. Efficiency of AM
+```
+
+##### 2021 A Front [?]
+```markdown
+6. (b) An audio signal of 10sin1000πt is used for AM with a carrier of 50sin200000πt. Calculate: [8]
+i. Modulation Index
+ii. Required bandwidth
+iii. Total power
+iv. Efficiency of AM
+```
+
+##### 2021 A Back [?]
+```markdown
+6. (b) [Truncated Numerical - AM Calculation]: [?]
+i) Modulation Index
+ii) Required bandwidth
+iii) Total power
+iv) Efficiency of AM
 ```
 
 ---
@@ -127,3 +154,10 @@
 10. a) Explain various digital modulation techniques properly. [10]
 ```
 *(Note: ASK, FSK, PSK)*
+
+## Short Notes (2018 B Back)
+
+##### 2018 B Back [?]
+```markdown
+7. (d) QPSK Modem [5]
+```

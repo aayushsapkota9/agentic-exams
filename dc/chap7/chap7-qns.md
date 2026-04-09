@@ -21,6 +21,11 @@
 4. b) Compare and contrast between the HDLC and PPP protocols. [7]
 ```
 
+##### 2021 A Front [?]
+```
+4. (b) Explain the importance of flow control. Briefly explain sliding window flow control mechanism. [8]
+```
+
 ---
 
 ## 5(a)
@@ -28,6 +33,11 @@
 ##### 2024 Spring [7]
 ```
 5. (a) When is the Retransmission necessary? Explain about stop and wait ARQ protocol for the damaged frame. [7]
+```
+
+##### 2018 B Front / 2021 A Back [8]
+```
+5. (a) Properly compare and contrast between stop-and-wait, go-back-n and selective-repeat ARQ mechanisms. [8]
 ```
 
 ##### 2023 Fall (2024 Spring Back) [7]
