@@ -1,0 +1,36 @@
+Oifx<0
+© COSXW+W sinxw n . =
+4.2) Show that: [°° dw=y 5 ifx=0 1
+ne*ifx>0
+b) Find the Fourier sine transform of the function
+fx? for0O<x<1
+fx) te forx>1 3]
+
+OR
+Find the Fourier cosine transform of f{x)=e ~"™ for m>0 and then
+
+0 Coskx TE ius
+Show that f) Ty dx =Te™*,
+
+5.a) A tightly stretched string of length 20 cm fastened at both ends is
+displaced its position of equilibrium , by imparting to each of its points
+at initial velocity g(x) = x, for 0<x<10 j
+= 20-x, for 10<x<20, where x being distance from /
+
+one end .Find the displacement at any time t. (7]
+b) Derive one dimensional heat equation - Ge oe [8]
+6.a) Express the Laplacian V2u = a + oe in polar co-ordinates, [8]
+b) Find the solution of one dimensional heat equation = = ose
+with the appropriate initial and boundary conditions, (7]
+OR
+
+Solve ux+uyy=0 using separation of variables method.
+
+7. Solve: [4x2.5 = 10]
+i) Express f(z) = cosz in the form f(z)=utiv.
+ii) Show that the function u=sinxcoshy is a solution of two dimensional
+
+Laplace equation.
+iii) Show that Fourier cosine transforms satisfy linearity property.
+
+iv) Find Z(e”)

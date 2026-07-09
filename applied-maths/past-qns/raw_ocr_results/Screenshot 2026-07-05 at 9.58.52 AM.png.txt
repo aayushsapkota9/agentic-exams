@@ -1,0 +1,61 @@
+Lumbini Enginecring, Management & Science College b) A homogeneous rod of conducting material of length 100 cm has its
+nal Internal Assessment Exam ends kept at zero temperature and temperature initially is
+
+Level: Bachelor Year: 2024 x 30sa¢
+Program: BE Full Marks: 100 £08) “tio0 an Se 5
+Course: Engineering Mathes v eee Time: 3 hrs. Find the temperature U(x,t) at any time oO:
+tall the questions: rire sks Maa © fe
+1.2) Define analytic fu~ction. State and prove the necessary condition for q Sa) Save the petal ditereaah equate 7a eae
+{{2) to be analytic. Also check whether sinz is analytic or not? (8) ne vanish bs, ®
+: OR
+Define Harmonic iiynction. Ifa functios: i(z) is anelytic then show that us
+%-Gadt,-—y. pens at ; Derive the solution of two-dimensional wave equation under the
+
+») Write Define conformal mapping. Name the type of conformal condition when «circular membrane oftradius Re e
+
+mapping. Translate the rectangular region ABCD in Z Plane bounded by See oe wee
+x=1, x=3, y=0, and y=3 under the transformation w= 2+ (2+i). Skow b) ‘lace ies ie ca a uh toe shinai function. oa an
+with figure. .... a” Solve the following: _ x2=10)
+
+Find u and vif f(2-tanz
+
+2.a) State Cauchy Integral formu! for derivative. Evaluate & ie? | Prove fist fix dx=2/2 ECifoodx if x) is even
+where e:fe-1f=3 © Solve the PDE uy=u
+b) Find the Lauren: Series expansion of = =] in the region i) jz Find the Z-transform of diserete unit time impulse 8(n).
+
+‘Obtain the image of the strip 0<v< %
+‘The Eu
+
+inder the transformation w=
+
+2213 10)
+
+3.a) State and prove the
+transform of (1-e%
+
+sec snd shifting theorem of Z-transform. Obtain 2-
+; a)
+“@) Gq
+*. 4) und hence show that
+
+@
+
+in using z-transform.
+
+YararBynert2yund?, vor y
+4a) Find the Fourier cosine transi of f(s
+et
+bo ae
+
+b) What are the Fourier sine and cosine integrals of a fanetion f(x)?
+Ecos x; |x| <4
+
+lo xpd
+
+Show that (22 aw =
+
+5.a) Solve the wave equation pet with given Soundsry conditions
+u(0,1)=0, u(L,)=0 and initial deflection u(x,0)=f{x), initia! velocity
+
+met). 6)
+

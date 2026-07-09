@@ -1,0 +1,48 @@
+(a) State Cauchy's Residue Theorem. Use it to evaluate the
+following integral § $+ dz, where c : |z| = 1/2, counter-
+
+: 8]
+Define Z-transform. State and Prove First Shifting Theo-
+rem of Z-transform. Also, prove that
+
+clockwise.
+
+Z(t') = -Tz <1z))
+
+Then use it find Z(t2¢~i), [7]
+(OR)
+
+Define convolution of two discrete
+
+and g(t).
+
+transform.
+
+time function S(t)
+State and prove Convolution Theorem of Z.
+
+4. (a)
+
+Solve the difference equation Yns2—dyn yy +dy
+0. wi = 1 by using Z-transform,
+
+eo, pe
+
+(7)
+
+(b) Derive one dimensional Wave equation with necessary as-
+
+sumptions. {8}
+(OR)
+
+Find the deflection u|
+
+(x, t) of the vibrating string of length
+L with <2
+
+= 1 and its initial deflection is zero and initial
+velocity is
+
+xz f0<2<k
+
+(BAe) Wee ee

@@ -1,0 +1,60 @@
+w
+
+. eo sin my sin.
+a) Show that f) Sa dW =
+
+nt
+3 sinx YoOsxen
+lew
+
+0 ifx>t
+
+b) Find the Fourier transform ofe~",
+
+oo x sin mx 1
+
+Hence evaluate Sy Pre)
+
+a) Derive the one dimensional heat equation with
+
+necessary assumptions.
+OR
+Using the method of separation of variables, solve
+a a
+“= 2 + u where u(x, 0) = 6e73*
+
+Ox at
+
+b) A tightly stretched string with fixed end points
+
+x=0,andx=l is initially at rest in its
+equilibrium position. If it is set vibrating by giving
+to each of its points a velocity kx(l— x), find the
+displacement of the string at any distance x from one
+
+end at any time t.
+a2u , dtu
+
+a) Solve; > + —> = 0 which satisfies the conditions
+
+Ox2 ay?
+u(0,y) = u(l, y) = u(x, 0) = 0 and u(x, a) = sin™™
+a*u , 1du , 1 du
+
+b) Solve; > +-—+ 525 =0.
+
+Or? or dr r? a6?
+
+Short Notes (2.5x4= 10)
+a) Check analyticity of f(z) = z*.
+
+b) Find the fixed point of f(z) = ——.
+
+2-22
+
+Z+1
+Find the Z transform of (na™).
+
+d) Solve the partial differential Uy = Uy.
+
+THE END

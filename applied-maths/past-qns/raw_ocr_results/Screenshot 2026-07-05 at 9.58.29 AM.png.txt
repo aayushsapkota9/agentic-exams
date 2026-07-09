@@ -1,0 +1,59 @@
+Pokhara Engineering College
+
+Level : Bachelor Semester : 2024 Spring
+
+Programme : BE Computer Full Mark: 100
+
+Course : Applied Maths Pass Mark :40
+Time : 3 hrs.
+
+Candidates are required to give their answers in their own words as far as
+
+practicable. Figures in margin indicate full marks.
+
+Attempt all the questions
+
+1) a)
+
+%
+
+b)
+
+Define harmonic function. Verify thatu = cos x cosh y is harmonic
+
+and its harmonic conjugate. (8)
+Integrate the functionf(z) = Wi over the given contourc
+counterclockwise where c is the ellipse4x? + (y—2)?=4. (7)
+
+dz where
+
+State Cauchy Residue theorem. Evaluate f, Sa
+
+ce: |2| = ; counterclockwise. (8)
+
+22-31
+z2—3iz-2
+
+Find the Taylor and Laurent’s series of f@= in the
+
+region
+(0 < |z) <1 (i) |z| > 2 (oO)
+
+int
+
+Find the Z-transform of e2 and then deduce the value of
+
+Z (cos) and Z(sin™). (8)
+State and prove first shifting theorem of Z-transform.Use it to
+evaluateZ (na”) and Z(e~*). (7)
+
+32742241 (8)
+
+Find the inverse z-transform of F(z) = S73742
+
+OR
+
+_ Solve using Z-transform
+
+Yns2 — 3Ynt1 + 2n = 4" Yo = 01 = 1
+

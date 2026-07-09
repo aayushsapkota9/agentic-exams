@@ -1,0 +1,40 @@
+Universal Engineering & Science Colles?
+Affiliated to Pokhara University
+Chakupat, Lalitpur
+
+Level: Bachelor Semester: IV Year: 2024
+Programme : BE Computer Time: 3 hours Full Marks: 100
+Course:Applied Mathematics Pass Marks: 45
+
+Pre-Board Examination - 2081 (Spring 2023)
+
+Candidates are requested to give their answers in their own words as
+far as practicable, Figure in the margin indicates full marks.
+
+Attempt All the questions:
+
+1. 8 Define the Laplace equation and harmonic function. Is v = (?- 8
+y’)’ harmonic? If yes find its harmonic conjugate.
+b. State Cauchy Integral formula for derivative. Evaluate 7
+6
+ji— dz, where c is the unit circle|z|=1 , counter clockwise
+* (22-1)
+2. a. State Laurent’s theorem. Find Laurent’s series for 7
+f(z) = in the region 01 <|z+1)<2.
+O- Ty 8 [z+]
+b. Define singularity, zeros, and poles of a function. Evaluate 8
+22
+e
+ff (z)dz where f(z) = + where c is the ellipse 4x?+9y=16.
+fe (z+)
+
+3. a. Define Z - transform. State and prove the Second shifting theorem 7
+of Z- transform. Evaluate Z(t?e™™)
+
+OR
+2
+Find Z1_2 +1
+z?-22+2
+b. Solve U,,,—2cosaU, ,,+U, =0 where, by using z- 8
+transform
+4. a. Find the Fourier integral of the function 7

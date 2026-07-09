@@ -1,0 +1,89 @@
+Level: Bachelor Semester: Spring Year __ :2024
+
+Programme: BE Full Marks: 100
+
+Course: Applied Mathematics Pass Marks: 45
+Time :3 hrs.
+
+a)
+
+b)
+
+a)
+
+a)
+
+b)
+
+a)
+
+b)
+
+POKHARA UNIVERSITY
+
+Candidates are required to give their answers in their own words as far
+
+as practicable.
+
+The figures in the margin indicate full marks.
+
+Attempt all the questions.
+
+Define analyticity of a function f(z).
+
+Show that the necessary
+
+condition for the function f(z) = u(x,y) + iv(x,y) to be analytic
+onadomain D is uy = vy and uy = —v, at each point (x, y) of D.
+aie au prove Cauchy integral formula, Evaluate the integral
+
+dz, where e:|z|=2.
+OR
+
+Lan a
+
+State Cauchy’s residue theorem and using it, evaluate:
+
+§ 22
+C (2+1)(z-1)3 (243)
+
+Find the expansion fa
+
+i. O<([zt1) <1.
+i, 1 <|z+1[<3
+
+dz where c:|z| =2 counter clockwise.
+
+in the region given by
+
+Define bilinear transformation. Find the bilinear transformation
+which maps the points z= 0,-1, i onto the points w = /,0,0.
+Also, find the image of the unit circle lz] = 1.
+
+State and prove first shifting theorem on Z-transform. Find
+
+Z-transform of ePand then find Z(cos >) and Z(sin =).
+
+Solve the difference equation Yn+2—7Yn+1 + 12y_ = 2n,
+
+Yo = 0, 1 = 0 by using Z-transform.
+
+Show that Z[nf(t)] = -2[F (2),] where F(z) = Z[/()].
+
+Find alate
+
+Find the solution of one dimensional wave equation
+
+eu
+‘ot
+boundary condition u(0, L) = 0 = u(L, t).
+
+Page 1 of 2
+
+=o with initial velocity g(x), initial deflection f(x) and
+
+arr va
+Mero} Enotes
+al ciara
+
+7

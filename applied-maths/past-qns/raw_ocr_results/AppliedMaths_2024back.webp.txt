@@ -1,0 +1,29 @@
+au , 2% in polar coordinates.
+
+a) Express the Laplacian Vu=sa t+
+“on :
+Derive two-dimensional heat equation completely with necessary
+assumptions. ‘
+b) Find the temperature in a laterally insulated bar of length Lwhose 8
+ends are kept at temperature 0, assuming that the initial temperature
+L
+z if 0< x<9
+is flx) = L ;
+L-x if 7<*< L ‘ een
+a) Find the Fourier cosine mee of f(x) = e7"™ form > 0,and 7 ~
+co coskx y _ TH -k
+then show that {<=> ye ot = re ;
+0 if x<0
+0 1 F _
+b) Show that f, cose SNE dw = : if x=0. 8
+ne* ifx>0
+Attempt all the questions: 4x2.5
+a) Check analyticity of f(z) =2*.
+b) Find Z(a").
+c) Find the solution of the partial differential equation Uy, + 9u = 0.
+d) Define linear partial differential equation with suitable example.
+
+*MeroEnotes
+»
+
+Page 2 of 2

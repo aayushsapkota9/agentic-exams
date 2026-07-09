@@ -1,0 +1,62 @@
+‘
+
+UNITED TECHNICAL COLLEGE
+Semester-Fall
+
+1, a show that the necessary condition for analytic of f(z) = usiv is ux = vy and Uy = -Vx-
+
+p Define Laplace equation . If u = 3xy+x?-y-y? show that there exist a function v(x, y) such that
+
+f(z) = utiv is analytic.
+
+Pra State and prove Cauchy's Integral formula. Integrate gf £2; where C:4x"+ (y-2)*=4
+
+OR State and prove Cauchy's Residue theorem Evaluate § "=< where c: |z — i] =1.
+
+b Define conformal mapping .Determine the region of Transformation w =3zin the w-plane
+
+S
+¥
+3 ~
+3. SoNe: Ynat 6Ypst9%e2",When Yor Va=0. fy Find a(gin)
+
+~ ] : he: 222242,
+
+24. a if f(n)= 0 for n<O such that Z(f(t)) =F(z) then Z(f(t- kT) =
+5
+
+~ b Dérive two dimensional wave equation with necessary assumptions .
+
+4uhere the region in z-plane enclosed by the lines y= 1, y=2,x=1,x=2.
+
+rk F(z) for n>O ,k>0.
+
+OR A uniform rod of length L has its ends maintained at a temp. 0° and initial temp. Of rod is
+u(x, 0) = 3sing= for 0< x <L,
+
+k
+5, a find the deflection u(x ,y ,t) of the square membrane with a =
+velocity is zero and initial deflection is k sinnx slimy.
+
+. If initial
+
+OR Find the solution of one dimensional wave equation under the boundary and
+
+: % initial condition.
+b Solve: — Uxg-uyy =0 separating variables.
+6. a State and Prove Convolution Theorem for Fourier transform
+find the Fourier integral of f{x)=e™* +e** x>0.
+
+7, Short questions.
+ar Express the function f(z) = coshz in term of usiv.
+
+b.- Find the Z- transform of na”
+
+¢.show that Fe(af(t) + bg(t)) =a Fe(f) + bFe(e) «
+
+a9 d-Solve the PDE Uy = Ux
+~
+
+-
+
+(

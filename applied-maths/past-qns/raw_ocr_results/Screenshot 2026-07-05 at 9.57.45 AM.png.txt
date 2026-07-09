@@ -1,0 +1,51 @@
+NEPAL COLLEGE OF INFORMATION TECHNOLOGY [NCIT]
+ASSESSMENT-SPRING
+
+Level: Bachelor Year 12024
+Programme: BE IT/CE Full Marks : 100
+i Pass Mark : 45
+Time 23 hrs
+
+Course: Applied Mathematics
+Candidates are required to give their answers in their own words as far
+as practicable.
+
+The figures in the margin indicate full marks.
+
+Attempt all the questions.
+A tion. aoe ;
+l. _ py Define harmonic function. Show that u Perera harmonic
+
+function. If your answer-is-yes, find corresponding analytic
+
+function f(z) = utiv. (8)
+J) State Cauchy residue theorem. Evaluate the integral
+c( 2? sinz
+iz,where , c: |z|=2 7
+i( Tol \; Iz | )
+
+int
+
+2. a) Find Z-transform of e ? and then find Z(cos 7 and Z(sin oa
+
+») Solve the difference equation by using Z transform:
+Ynez nar t 49m = Zowhere yy = Oy = 1 (8)
+3. a)Atate Laurent's Theorem. Find the Laurent's Series for f(z) =
+2
+zl
+
+Piece in the region i) 2<|z|<3. ii) |z|>3.
+
+OR
+Find the bilinear transformation of w = = mapping the circle
+as
+jz} =1 (444)
+ne jaan Cauchy integral formula and by using it evaluate
+P 2
+
+f{ zZ Je where c: |z+i] = 1. (7)
+
+zi-l
+
+‘e
+

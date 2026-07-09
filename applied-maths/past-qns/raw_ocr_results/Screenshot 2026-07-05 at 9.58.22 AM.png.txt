@@ -1,0 +1,36 @@
+/, if 0<x<l
+
+f=), ifx=l
+0 if x>1
+
+6. Define the convolution of the two functions. State and prove the
+convolution theorem on Fourier transform.
+a. Solve one-dimensional wave equation with initial deflection is
+
+0.01sin3x and initial velocity is zero and L = 7 , c? = 1
+
+b. 2
+Find the solution of one-dimensional heat equation o =¢? or
+t
+
+having zero temperature in endpoints and initial temperature
+
+a. Derive two-dimensional heat equation with required assumption.
+
+b. Find the deflection u(x.y,t) of a square membrane with a = b=1
+with c=lif the initial velocity is zero and the initial deflection is
+
+O..sin3mx sin4my 8
+
+Attempt all.
+
+a. Express f(z) = sinz in the form u + iv
+
+Find z-transform of _ na”
+
+c solveu,, —u,, =0
+
+d. Find the unit tangent vector to the
+curveF(t) = 2costi +singi at (/2,,2,0).
+
+© Sketch the paraboloid z= x? + y?.

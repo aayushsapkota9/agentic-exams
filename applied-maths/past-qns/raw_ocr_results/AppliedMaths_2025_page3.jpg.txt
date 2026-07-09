@@ -1,0 +1,20 @@
+(2
+
+Solve: (Any two)
+
+a) Find the z-transform of Z(a” cosbt).
+
+ao
+
+i wsin xw
+
+TE as
+——~dw = — ee“ where x>0,a>0.
+
+b Show that
+/ LQ cs ihe w 2
+
+c) Solve u, + uy = 0 by using sepation of variables.
+
+SCAN FOR NOTES
+

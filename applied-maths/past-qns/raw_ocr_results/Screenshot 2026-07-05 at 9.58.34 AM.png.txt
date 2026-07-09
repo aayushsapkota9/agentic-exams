@@ -1,0 +1,46 @@
+b)
+
+3)
+
+b)
+
+Derive one dimensional wave equation of a string of length L which
+is fixed in two end points with necessary assumptions. (7)
+OR
+
+au
+Find the solution of one-dimensional heat equation = = ate cere = with
+
+initial temperature f(x)and boundary conditionsu(0, t) = 0 ‘ad
+
+u(L,t) = 0.
+
+Solve by using separation of variables
+
+(@)u,tuy =0  (ii)uy-u=0. (8)
+
+Express the Laplacian in polar coordinatesystem from cartesian co-
+
+‘ordinate system. ne)
+OR
+
+Find the temperature distribution in a laterally insulated thin copper
+
+bar (c? = 1,158 cm?/sec). 100cm long and of constant cross
+
+section whose end points at x = 0 and x = 100 are kept at 0°C and
+
+whose initial temperature is
+
+@ f(x) = sin(0.01) rx(ii) f(x) = sin3(0.01) nx
+
+® a) Show that:
+Oifx <0
+Sa |aw =| Eere=o ®)
+u ne*ifx>0
+b) Find the Fourier cosine transform off (x) = e~"*;m > 0 and then
+show tha tly wid x= zerk (1)
+©) Attempt anytwo (2*5=10)
+a) Show that zz is not an analytic function.
+b) Find the location & order of zeros of(z? + 1)(e? — 1).
+©) Verifyu = e~' sin xto satisfy one dimensional heat equation.

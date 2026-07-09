@@ -1,0 +1,47 @@
+A
+
+NATIONAL ACADEMY OF SCIENCE AND TECHNOLOGY
+(Affiliated to Pokhara University)
+
+MIX ~ Dhangadhi, Kailali
+‘\ Pre-University Examination o
+Level: Bachelor Semester: IV_Spring Year : 2024
+
+Programme: B.E. Computer Full Marks : 100
+
+Course: Applied Mathematics IV Pass Marks : 45
+Time : 3hrs.
+
+Candidates are required to give their answer in their own words as for as
+practicable, The figures in the margin indicate full marks.
+
+Attempt all the questions.
+
+1.a)Prove that u=y3 — 3x?y is a harmonic function. determine its
+harmonic conjugate and find the corresponding analytic function
+f(z) =utiv [8]
+
+b)Evaluate: | Ones od where c is 9x? + 4y? = 36 (71
+
+2.a) Find the Taylor’s and Laurent’s series which represents the function
+ate eek
+1" Gape
+i‘) [z[<2 if) 24z|<3_ itt) |z>3. fal
+b) State Cauchy’s residue theorem. Using residue theorem, evaluate
+the integrals
+
+if de, where C:|z-i|=2 and
+! 244
+
+in the regions:
+
+[8]
+
+ee where C:|z|=2.
+
+Ae 3
+3.a) Define Z-transform of a function f(n). Find the Z-transform of
+e'"7/2and hence find Zoos )] and Z| [sinc )] [8]
+
+b)Using Z-transform, solve the difference equation (7
+Ynt2 + 3Yne) + 2¥n =0, Yo= 0, yi = 1.

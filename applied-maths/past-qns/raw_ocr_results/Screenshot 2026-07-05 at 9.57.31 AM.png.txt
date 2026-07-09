@@ -1,0 +1,47 @@
+NEPAL ENGINEERING COLLEGE
+e Changunarayan, Bhaktapur
+(Assessment Spring Semester 2024)
+
+Level: Bachelor Full Marks: 100
+Programme: BE Pass Marks: 45
+Course: .Applied Mathematics Time: 3hrs.
+
+Candidates are required to give their answers in their own words as far as
+practicable.
+
+The figures in the margin indicate full marks.
+Attempt all the questions.
+1. a) Show that e*(x cos y — ysiny) is a harmonic function. 8
+
+Find the analytic function for which
+e*(x cos y — ysin y) is imaginary part.
+
+b) State Cauchy integral formula. Evaluate $,
+where Cis the |z] = 1,counterclockwise.
+
+z+1
+23-222 dz,
+
+2. a) Find the bilinear transformation which maps the points
+z= 0,-—1,i onto w = i, 0,0. Also find the image of the unit
+circle |z|=1.
+
+OR
+
+. . 7z-2_«. 5
+Find the Laurent series for f(z) = Fazt-an the region
+
+given by (i)0<|zt+1)<1 (i) 1<|z+1/ <3
+b) State Cauchy Residue Theorem. By applying Cauchy 7
+
+4-3
+Residue Theorem, evaluate $, Z@-(@-2) Zz
+
+3
+where C:|z| =5.
+
+3. a) State and prove first shifting theorem of Z transform. 8
+«gay (_327-182+26
+Obtain Z ert @-3) =).
+b) Using Z transform and inverse Z transform solve the 7
+equation Yn42 — 2Yn+1 + Yn = 2" Yo = 21 =1

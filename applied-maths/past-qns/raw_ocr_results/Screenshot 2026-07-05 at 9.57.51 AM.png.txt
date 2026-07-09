@@ -1,0 +1,52 @@
+eae that
+Oifx<0
+
+ey
+
+(cee? vein aw
+° 1+w?
+
+dw
+
+i
+
+Zifx=0
+ne*ifx>0 (7)
+
+b. Find the Fourier cosine transform of f(x) = &™ for m> 0 and
+
+then show that (8)
+F cos kx
+J i 5 dea
+ol+x 2
+5. a. Solve Uxe +Uyy= 0 by using separating of variables. 7)
+
+ok Find the derivation of one dimensional wave equation.
+6. a. Reduce Lapalacian operator in polar and cylindrical form (8)
+
+_
+
+b. Find the temperature in a literally insulated bar of length L
+whose ends are kept at temperature 0, assuming that the initial
+temperature is (8)
+
+L
+xif0< x<9
+
+f(x) * L
+L-x if7<x<Lb
+
+7. Attempt all questions (4x2.5 = 10)
+
+a. Show that the Fourier sine transform is linear operator.
+“Express the following function f(z) = sinz in the form utiv.
+
+c. Find Z(a”).
+4. Show that u = arg z is harmonic function.
+
+¥ 4 Hy
+J j
+K ie
+ey og us
+\y Be
+Noe

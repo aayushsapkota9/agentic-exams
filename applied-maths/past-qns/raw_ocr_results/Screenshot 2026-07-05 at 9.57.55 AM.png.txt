@@ -1,0 +1,39 @@
+Pokhara University
+
+Everest Engineering College
+
+Pre-Board Exam
+Semester - Spring
+
+Level: Bachelor Year: 2024
+Program: BE CMP/IT, 4th Semester F.M: 50
+P.M: 23
+
+Faculty: Science and Technology
+
+Subject: Applied Mathematics Time: 1.5 hrs.
+
+Altenpt all the questions.
+
+1.. {a) Define analyticity of the complex valued function f(z).
+
+Does differentiability always imply analyticity? Justify
+with suitable example. State and prove the necessary con-
+dition for a complex valued function f(z) =ut iv to be
+
+analytic in a domain D. [8]
+
+(b) Define harmonic function. Is u = Sinz coshy harmonic?
+If yes, find a corresponding harnnonic conjugate. Also, find
+
+corresponding analytic function f(z). (7]
+
+2. (a) State and prove Cauchy Integral Theorem. Is it possible
+to apply Cauchy Integral Theorem to evaluate the integral
+
+§ ay dz, where c is the ellipse 1° 44y? = 4, counterclock-
+
+wise? Justify. 8]
+(b) Expand f(z) = z-Hyzzy in Laurent’s series valid for
+
+(i) 0 < |z +1] <1, (ii) 1 < Jz 41] <3, (iii)]2 + 1) > 3 [7]

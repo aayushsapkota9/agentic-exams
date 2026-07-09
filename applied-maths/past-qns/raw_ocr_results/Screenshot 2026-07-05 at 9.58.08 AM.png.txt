@@ -1,0 +1,34 @@
+5. (a) Find the temperature function u(z,t) in a laterally in-
+sulated thin copper bar of length L with constant cross
+section whose endpoints at. 2 = 0 and « = L are kept at
+0°C and whose initial temperature is f(x) = sin*7. Use
+(c? = 0.175 cm?/sec) (7]
+
+(b) Express the Laplacian V?u = oy + we in polar coordi-
+nates. ( [8]
+
+6. (a) Find the Fourier Integral of the function
+0 ifO0<2
+f(x) = 4 7/4 ifa=0.
+
+mre-* ifa>0
+
+(7
+(b) Find the Fourier sine transform of e~* and by using Par-
+seval's Identity, show that _f>° hese dx = . [8]
+
+7. Answer the following questions: [4x2.5]
+
+(a) Find the bilinear transformation w = f(z) which maps
+2 = OX, 22 = 1, 23 = 0 onto the points w; = 0, w=
+7, w3 = 00. Also, find its fixed points.
+
+(b) Find 2(3n? — 2n + 1)
+
+(c) State and prove Initial Value Theorem of Z-transform.
+
+(d) Let f(x) be continuons on R and f(t) > 0asa7 0
+
+and f'(x) is absolutely integrable on R, then show that
+
+Fol f(2)} = w Fs f(x)} - \/? 0).

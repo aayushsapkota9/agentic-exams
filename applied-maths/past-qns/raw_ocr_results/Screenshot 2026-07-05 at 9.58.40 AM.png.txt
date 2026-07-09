@@ -1,0 +1,52 @@
+MadanBhandari College of Engineering
+Urlabari-3, Morang
+
+Final Internal Examination
+Full Marks: 100
+
+Level: Bachelor
+Programme: BE Computer Pass Marks: 45
+Year/Part: I/II ‘Time: 3 hrs casein
+Subject: - Applied Mathematics =
+Attempt all the questions:
+
+8
+
+1. al Define harmonic function. Is a function v = x3 — 3xy? harmonic? If yes. find a
+corresponding harmonic conjugate and the analytic function
+b) State Cauchy integral formula for derivative. Evaluate §. a dz, where c is the unit
+
+uw 7
+
+circle |2|=1 counter clockwise.
+
+SAA, a
+
+2. a) Find the Laurent series for f (2) = = in the region
+
+i) O<|zi<1_— (ii) I<|z}<2_— (iii) >
+
+b) Define Singularity, zero and poles of function. Evaluate § f(z) dz, where f(z) =
+
+where c is the ellipse 4x? + 9y? = 16
+
+Gry
+3. a) Define Fourier integral. By choosing a suitable function, show that 8 |
+a » 0 ifx<0
+cosxw + wsinxw T ,
+i Tew? dw = z ifx=0
+o me* ifx>0O
+: 7
+Find the Fourier transform ofthe function f(x) = eh
+4. a) State and prove first shifting theorem of z transform. Evaluate the Z transform of 8
+a” cosbt and a"sinbt
+7? Solve the difference equation by using Z-transform
+Ynez — 4¥Yne1 + 4Yn = 2" with Yo = Oy = 1 7
+Hl ‘a) What do you mean by analyticity of function f(z). State Cauchy Remann equation and | &
+
+hence show that it is the necessary condition for the function to be analytic
+
+b)
+
+State Cauchy Residue theorem. By applying Cauchy Residue theorem, Evaluate | |
+
