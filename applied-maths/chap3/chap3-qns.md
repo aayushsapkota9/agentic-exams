@@ -7,6 +7,8 @@
 ## 1(a)
 
 ##### 2024 Spring - Pokhara University
+a) Define analyticity of a function $f(z)$. Show that the necessary condition for the function $f(z) = u(x,y) + i v(x,y)$ to be analytic on a domain $D$ is $u_x = v_y$ and $u_y = -v_x$ at each point $(x,y)$ of $D$. **[8]**
+
 ```markdown
 a) Define analyticity of a function $f(z)$. Show that the necessary condition for the function $f(z) = u(x,y) + i v(x,y)$ to be analytic on a domain $D$ is $u_x = v_y$ and $u_y = -v_x$ at each point $(x,y)$ of $D$. **[8]**
 ```
@@ -14,6 +16,8 @@ a) Define analyticity of a function $f(z)$. Show that the necessary condition fo
 ---
 
 ##### 2024 Fall - United Technical College (Assessment)
+a) Show that the necessary condition for a function $f(z) = u(x, y) + i v(x, y)$ to be analytic in a domain $D$ is $u_x = v_y$ and $u_y = -v_x$ at each point. **[8]**
+
 ```markdown
 a) Show that the necessary condition for a function $f(z) = u(x, y) + i v(x, y)$ to be analytic in a domain $D$ is $u_x = v_y$ and $u_y = -v_x$ at each point. **[8]**
 ```
@@ -22,6 +26,8 @@ a) Show that the necessary condition for a function $f(z) = u(x, y) + i v(x, y)$
 ## 3(b)
 
 ##### 2024 Spring - Pokhara Engineering College (Final Internal)
+b) Derive the one-dimensional wave equation of a string of length $L$ fixed at both endpoints with necessary assumptions. **[7]**
+
 ```markdown
 b) Derive the one-dimensional wave equation of a string of length $L$ fixed at both endpoints with necessary assumptions. **[7]**
 ```
@@ -30,6 +36,10 @@ b) Derive the one-dimensional wave equation of a string of length $L$ fixed at b
 ## 4(a)
 
 ##### 2024 Spring - Pokhara University
+a) Find the solution of the one-dimensional wave equation:
+$$\frac{\partial^2 u}{\partial t^2} = c^2 \frac{\partial^2 u}{\partial x^2}$$
+with initial velocity $g(x)$, initial deflection $f(x)$, and boundary conditions $u(0, t) = 0 = u(L, t)$. **[7]**
+
 ```markdown
 a) Find the solution of the one-dimensional wave equation:
 $$\frac{\partial^2 u}{\partial t^2} = c^2 \frac{\partial^2 u}{\partial x^2}$$
@@ -39,6 +49,11 @@ with initial velocity $g(x)$, initial deflection $f(x)$, and boundary conditions
 ---
 
 ##### 2024 Spring - Pokhara Engineering College (Final Internal)
+a) Solve by using the method of separation of variables:
+1. $u_x + u_y = 0$
+2. $u_y - u = 0$
+**[8]**
+
 ```markdown
 a) Solve by using the method of separation of variables:
 1. $u_x + u_y = 0$
@@ -50,6 +65,10 @@ a) Solve by using the method of separation of variables:
 ## 4(b)
 
 ##### 2024 Spring - Pokhara University
+b) Express the Laplacian $\nabla^2 u = u_{xx} + u_{yy}$ in polar coordinates. **[8]**
+
+---
+
 ```markdown
 b) Express the Laplacian $\nabla^2 u = u_{xx} + u_{yy}$ in polar coordinates. **[8]**
 
@@ -59,6 +78,8 @@ b) Express the Laplacian $\nabla^2 u = u_{xx} + u_{yy}$ in polar coordinates. **
 ---
 
 ##### 2025 Fall - Pokhara University
+b) Solve the one-dimensional wave equation with initial deflection $f(x)$ and initial velocity zero. **[8]**
+
 ```markdown
 b) Solve the one-dimensional wave equation with initial deflection $f(x)$ and initial velocity zero. **[8]**
 ```
@@ -66,6 +87,8 @@ b) Solve the one-dimensional wave equation with initial deflection $f(x)$ and in
 ---
 
 ##### 2024 Spring - Everest Engineering College (Pre-Board)
+b) Derive the one-dimensional wave equation with necessary assumptions. **[8]**
+
 ```markdown
 b) Derive the one-dimensional wave equation with necessary assumptions. **[8]**
 ```
@@ -73,6 +96,8 @@ b) Derive the one-dimensional wave equation with necessary assumptions. **[8]**
 ---
 
 ##### 2024 Spring - Pokhara Engineering College (Final Internal)
+b) Express the Laplacian in polar coordinates from the Cartesian coordinate system. **[7]**
+
 ```markdown
 b) Express the Laplacian in polar coordinates from the Cartesian coordinate system. **[7]**
 ```
@@ -80,6 +105,8 @@ b) Express the Laplacian in polar coordinates from the Cartesian coordinate syst
 ---
 
 ##### 2024 Fall - United Technical College (Assessment)
+b) Derive the two-dimensional wave equation with necessary assumptions. **[7]**
+
 ```markdown
 b) Derive the two-dimensional wave equation with necessary assumptions. **[7]**
 ```
@@ -88,6 +115,8 @@ b) Derive the two-dimensional wave equation with necessary assumptions. **[7]**
 ## 5(a)
 
 ##### 2024 Spring - Pokhara University
+a) Derive the two-dimensional heat equation completely with necessary assumptions. **[7]**
+
 ```markdown
 a) Derive the two-dimensional heat equation completely with necessary assumptions. **[7]**
 ```
@@ -95,6 +124,11 @@ a) Derive the two-dimensional heat equation completely with necessary assumption
 ---
 
 ##### 2025 Fall - Pokhara University
+a) Derive the two-dimensional heat equation with required assumptions. Show how it becomes the Laplace equation. By the concept of the solution of the Laplace equation with rectangular boundaries, solve the following problem:
+> A rectangular plate with insulated surfaces is $8\text{ cm}$ wide and so long compared to its width that it may be considered infinite in length. If the temperature along the short edge $y = 0$ is given by $u(x, 0) = 100 \sin\left(\frac{\pi x}{8}\right)$ for $0 < x < 8$, while the two long edges $x = 0$ and $x = 8$ as well as the other short edge are kept at zero, show that the steady-state temperature at any point of the plate is given by:
+> $$u(x, y) = 100 e^{-\frac{\pi y}{8}} \sin\left(\frac{\pi x}{8}\right)$$
+**[8]**
+
 ```markdown
 a) Derive the two-dimensional heat equation with required assumptions. Show how it becomes the Laplace equation. By the concept of the solution of the Laplace equation with rectangular boundaries, solve the following problem:
 > A rectangular plate with insulated surfaces is $8\text{ cm}$ wide and so long compared to its width that it may be considered infinite in length. If the temperature along the short edge $y = 0$ is given by $u(x, 0) = 100 \sin\left(\frac{\pi x}{8}\right)$ for $0 < x < 8$, while the two long edges $x = 0$ and $x = 8$ as well as the other short edge are kept at zero, show that the steady-state temperature at any point of the plate is given by:
@@ -105,6 +139,8 @@ a) Derive the two-dimensional heat equation with required assumptions. Show how 
 ---
 
 ##### 2024 Spring - Everest Engineering College (Pre-Board)
+a) Find the temperature function $u(x, t)$ in a laterally insulated thin copper bar of length $L$ with constant cross-section, whose endpoints at $x = 0$ and $x = L$ are kept at $0^\circ\text{C}$ and whose initial temperature is $f(x) = \sin^3\left(\frac{\pi x}{L}\right)$. Use $c^2 = 0.175\text{ cm}^2/\text{sec}$. **[7]**
+
 ```markdown
 a) Find the temperature function $u(x, t)$ in a laterally insulated thin copper bar of length $L$ with constant cross-section, whose endpoints at $x = 0$ and $x = L$ are kept at $0^\circ\text{C}$ and whose initial temperature is $f(x) = \sin^3\left(\frac{\pi x}{L}\right)$. Use $c^2 = 0.175\text{ cm}^2/\text{sec}$. **[7]**
 ```
@@ -112,6 +148,8 @@ a) Find the temperature function $u(x, t)$ in a laterally insulated thin copper 
 ---
 
 ##### 2024 Spring - Lumbini Engineering College (Final Internal)
+a) Solve the wave equation $\frac{\partial^2 u}{\partial t^2} = c^2 \frac{\partial^2 u}{\partial x^2}$ with the boundary conditions $u(0, t) = 0, u(L, t) = 0$ and initial deflection $u(x, 0) = f(x)$, initial velocity zero. **[8]**
+
 ```markdown
 a) Solve the wave equation $\frac{\partial^2 u}{\partial t^2} = c^2 \frac{\partial^2 u}{\partial x^2}$ with the boundary conditions $u(0, t) = 0, u(L, t) = 0$ and initial deflection $u(x, 0) = f(x)$, initial velocity zero. **[8]**
 ```
@@ -119,6 +157,13 @@ a) Solve the wave equation $\frac{\partial^2 u}{\partial t^2} = c^2 \frac{\parti
 ---
 
 ##### 2024 Spring - NAST (Pre-University)
+a) A tightly stretched string of length $20\text{ cm}$ fastened at both ends is displaced from its position of equilibrium by imparting to each of its points an initial velocity:
+$$g(x) = \begin{cases} 
+x, & \text{for } 0 < x < 10 \\ 
+20 - x, & \text{for } 10 < x < 20 
+\end{cases}$$
+where $x$ is the distance from one end. Find the displacement of the string at any time $t$. **[7]**
+
 ```markdown
 a) A tightly stretched string of length $20\text{ cm}$ fastened at both ends is displaced from its position of equilibrium by imparting to each of its points an initial velocity:
 $$g(x) = \begin{cases} 
@@ -131,6 +176,8 @@ where $x$ is the distance from one end. Find the displacement of the string at a
 ---
 
 ##### 2024 Spring - NCIT (Assessment)
+a) Solve $u_{xx} + u_{yy} = 0$ by using the method of separation of variables. **[7]**
+
 ```markdown
 a) Solve $u_{xx} + u_{yy} = 0$ by using the method of separation of variables. **[7]**
 ```
@@ -138,6 +185,8 @@ a) Solve $u_{xx} + u_{yy} = 0$ by using the method of separation of variables. *
 ---
 
 ##### 2024 Spring - Nepal Engineering College (Assessment)
+a) Derive the one-dimensional heat equation with necessary assumptions. **[8]**
+
 ```markdown
 a) Derive the one-dimensional heat equation with necessary assumptions. **[8]**
 ```
@@ -145,6 +194,15 @@ a) Derive the one-dimensional heat equation with necessary assumptions. **[8]**
 ---
 
 ##### 31 - Pokhara University
+a) Solve the one-dimensional heat equation:
+$$\frac{\partial u}{\partial t} = c^2 \frac{\partial^2 u}{\partial x^2}$$
+with the boundary conditions $u(0, t) = 0$, $u(L, t) = 0$ and the initial temperature:
+$$u(x, 0) = \begin{cases} 
+x, & 0 \le x < \frac{L}{2} \\ 
+L - x, & \frac{L}{2} \le x < L 
+\end{cases}$$
+**[8]**
+
 ```markdown
 a) Solve the one-dimensional heat equation:
 $$\frac{\partial u}{\partial t} = c^2 \frac{\partial^2 u}{\partial x^2}$$
@@ -159,6 +217,10 @@ L - x, & \frac{L}{2} \le x < L
 ---
 
 ##### 2024 Spring - Universal Engineering & Science College (Pre-Board)
+a) Solve the one-dimensional wave equation:
+$$\frac{\partial^2 u}{\partial t^2} = c^2 \frac{\partial^2 u}{\partial x^2}$$
+given that the initial deflection is $0.01 \sin(3x)$, the initial velocity is zero, and the boundary parameters are $L = \pi$, $c^2 = 1$. **[7]**
+
 ```markdown
 a) Solve the one-dimensional wave equation:
 $$\frac{\partial^2 u}{\partial t^2} = c^2 \frac{\partial^2 u}{\partial x^2}$$
@@ -168,6 +230,8 @@ given that the initial deflection is $0.01 \sin(3x)$, the initial velocity is ze
 ---
 
 ##### 2024 Fall - United Technical College (Assessment)
+a) Find the deflection $u(x, y, t)$ of a square membrane of side $a = b = 1$ with $c = 1$, if the initial velocity is zero and the initial deflection is $k \sin(\pi x) \sin(\pi y)$. **[8]**
+
 ```markdown
 a) Find the deflection $u(x, y, t)$ of a square membrane of side $a = b = 1$ with $c = 1$, if the initial velocity is zero and the initial deflection is $k \sin(\pi x) \sin(\pi y)$. **[8]**
 ```
@@ -176,6 +240,15 @@ a) Find the deflection $u(x, y, t)$ of a square membrane of side $a = b = 1$ wit
 ## 5(b)
 
 ##### 2024 Spring - Pokhara University
+b) Find the temperature in a laterally insulated bar of length $L$ whose ends are kept at temperature $0$, assuming that the initial temperature is:
+$$f(x) = \begin{cases} 
+x, & 0 < x < \frac{L}{2} \\ 
+L - x, & \frac{L}{2} \le x < L 
+\end{cases}$$
+**[8]**
+
+---
+
 ```markdown
 b) Find the temperature in a laterally insulated bar of length $L$ whose ends are kept at temperature $0$, assuming that the initial temperature is:
 $$f(x) = \begin{cases} 
@@ -190,6 +263,10 @@ L - x, & \frac{L}{2} \le x < L
 ---
 
 ##### 2025 Fall - Pokhara University
+b) Find the deflection $u(x, y, t)$ of a square membrane with $a = b = 1$ and $c = 1$, if the initial velocity is zero and the initial deflection is $0.01 \sin(3\pi x) \sin(4\pi y)$. **[7]**
+
+---
+
 ```markdown
 b) Find the deflection $u(x, y, t)$ of a square membrane with $a = b = 1$ and $c = 1$, if the initial velocity is zero and the initial deflection is $0.01 \sin(3\pi x) \sin(4\pi y)$. **[7]**
 
@@ -199,6 +276,10 @@ b) Find the deflection $u(x, y, t)$ of a square membrane with $a = b = 1$ and $c
 ---
 
 ##### 2024 Spring - Everest Engineering College (Pre-Board)
+b) Express the Laplacian $\nabla^2 u = u_{xx} + u_{yy}$ in polar coordinates. **[8]**
+
+---
+
 ```markdown
 b) Express the Laplacian $\nabla^2 u = u_{xx} + u_{yy}$ in polar coordinates. **[8]**
 
@@ -208,6 +289,15 @@ b) Express the Laplacian $\nabla^2 u = u_{xx} + u_{yy}$ in polar coordinates. **
 ---
 
 ##### 2024 Spring - Lumbini Engineering College (Final Internal)
+b) A homogeneous rod of conducting material of length $100\text{ cm}$ has its ends kept at zero temperature, and the initial temperature is:
+$$u(x, 0) = \begin{cases} 
+x, & 0 \le x < 50 \\ 
+100 - x, & 50 \le x < 100 
+\end{cases}$$
+Find the temperature $u(x, t)$ at any point $x$ and time $t$. **[7]**
+
+---
+
 ```markdown
 b) A homogeneous rod of conducting material of length $100\text{ cm}$ has its ends kept at zero temperature, and the initial temperature is:
 $$u(x, 0) = \begin{cases} 
@@ -222,6 +312,10 @@ Find the temperature $u(x, t)$ at any point $x$ and time $t$. **[7]**
 ---
 
 ##### 2024 Spring - NAST (Pre-University)
+b) Derive the one-dimensional heat equation completely with necessary assumptions. **[8]**
+
+---
+
 ```markdown
 b) Derive the one-dimensional heat equation completely with necessary assumptions. **[8]**
 
@@ -231,6 +325,10 @@ b) Derive the one-dimensional heat equation completely with necessary assumption
 ---
 
 ##### 2024 Spring - NCIT (Assessment)
+b) Find the derivation of the one-dimensional wave equation. **[8]**
+
+---
+
 ```markdown
 b) Find the derivation of the one-dimensional wave equation. **[8]**
 
@@ -240,6 +338,10 @@ b) Find the derivation of the one-dimensional wave equation. **[8]**
 ---
 
 ##### 2024 Spring - Nepal Engineering College (Assessment)
+b) A tightly stretched string with fixed end points $x = 0$ and $x = l$ is initially at rest in its equilibrium position. If it is set vibrating by giving to each of its points a velocity $v(x) = kx(l - x)$, find the displacement of the string at any distance $x$ from one end at any time $t$. **[7]**
+
+---
+
 ```markdown
 b) A tightly stretched string with fixed end points $x = 0$ and $x = l$ is initially at rest in its equilibrium position. If it is set vibrating by giving to each of its points a velocity $v(x) = kx(l - x)$, find the displacement of the string at any distance $x$ from one end at any time $t$. **[7]**
 
@@ -249,6 +351,8 @@ b) A tightly stretched string with fixed end points $x = 0$ and $x = l$ is initi
 ---
 
 ##### 31 - Pokhara University
+b) Derive the one-dimensional wave equation of a string of length $L$ fixed at both ends with necessary assumptions. **[7]**
+
 ```markdown
 b) Derive the one-dimensional wave equation of a string of length $L$ fixed at both ends with necessary assumptions. **[7]**
 ```
@@ -256,6 +360,10 @@ b) Derive the one-dimensional wave equation of a string of length $L$ fixed at b
 ---
 
 ##### 2024 Spring - Universal Engineering & Science College (Pre-Board)
+b) Find the solution of the one-dimensional heat equation having zero temperature at the endpoints and initial temperature $f(x) = x(L-x)$. **[8]**
+
+---
+
 ```markdown
 b) Find the solution of the one-dimensional heat equation having zero temperature at the endpoints and initial temperature $f(x) = x(L-x)$. **[8]**
 
@@ -265,6 +373,12 @@ b) Find the solution of the one-dimensional heat equation having zero temperatur
 ---
 
 ##### 2024 Fall - United Technical College (Assessment)
+b) Solve the partial differential equation:
+$$\frac{\partial^2 u}{\partial x^2} - \frac{\partial^2 u}{\partial y^2} = 0$$
+using the method of separation of variables. **[7]**
+
+---
+
 ```markdown
 b) Solve the partial differential equation:
 $$\frac{\partial^2 u}{\partial x^2} - \frac{\partial^2 u}{\partial y^2} = 0$$
@@ -277,6 +391,10 @@ using the method of separation of variables. **[7]**
 ## 6(a)
 
 ##### 2024 Spring - Lumbini Engineering College (Final Internal)
+a) Solve the partial differential equation by the method of separation of variables:
+$$u_x = 2 u_t + u$$
+**[8]**
+
 ```markdown
 a) Solve the partial differential equation by the method of separation of variables:
 $$u_x = 2 u_t + u$$
@@ -286,6 +404,8 @@ $$u_x = 2 u_t + u$$
 ---
 
 ##### 2024 Spring - NAST (Pre-University)
+a) Express the Laplacian $\nabla^2 u = u_{xx} + u_{yy}$ in polar coordinates. **[8]**
+
 ```markdown
 a) Express the Laplacian $\nabla^2 u = u_{xx} + u_{yy}$ in polar coordinates. **[8]**
 ```
@@ -293,6 +413,8 @@ a) Express the Laplacian $\nabla^2 u = u_{xx} + u_{yy}$ in polar coordinates. **
 ---
 
 ##### 2024 Spring - NCIT (Assessment)
+a) Reduce the Laplacian operator to polar and cylindrical forms. **[8]**
+
 ```markdown
 a) Reduce the Laplacian operator to polar and cylindrical forms. **[8]**
 ```
@@ -300,6 +422,10 @@ a) Reduce the Laplacian operator to polar and cylindrical forms. **[8]**
 ---
 
 ##### 2024 Spring - Nepal Engineering College (Assessment)
+a) Solve the Laplace equation:
+$$\frac{\partial^2 u}{\partial x^2} + \frac{\partial^2 u}{\partial y^2} = 0$$
+which satisfies the boundary conditions $u(0, y) = u(l, y) = u(x, 0) = 0$ and $u(x, a) = \sin\left(\frac{\pi x}{l}\right)$. **[8]**
+
 ```markdown
 a) Solve the Laplace equation:
 $$\frac{\partial^2 u}{\partial x^2} + \frac{\partial^2 u}{\partial y^2} = 0$$
@@ -309,6 +435,8 @@ which satisfies the boundary conditions $u(0, y) = u(l, y) = u(x, 0) = 0$ and $u
 ---
 
 ##### 2024 Spring - Pokhara Engineering College (Final Internal)
+a) Show that $z \bar{z}$ is not an analytic function.
+
 ```markdown
 a) Show that $z \bar{z}$ is not an analytic function.
 ```
@@ -316,6 +444,8 @@ a) Show that $z \bar{z}$ is not an analytic function.
 ---
 
 ##### 2024 Spring - Universal Engineering & Science College (Pre-Board)
+a) Derive the two-dimensional heat equation with required assumptions. **[8]**
+
 ```markdown
 a) Derive the two-dimensional heat equation with required assumptions. **[8]**
 ```
@@ -324,6 +454,8 @@ a) Derive the two-dimensional heat equation with required assumptions. **[8]**
 ## 6(b)
 
 ##### 2024 Spring - Madan Bhandari College of Engineering (Final Internal)
+b) Check the analyticity of $f(z) = \bar{z}$.
+
 ```markdown
 b) Check the analyticity of $f(z) = \bar{z}$.
 ```
@@ -331,6 +463,8 @@ b) Check the analyticity of $f(z) = \bar{z}$.
 ---
 
 ##### 2024 Spring - NAST (Pre-University)
+b) Find the solution of the one-dimensional heat equation $\frac{\partial u}{\partial t} = c^2 \frac{\partial^2 u}{\partial x^2}$ with appropriate initial and boundary conditions. **[7]**
+
 ```markdown
 b) Find the solution of the one-dimensional heat equation $\frac{\partial u}{\partial t} = c^2 \frac{\partial^2 u}{\partial x^2}$ with appropriate initial and boundary conditions. **[7]**
 ```
@@ -338,6 +472,15 @@ b) Find the solution of the one-dimensional heat equation $\frac{\partial u}{\pa
 ---
 
 ##### 2024 Spring - NCIT (Assessment)
+b) Find the temperature in a laterally insulated bar of length $L$ whose ends are kept at temperature $0$, assuming that the initial temperature is:
+$$f(x) = \begin{cases} 
+x, & 0 \le x < \frac{L}{2} \\ 
+L - x, & \frac{L}{2} \le x < L 
+\end{cases}$$
+**[8]**
+
+---
+
 ```markdown
 b) Find the temperature in a laterally insulated bar of length $L$ whose ends are kept at temperature $0$, assuming that the initial temperature is:
 $$f(x) = \begin{cases} 
@@ -352,6 +495,12 @@ L - x, & \frac{L}{2} \le x < L
 ---
 
 ##### 2024 Spring - Nepal Engineering College (Assessment)
+b) Solve the Laplace equation in polar coordinates:
+$$\frac{\partial^2 u}{\partial r^2} + \frac{1}{r} \frac{\partial u}{\partial r} + \frac{1}{r^2} \frac{\partial^2 u}{\partial \theta^2} = 0$$
+**[7]**
+
+---
+
 ```markdown
 b) Solve the Laplace equation in polar coordinates:
 $$\frac{\partial^2 u}{\partial r^2} + \frac{1}{r} \frac{\partial u}{\partial r} + \frac{1}{r^2} \frac{\partial^2 u}{\partial \theta^2} = 0$$
@@ -363,6 +512,10 @@ $$\frac{\partial^2 u}{\partial r^2} + \frac{1}{r} \frac{\partial u}{\partial r} 
 ---
 
 ##### 2024 Spring - Universal Engineering & Science College (Pre-Board)
+b) Find the deflection $u(x, y, t)$ of a square membrane of side $a = b = 1$ with $c = 1$, if the initial velocity is zero and the initial deflection is $0.01 \sin(3\pi x) \sin(4\pi y)$. **[7]**
+
+---
+
 ```markdown
 b) Find the deflection $u(x, y, t)$ of a square membrane of side $a = b = 1$ with $c = 1$, if the initial velocity is zero and the initial deflection is $0.01 \sin(3\pi x) \sin(4\pi y)$. **[7]**
 
@@ -373,6 +526,8 @@ b) Find the deflection $u(x, y, t)$ of a square membrane of side $a = b = 1$ wit
 ## 6(c)
 
 ##### 2025 Fall - Pokhara University
+c) Solve $u_{xx} + u_{yy} = 0$ by using the method of separation of variables.
+
 ```markdown
 c) Solve $u_{xx} + u_{yy} = 0$ by using the method of separation of variables.
 ```
@@ -380,6 +535,8 @@ c) Solve $u_{xx} + u_{yy} = 0$ by using the method of separation of variables.
 ---
 
 ##### 2024 Spring - Pokhara Engineering College (Final Internal)
+c) Verify that $u = e^{-t} \sin x$ satisfies the one-dimensional heat equation $\frac{\partial u}{\partial t} = \frac{\partial^2 u}{\partial x^2}$.
+
 ```markdown
 c) Verify that $u = e^{-t} \sin x$ satisfies the one-dimensional heat equation $\frac{\partial u}{\partial t} = \frac{\partial^2 u}{\partial x^2}$.
 ```
@@ -388,6 +545,8 @@ c) Verify that $u = e^{-t} \sin x$ satisfies the one-dimensional heat equation $
 ## 6(d)
 
 ##### 2024 Spring - Madan Bhandari College of Engineering (Final Internal)
+d) Show that $f(z) = z \bar{z}$ is not analytic.
+
 ```markdown
 d) Show that $f(z) = z \bar{z}$ is not analytic.
 ```
@@ -396,6 +555,8 @@ d) Show that $f(z) = z \bar{z}$ is not analytic.
 ## 7(a)
 
 ##### 2024 Spring - Pokhara University
+a) Check the analyticity of $f(z) = \bar{z}$.
+
 ```markdown
 a) Check the analyticity of $f(z) = \bar{z}$.
 ```
@@ -403,6 +564,8 @@ a) Check the analyticity of $f(z) = \bar{z}$.
 ---
 
 ##### 2024 Spring - Nepal Engineering College (Assessment)
+a) Check the analyticity of $f(z) = \bar{z}$.
+
 ```markdown
 a) Check the analyticity of $f(z) = \bar{z}$.
 ```
@@ -411,6 +574,8 @@ a) Check the analyticity of $f(z) = \bar{z}$.
 ## 7(c)
 
 ##### 2024 Spring - Pokhara University
+c) Find the solution of the partial differential equation $u_{xx} + 9u = 0$.
+
 ```markdown
 c) Find the solution of the partial differential equation $u_{xx} + 9u = 0$.
 ```
@@ -418,6 +583,8 @@ c) Find the solution of the partial differential equation $u_{xx} + 9u = 0$.
 ---
 
 ##### 2024 Spring - Lumbini Engineering College (Final Internal)
+c) Solve the partial differential equation $u_y = u_x$.
+
 ```markdown
 c) Solve the partial differential equation $u_y = u_x$.
 ```
@@ -425,6 +592,8 @@ c) Solve the partial differential equation $u_y = u_x$.
 ---
 
 ##### 2024 Spring - Universal Engineering & Science College (Pre-Board)
+c) Solve the partial differential equation $u_{xx} - u_{yy} = 0$.
+
 ```markdown
 c) Solve the partial differential equation $u_{xx} - u_{yy} = 0$.
 ```
@@ -433,6 +602,8 @@ c) Solve the partial differential equation $u_{xx} - u_{yy} = 0$.
 ## 7(d)
 
 ##### 2024 Spring - Pokhara University
+d) Define linear partial differential equation with a suitable example.
+
 ```markdown
 d) Define linear partial differential equation with a suitable example.
 ```
@@ -440,6 +611,8 @@ d) Define linear partial differential equation with a suitable example.
 ---
 
 ##### 2024 Spring - Madan Bhandari College of Engineering (Final Internal)
+d) Solve the PDE $u_y = u_x$ using separation of variables.
+
 ```markdown
 d) Solve the PDE $u_y = u_x$ using separation of variables.
 ```
@@ -447,6 +620,8 @@ d) Solve the PDE $u_y = u_x$ using separation of variables.
 ---
 
 ##### 2024 Spring - Nepal Engineering College (Assessment)
+d) Solve the partial differential equation $u_y = u_x$.
+
 ```markdown
 d) Solve the partial differential equation $u_y = u_x$.
 ```
@@ -454,6 +629,8 @@ d) Solve the partial differential equation $u_y = u_x$.
 ---
 
 ##### 2024 Spring - Universal Engineering & Science College (Pre-Board)
+d) Find the unit tangent vector to the curve $\vec{r}(t) = 2 \cos t \, \hat{i} + \sin t \, \hat{j}$ at $t = \frac{\pi}{2}$.
+
 ```markdown
 d) Find the unit tangent vector to the curve $\vec{r}(t) = 2 \cos t \, \hat{i} + \sin t \, \hat{j}$ at $t = \frac{\pi}{2}$.
 ```
@@ -461,6 +638,8 @@ d) Find the unit tangent vector to the curve $\vec{r}(t) = 2 \cos t \, \hat{i} +
 ---
 
 ##### 2024 Fall - United Technical College (Assessment)
+d) Solve the partial differential equation $u_y = u_x$.
+
 ```markdown
 d) Solve the partial differential equation $u_y = u_x$.
 ```
@@ -469,6 +648,8 @@ d) Solve the partial differential equation $u_y = u_x$.
 ## 7(e)
 
 ##### 2024 Spring - Universal Engineering & Science College (Pre-Board)
+e) Sketch the paraboloid $z = x^2 + y^2$.
+
 ```markdown
 e) Sketch the paraboloid $z = x^2 + y^2$.
 ```
