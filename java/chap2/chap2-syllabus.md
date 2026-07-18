@@ -1,1 +1,12 @@
-# Unit 2: Object Oriented Principles in Java\n**Total Hours: 6**\n\n- **2.1 Review of object-oriented principles**\n- **2.2 Super class, sub class, inheritance, and member access**\n- **2.3 Types of inheritance**\n- **2.4 Extends and super keyword**\n- **2.5 Overriding/Overloading**\n- **2.6 Final classes and methods**\n- **2.7 Abstract classes and methods**\n- **2.8 Upcasting vs Downcasting**\n- **2.9 Interfaces and Implementations**\n\n
+# Unit 2: Object Oriented Principles in Java
+**Total Hours: 6**
+
+- **2.1 Review of object-oriented principles**
+- **2.2 Super class, sub class, inheritance, and member access**
+- **2.3 Types of inheritance**
+- **2.4 Extends and super keyword**
+- **2.5 Overriding/Overloading**
+- **2.6 Final classes and methods**
+- **2.7 Abstract classes and methods**
+- **2.8 Upcasting vs Downcasting**
+- **2.9 Interfaces and Implementations**

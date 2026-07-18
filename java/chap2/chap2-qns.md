@@ -100,4 +100,4 @@ b) Why is multiple inheritance not supported in Java? Provide a simple code exam
 
 ```markdown
 b) Why is multiple inheritance not supported in Java? Provide a simple code example to support your answer. **[7]**
-```\n
+```

@@ -11,4 +11,4 @@ a) Define exception and explain why it is necessary to handle exceptions. Write 
 
 ```markdown
 a) Define exception and explain why it is necessary to handle exceptions. Write a JSP page "javaExam.jsp" that demonstrates reading data from a text file and displaying it, using proper exception handling. **[8]**
-```\n
+```

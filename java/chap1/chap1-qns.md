@@ -141,4 +141,4 @@ b) What are the purposes of object serialization? Write content "This is first a
 
 ```markdown
 b) What are the purposes of object serialization? Write content "This is first and last paragraph" in a `content.txt` file. Also define proper Exception Handling. **[7]**
-```\n
+```

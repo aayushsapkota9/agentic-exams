@@ -160,6 +160,7 @@ c) Layout Management
 a) TCP and UDP Socket  
 b) Life cycle of an Applet  
 c) Layout Management  
+
 ```
 
 ---
@@ -173,4 +174,4 @@ c) Prepared Statement
 a) Java Reflection API  
 b) Closable Frame  
 c) Prepared Statement  
-```\n
+```

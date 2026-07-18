@@ -21,81 +21,81 @@ Traditional lectures, practical classes for hands-on experience, tutorials for i
 
 ### Unit 1: Basics of Programming in Java (7 hrs)
 **Specific Objectives:** Provide a brief introduction to programming in Java and familiarize students with basic concepts. Enhance the understanding of programming with respect to Java along with Access Modifiers and Java Collections.
-* **1.1** Java Architecture, Class paths, Sample Program
-* **1.2** Classes, Objects, Constructors
-* **1.3** Packages and Data Types
-* **1.4** Conditional Statements
-* **1.5** Access Modifiers
-* **1.6** Exception Handling
-* **1.7** Java Collections
+* **1.1 Java Architecture, Class paths, Sample Program**
+* **1.2 Classes, Objects, Constructors**
+* **1.3 Packages and Data Types**
+* **1.4 Conditional Statements**
+* **1.5 Access Modifiers**
+* **1.6 Exception Handling**
+* **1.7 Java Collections**
 
 ### Unit 2: Object Oriented Principles in Java (6 hrs)
 **Specific Objectives:** Learn object-oriented principles in Java and implement inheritance, abstraction, and polymorphism. Learn how OO concepts are implemented in Java.
-* **2.1** Review of object-oriented principles
-* **2.2** Super class, sub class, inheritance, and member access
-* **2.3** Types of inheritance
-* **2.4** Extends and super keyword
-* **2.5** Overriding/Overloading
-* **2.6** Final classes and methods
-* **2.7** Abstract classes and methods
-* **2.8** Upcasting vs Downcasting
-* **2.9** Interfaces and Implementations
+* **2.1 Review of object-oriented principles**
+* **2.2 Super class, sub class, inheritance, and member access**
+* **2.3 Types of inheritance**
+* **2.4 Extends and super keyword**
+* **2.5 Overriding/Overloading**
+* **2.6 Final classes and methods**
+* **2.7 Abstract classes and methods**
+* **2.8 Upcasting vs Downcasting**
+* **2.9 Interfaces and Implementations**
 
 ### Unit 3: Building Components using Swing and JavaFX (6 hrs)
 **Specific Objectives:** Acquire knowledge on how UI components like Swing, AWT, and JavaFX are used to create desktop applications along with elements, layouts, and controls.
-* **3.1** Introduction to AWT and Swing: Concept, Applets, Swing Class Hierarchy, Components/Containers
-* **3.2** Layout Management
-* **3.3** GUI Controls
-* **3.4** Menu Elements and Tooltips
-* **3.5** Dialogs and Frames
-* **3.6** Event handling and Listener Interfaces
-* **3.7** Handling Action Events
-* **3.8** JavaFX vs Swing
-* **3.9** JavaFX Layouts
-* **3.10** JavaFX UI Controls
+* **3.1 Introduction to AWT and Swing: Concept, Applets, Swing Class Hierarchy, Components/Containers**
+* **3.2 Layout Management**
+* **3.3 GUI Controls**
+* **3.4 Menu Elements and Tooltips**
+* **3.5 Dialogs and Frames**
+* **3.6 Event handling and Listener Interfaces**
+* **3.7 Handling Action Events**
+* **3.8 JavaFX vs Swing**
+* **3.9 JavaFX Layouts**
+* **3.10 JavaFX UI Controls**
 
 ### Unit 4: Distributed Network Programming (8 hrs)
 **Specific Objectives:** Learn the basics of networking and how Java programming can be used to perform basic to advanced network programming. Cover basics of Email Handling along with RMI, IDL, and CORBA.
-* **4.1** TCP, UDP, IP Address and Ports
-* **4.2** Socket Programming using TCP and UDP
-* **4.3** Working with URLs and URL Connection Class
-* **4.4** Email Handling using Java Mail API
-* **4.5** Architecture of RMI
-* **4.6** Creating and Executing RMI Applications
-* **4.7** Architecture of CORBA
-* **4.8** RMI vs CORBA
-* **4.9** IDL and Simple CORBA Program
+* **4.1 TCP, UDP, IP Address and Ports**
+* **4.2 Socket Programming using TCP and UDP**
+* **4.3 Working with URLs and URL Connection Class**
+* **4.4 Email Handling using Java Mail API**
+* **4.5 Architecture of RMI**
+* **4.6 Creating and Executing RMI Applications**
+* **4.7 Architecture of CORBA**
+* **4.8 RMI vs CORBA**
+* **4.9 IDL and Simple CORBA Program**
 
 ### Unit 5: Database Connectivity with JAVA (5 hrs)
 **Specific Objectives:** Understand database connectivity in Java along with the JDBC architecture, drivers, and database operations.
-* **5.1** JDBC Architecture
-* **5.2** JDBC Driver Types and Configuration
-* **5.3** Managing Connections and Statements
-* **5.4** Result Sets and Exception Handling
-* **5.5** DDL and DML Operations
-* **5.6** SQL Injection and Prepared Statements
-* **5.7** Row Sets and Transactions
-* **5.8** SQL Escapes
+* **5.1 JDBC Architecture**
+* **5.2 JDBC Driver Types and Configuration**
+* **5.3 Managing Connections and Statements**
+* **5.4 Result Sets and Exception Handling**
+* **5.5 DDL and DML Operations**
+* **5.6 SQL Injection and Prepared Statements**
+* **5.7 Row Sets and Transactions**
+* **5.8 SQL Escapes**
 
 ### Unit 6: Servlets and JSP (6 hrs)
 **Specific Objectives:** Gain knowledge on how web programming is achieved in Java using Servlets and JSP.
-* **6.1** Overview of Web Application
-* **6.2** HTTP Methods and Responses
-* **6.3** Life Cycle of Web Servlets
-* **6.4** Writing Servlet programs with Servlet APIs
-* **6.5** Reading and Processing Forms
-* **6.6** Handling GET/POST Requests
-* **6.7** Database connectivity through servlets
-* **6.8** Cookies and Sessions
+* **6.1 Overview of Web Application**
+* **6.2 HTTP Methods and Responses**
+* **6.3 Life Cycle of Web Servlets**
+* **6.4 Writing Servlet programs with Servlet APIs**
+* **6.5 Reading and Processing Forms**
+* **6.6 Handling GET/POST Requests**
+* **6.7 Database connectivity through servlets**
+* **6.8 Cookies and Sessions**
 
 ### Unit 7: Advanced Topics in JAVA (7 hrs)
 **Specific Objectives:** Introduce advanced topics like ORM, Frameworks, concurrency, multithreading, and design patterns.
-* **7.1** Overview of ORM
-* **7.2** Hibernate
-* **7.3** Web Framework Introduction
-* **7.4** Basics of Spring Boot
-* **7.5** Concurrency and Multithreading in JAVA
-* **7.6** Design Patterns: Singleton, Factory, and Abstract Factory
+* **7.1 Overview of ORM**
+* **7.2 Hibernate**
+* **7.3 Web Framework Introduction**
+* **7.4 Basics of Spring Boot**
+* **7.5 Concurrency and Multithreading in JAVA**
+* **7.6 Design Patterns: Singleton, Factory, and Abstract Factory**
 
 ---
 

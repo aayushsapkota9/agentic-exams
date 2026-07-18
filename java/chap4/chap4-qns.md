@@ -100,4 +100,4 @@ Create a multithreaded TCP server that can take messages from multiple users and
 b) Explain about multi-threading. Write a program to show the example of creating a multithreaded Java server.  
 **OR**  
 Create a multithreaded TCP server that can take messages from multiple users and reply back to them individually. Terminate communication on "Stop" word and start communication on "Start" word. **[7]**
-```\n
+```

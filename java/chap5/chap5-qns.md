@@ -125,4 +125,4 @@ b) Write a Java application using Swing to retrieve all customer records from ta
 
 ```markdown
 b) Write a Java application using Swing to retrieve all customer records from table `tbl_customer` (cid, name, address) under database `db_customer` and display them in a JTable. **[7]**
-```\n
+```
