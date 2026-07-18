@@ -1,0 +1,1 @@
+# Unit 1: Basics of Programming in Java\n**Total Hours: 7**\n\n- **1.1 Java Architecture, Class paths, Sample Program**\n- **1.2 Classes, Objects, Constructors**\n- **1.3 Packages and Data Types**\n- **1.4 Conditional Statements**\n- **1.5 Access Modifiers**\n- **1.6 Exception Handling**\n- **1.7 Java Collections**\n\n

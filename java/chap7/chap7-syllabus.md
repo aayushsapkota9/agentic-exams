@@ -1,0 +1,1 @@
+# Unit 7: Advanced Topics in JAVA\n**Total Hours: 7**\n\n- **7.1 Overview of ORM**\n- **7.2 Hibernate**\n- **7.3 Web Framework Introduction**\n- **7.4 Basics of Spring Boot**\n- **7.5 Concurrency and Multithreading in JAVA**\n- **7.6 Design Patterns: Singleton, Factory, and Abstract Factory**\n\n
