@@ -1,0 +1,40 @@
+*
+3x+.y+z=10 8
+a) Solve: 2x+3y+2z=14
+x+2y+3z=14
+
+By Gauss elimination method.
+
+b) Solve the following system of equations using Crout method. 7
+Xxty+z= 4x+4y4+3z=8,x+6y+2z=6
+OR
+Find largest eigen value and corresponding eigen vector of the matrix.
+3 -l1 0
+—2 4 -3
+0 -l1 1
+
+a) Solve the following differential equation within 0 <x <0.3 using 8
+RK-4™ order Method.
+
+d
+10 = x24 y2,y(0) =1withh =0.1
+
+b) Apply Euler’s method to approximate value of y(0.3) for the 7
+differential equation: 2 = y+x,y(0) =1.
+
+a) For square bar of size 15cmx15cm, calculate the steady state 8
+temperature at interior point for the grid size of SemxScm.
+
+oc oc
+
+100°C 100°C
+b) Solve the Poisson equation W*f=2x"+ y, over the square domain 1<x 7
+<4, 1<y <4, with f=0 on the boundary. Take step size in x and y, h=k=1.
+Write short notes on: (Any two) 2x5
+a) Errors in Numerical Method
+b) __Ill-conditioned systems
+
+¢) Boundary value problem <MeroEnotes
+et Ee
+
+Page 2 of 2

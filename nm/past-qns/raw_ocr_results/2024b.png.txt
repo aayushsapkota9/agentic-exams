@@ -1,0 +1,69 @@
+a)
+
+b)
+
+a)
+
+b)
+
+a)
+
+b)
+
+4
+
+1 2
+are matrix, rf 3 —1|by using
+
+Find the inverse of the squ wi 2
+
+Gauss-Jordan elimination method.
+
+Find the solution of the given simultancous
+
+Gauss Seidel method.
+6x —2y+z=11
+—2x+7y+2z=5
+x+2y—-—5z=-1 m
+
+solve the following differential equation within 0<x<0.5 using Rk 4
+
+order method 10d? y/dx?+2dy/dx-3y=5, y(0)=0,y'(0)=0.
+
+Using the Euler's (R-K I st order method) find an approximate value of
+
+y corresponding to x=1, given that dy/dx = X+¥ and y= I. When x=0,
+
+h=0.1.
+
+Torsion on a square bar of size 15cm * 15cm. If two of the sides are
+
+held at 100°C and the other two sides are held at 0°C. Calculate the
+
+steady state temperature at interior points. Assume a grid size of
+
+5cm x 5cm.
+
+Solve the Poisson equation W7f=2x"+ y, over the square domain 1<x
+
+<A, 1<y <4, with £0 on the boundary. Take step size in x and y, h=k=1.
+
+linear equation using
+
+Write short notes on: (Any two)
+
+a)
+b)
+
+c)
+
+Applications of Numerical Methods in Engineering
+Error in Numerical Method
+
+Ill condition and well-conditioned system
+
+“cMeroEnotes
+
+Page 2 of 2
+
+2%5

@@ -1,0 +1,64 @@
+g
+
+POKHARA UNIVERSITY
+
+Level: Bachelor Semester: Spring Year : 2024
+
+Programme: BE Full Marks : 100
+
+Course: Numerical Methods (New) Pass Marks : 45
+Time : 3 hrs.
+
+a)
+
+b)
+
+a)
+
+b)
+
+a)
+
+b)
+
+Candidates are required to give their answers in their own words as far
+as practicable.
+
+The figures in the margin indicate full marks.
+Attempt all the questions.
+
+Solve xlog,,x=1.2by Newton- Raphson method correct to four
+decimal places.
+
+Using Secant Method, find the roots of function 2x — logipx —-7=0
+Correct up to three decimal places.
+
+OR
+
+Find the root of the equation f(x) = x?-4x-10 correct to three decimal
+places by using False Position method.
+
+From the following data given in the table below evaluate f (2.5) by
+
+using Lagrange method.
+aay |
+
+From the following table, Estimate the number of student who
+
+obtained marks between 50 and 55.
+30-40 | 40-50 | 50-60 | 60-70 | 70-80
+
+Compute the Simpson’s 1/3 and Simpson’s 3/8 rule for J = fy e~** dx
+
+using a regular partition with subinterval n=6.
+
+Use the Romberg integration to find the solution correct upto three
+decimal places.
+1
+1={ :
+J 14x?
+0
+«MeroEnotes
+ns acqeenane mrp)
+
+Page 1 of 2

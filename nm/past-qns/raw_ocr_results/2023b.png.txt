@@ -1,0 +1,51 @@
+a)
+
+b)
+
+a)
+
+b)
+
+a)
+
+b)
+
+Apply the factorization method to solve the equation 3x+2y+7z =4;
+2x+3y+z = 5; 3x+4y+z =7
+Using SOR method, solve the following system of
+
+4x+y+2z = 4; 3x+5y+z = 7; xt+y+3z = 3.
+Find the largest eigen value and the corresponding eigen vector of the
+matrix
+
+2 -1 0
+—1 2  —1]using power method
+0 -1 2
+Using the R-K I“ order method, find an approximate value of y
+: <b a7 ay =e = =
+corresponding to x=1, given that a ae and y = |. When x=0, and h
+= 0.02.
+
+Using the R-K method of fourth order, solve for y at x= 1.2, 1.4, from
+
+dy  2xyte* .
+x > x2txer E1ven Xo=1, yo =0.
+
+Solve the elliptic equation U,, + Uy, = 0 over a square mesh of side
+four units satisfying the following boundary conditions; u(0,y) = 0
+for O< y<4,u(4,y) =12+yfor0<y <4;u(z,0) = 3x for0 <
+x <4,u(x,4) =x? forO <x <4
+
+Write short notes on: (Any two)
+
+a)
+b)
+c)
+
+Shooting Method
+Algorithm of Gauss Jordan method
+Algorithm of fixed point iteration method
+
+«MeroEnotes
+
+2
