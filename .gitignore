@@ -1,5 +1,16 @@
-# Ignore all image files
+# Image files
 *.jpg
 *.jpeg
 *.png
 *.webp
+*.heic
+
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+
+# Temp directory
+tmp/
