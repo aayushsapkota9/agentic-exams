@@ -1,5 +1,5 @@
 # Pokhara University
-### Level: Bachelor | Semester: Fall | Year: 2025 (or 2024 Fall)
+### Level: Bachelor | Semester: Fall | Year: 2025
 **Programme:** B.E.  
 **Course:** Applied Mathematics IV  
 **Full Marks:** 100 | **Pass Marks:** 45 | **Time:** 3 hrs.
