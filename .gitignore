@@ -14,3 +14,7 @@ __pycache__/
 
 # Temp directory
 tmp/
+
+# Raw OCR outputs and temp data
+raw_ocr_results/
+*.json
