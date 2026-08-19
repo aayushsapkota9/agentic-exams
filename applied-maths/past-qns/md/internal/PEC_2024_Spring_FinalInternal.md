@@ -18,11 +18,19 @@
 a) Define a harmonic function. Verify that $u = \cos x \cosh y$ is harmonic and find its harmonic conjugate. **[8]**
 
 b) Integrate the function $f(z) = \frac{e^{2z}}{z^2 - 1}$ over the given contour $C$ counter-clockwise where $C$ is the ellipse:
-$$4x^2 + (y-2)^2 = 4$$
+
+$$
+4x^2 + (y-2)^2 = 4
+$$
+
 **[7]**
 
 c) State Cauchy's Residue Theorem. Evaluate the integral:
-$$\oint_C \frac{2z^2 - 3z + 1}{z^2 - 3iz - 2} \, dz$$
+
+$$
+\oint_C \frac{2z^2 - 3z + 1}{z^2 - 3iz - 2} \, dz
+$$
+
 where $C: |z| = 1.5$ counter-clockwise. **[8]**
 
 ---
@@ -31,7 +39,7 @@ where $C: |z| = 1.5$ counter-clockwise. **[8]**
 a) Find the Taylor and Laurent's series expansions of $f(z) = \frac{1}{(z-1)(z-2)}$ in the regions:
 1. $0 < |z| < 1$
 2. $1 < |z| < 2$
-3. $|z| > 2$
+3. $|z| > 2$  
 **[8]**
 
 b) Find the Z-transform of $e^{-at}$ and then deduce the values of $Z(\cos \omega t)$ and $Z(\sin \omega t)$. **[8]**
@@ -42,13 +50,21 @@ c) State and prove the first shifting theorem of Z-transform. Use it to evaluate
 
 #### 3.
 a) Find the inverse Z-transform of:
-$$F(z) = \frac{3z^2 + 2z + 1}{z^2 - 3z + 2}$$
+
+$$
+F(z) = \frac{3z^2 + 2z + 1}{z^2 - 3z + 2}
+$$
+
 **[8]**
 
 **OR**
 
 Solve the difference equation by using Z-transform:
-$$y_{n+2} - 3y_{n+1} + 2y_n = 4^n$$
+
+$$
+y_{n+2} - 3y_{n+1} + 2y_n = 4^n
+$$
+
 with $y_0 = 0$, $y_1 = 1$. **[8]**
 
 b) Derive the one-dimensional wave equation of a string of length $L$ fixed at both endpoints with necessary assumptions. **[7]**
@@ -62,7 +78,7 @@ Find the solution of the one-dimensional heat equation $\frac{\partial u}{\parti
 #### 4.
 a) Solve by using the method of separation of variables:
 1. $u_x + u_y = 0$
-2. $u_y - u = 0$
+2. $u_y - u = 0$  
 **[8]**
 
 b) Express the Laplacian in polar coordinates from the Cartesian coordinate system. **[7]**
@@ -71,22 +87,30 @@ b) Express the Laplacian in polar coordinates from the Cartesian coordinate syst
 
 Find the temperature distribution in a laterally insulated thin copper bar ($c^2 = 1.158\text{ cm}^2/\text{sec}$), $100\text{ cm}$ long and of constant cross-section whose endpoints at $x = 0$ and $x = 100$ are kept at $0^\circ\text{C}$ and whose initial temperature is:
 1. $f(x) = \sin(0.01\pi x)$
-2. $f(x) = \sin^3(0.01\pi x)$
+2. $f(x) = \sin^3(0.01\pi x)$  
 **[7]**
 
 ---
 
 #### 5.
 a) Show that:
-$$\int_0^\infty \frac{\cos xw + w \sin xw}{1 + w^2} \, dw = \begin{cases} 
+
+$$
+\int_0^\infty \frac{\cos xw + w \sin xw}{1 + w^2} \, dw = \begin{cases} 
 0, & \text{if } x < 0 \\ 
 \frac{\pi}{2}, & \text{if } x = 0 \\ 
 \pi e^{-x}, & \text{if } x > 0 
-\end{cases}$$
+\end{cases}
+$$
+
 **[8]**
 
 b) Find the Fourier cosine transform of $f(x) = e^{-mx}$ for $m > 0$ and then show that:
-$$\int_0^\infty \frac{\cos kx}{m^2 + x^2} \, dx = \frac{\pi}{2m} e^{-mk}$$
+
+$$
+\int_0^\infty \frac{\cos kx}{m^2 + x^2} \, dx = \frac{\pi}{2m} e^{-mk}
+$$
+
 **[7]**
 
 ---

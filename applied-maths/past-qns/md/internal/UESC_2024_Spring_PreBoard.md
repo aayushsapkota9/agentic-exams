@@ -21,18 +21,30 @@
 a) Define the Laplace equation and harmonic function. Is $v = 3x^2y - y^3$ harmonic? If yes, find its harmonic conjugate. **[8]**
 
 b) State the Cauchy Integral Formula for derivatives. Evaluate:
-$$\oint_C \frac{z+1}{z^3 - 2z^2} \, dz$$
+
+$$
+\oint_C \frac{z+1}{z^3 - 2z^2} \, dz
+$$
+
 where $C$ is the unit circle $|z| = 1$, counter-clockwise. **[7]**
 
 ---
 
 #### 2.
 a) State Laurent's Theorem. Find the Laurent series for $f(z) = \frac{7z-2}{(z+1)(z-3)}$ in the region:
-$$0 < |z+1| < 4$$
+
+$$
+0 < |z+1| < 4
+$$
+
 **[7]**
 
 b) Define singularity, zeros, and poles of a function. Evaluate:
-$$\oint_C \frac{e^z}{(z+1)^3} \, dz$$
+
+$$
+\oint_C \frac{e^z}{(z+1)^3} \, dz
+$$
+
 where $C$ is the ellipse $4x^2 + 9y^2 = 16$. **[8]**
 
 ---
@@ -43,24 +55,40 @@ a) Define Z-transform. State and prove the Second Shifting Theorem (time-delay t
 **OR**
 
 Find the inverse Z-transform:
-$$Z^{-1}\left[ \frac{z^2+z}{z^2-2z+2} \right]$$
+
+$$
+Z^{-1}\left[ \frac{z^2+z}{z^2-2z+2} \right]
+$$
+
 **[7]**
 
 b) Solve the difference equation:
-$$u_{n+2} - 2\cos\alpha \, u_{n+1} + u_n = 0$$
+
+$$
+u_{n+2} - 2\cos\alpha \, u_{n+1} + u_n = 0
+$$
+
 by using Z-transform. **[8]**
 
 ---
 
 #### 4.
 a) Find the Fourier integral representation of the function:
-$$f(x) = \begin{cases} 
+
+$$
+f(x) = \begin{cases} 
 1, & \text{if } 0 < x < 1 \\ 
 \frac{1}{2}, & \text{if } x = 1 \\ 
 0, & \text{if } x > 1 
-\end{cases}$$
+\end{cases}
+$$
+
 and hence evaluate:
-$$\int_0^\infty \frac{\sin w \cos xw}{w} \, dw$$
+
+$$
+\int_0^\infty \frac{\sin w \cos xw}{w} \, dw
+$$
+
 **[7]**
 
 b) Define the convolution of two functions. State and prove the convolution theorem on Fourier transform. **[8]**
@@ -69,7 +97,11 @@ b) Define the convolution of two functions. State and prove the convolution theo
 
 #### 5.
 a) Solve the one-dimensional wave equation:
-$$\frac{\partial^2 u}{\partial t^2} = c^2 \frac{\partial^2 u}{\partial x^2}$$
+
+$$
+\frac{\partial^2 u}{\partial t^2} = c^2 \frac{\partial^2 u}{\partial x^2}
+$$
+
 given that the initial deflection is $0.01 \sin(3x)$, the initial velocity is zero, and the boundary parameters are $L = \pi$, $c^2 = 1$. **[7]**
 
 b) Find the solution of the one-dimensional heat equation having zero temperature at the endpoints and initial temperature $f(x) = x(L-x)$. **[8]**

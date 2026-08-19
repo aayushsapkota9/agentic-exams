@@ -18,7 +18,11 @@
 a) Define a harmonic function. Show that $u = x^2 - y^2$ is a harmonic function. If yes, find the corresponding analytic function $f(z) = u + i v$. **[8]**
 
 b) State Cauchy's Residue Theorem. Evaluate the integral:
-$$\oint_C \frac{z^2 \sin z}{z-1} \, dz$$
+
+$$
+\oint_C \frac{z^2 \sin z}{z-1} \, dz
+$$
+
 where $C: |z| = 2$. **[7]**
 
 ---
@@ -27,7 +31,11 @@ where $C: |z| = 2$. **[7]**
 a) Find the Z-transform of $e^{-at}$ and then find $Z(\cos \omega t)$ and $Z(\sin \omega t)$. **[7]**
 
 b) Solve the difference equation by using Z-transform:
-$$y_{n+2} - 4y_{n+1} + 4y_n = 2^n$$
+
+$$
+y_{n+2} - 4y_{n+1} + 4y_n = 2^n
+$$
+
 where $y_0 = 0$, $y_1 = 1$. **[8]**
 
 ---
@@ -35,7 +43,7 @@ where $y_0 = 0$, $y_1 = 1$. **[8]**
 #### 3.
 a) State Laurent's Theorem. Find the Laurent series for $f(z) = \frac{1}{(z-2)(z-3)}$ in the regions:
 1. $2 < |z| < 3$
-2. $|z| > 3$
+2. $|z| > 3$  
 **[7]**
 
 **OR**
@@ -43,22 +51,34 @@ a) State Laurent's Theorem. Find the Laurent series for $f(z) = \frac{1}{(z-2)(z
 Find the bilinear transformation $w = f(z)$ which maps the points $z = 0, -1, i$ onto $w = i, 0, \infty$. Also find the image of the unit circle $|z| = 1$. **[7]**
 
 b) State Cauchy's Integral Formula and by using it, evaluate:
-$$\oint_C \frac{e^{2z}}{(z-1)^3} \, dz$$
+
+$$
+\oint_C \frac{e^{2z}}{(z-1)^3} \, dz
+$$
+
 where $C: |z-1| = 1$. **[8]**
 
 ---
 
 #### 4.
 a) Show that:
-$$\int_0^\infty \frac{\cos xw + w \sin xw}{1 + w^2} \, dw = \begin{cases} 
+
+$$
+\int_0^\infty \frac{\cos xw + w \sin xw}{1 + w^2} \, dw = \begin{cases} 
 0, & \text{if } x < 0 \\ 
 \frac{\pi}{2}, & \text{if } x = 0 \\ 
 \pi e^{-x}, & \text{if } x > 0 
-\end{cases}$$
+\end{cases}
+$$
+
 **[7]**
 
 b) Find the Fourier cosine transform of $f(x) = e^{-mx}$ for $m > 0$ and then show that:
-$$\int_0^\infty \frac{\cos kx}{m^2 + x^2} \, dx = \frac{\pi}{2m} e^{-mk}$$
+
+$$
+\int_0^\infty \frac{\cos kx}{m^2 + x^2} \, dx = \frac{\pi}{2m} e^{-mk}
+$$
+
 **[8]**
 
 ---
@@ -74,10 +94,14 @@ b) Find the derivation of the one-dimensional wave equation. **[8]**
 a) Reduce the Laplacian operator to polar and cylindrical forms. **[8]**
 
 b) Find the temperature in a laterally insulated bar of length $L$ whose ends are kept at temperature $0$, assuming that the initial temperature is:
-$$f(x) = \begin{cases} 
+
+$$
+f(x) = \begin{cases} 
 x, & 0 \le x < \frac{L}{2} \\ 
 L - x, & \frac{L}{2} \le x < L 
-\end{cases}$$
+\end{cases}
+$$
+
 **[8]**
 
 ---
