@@ -4,22 +4,13 @@
 
 ---
 
-## 1. 🚨 Exact Keywords, Rules & Syntax
+## 1. 📦 Package, Keywords & Modifiers Quick Reference Table
 
-| Concept / Keyword | Syntax / Usage | Crucial Rule |
+| Package / Keyword | Classes, Keywords & Modifiers | Crucial Methods, Signatures & Things You Forget |
 | :--- | :--- | :--- |
-| `extends` | `class Child extends Parent` | Single inheritance only (Java classes cannot extend multiple classes) |
-| `implements` | `class A implements I1, I2` | Multiple interfaces allowed (comma-separated) |
-| `super()` | `super(args);` | **Must be the FIRST statement** in child constructor |
-| `super.method()` | `super.display();` | Calls parent's version of overridden method |
-| `super.field` | `super.name;` | Accesses shadowed field of parent class |
-| `final` (Variable) | `final int MAX = 100;` | Constant value; cannot be reassigned |
-| `final` (Method) | `final void calculate()` | **Cannot be overridden** by any subclass |
-| `final` (Class) | `final class SecureKey` | **Cannot be inherited/subclassed** (e.g., `String`, `Math`) |
-| `abstract` (Class) | `abstract class Shape` | **Cannot be instantiated with `new`**; can have constructors & state |
-| `abstract` (Method)| `abstract void draw();` | No body (`{}`); MUST be implemented by concrete subclasses |
-| `default` (Interface)| `default void log(String s) {}` | Concrete method inside interface (Java 8+); cannot have instance fields |
-| `instanceof` | `if (obj instanceof Dog d)` | Runtime type safety check before downcasting |
+| **`java.lang.*`** | `Object`, `Comparable<T>` *(I)*, `Cloneable` *(I)* | `toString()`, `equals(Object o)`, `hashCode()`, `getClass()`<br>`int compareTo(T o)` *(Natural ordering)*<br>`clone()` *(Protected copy)* |
+| **`java.util.*`** | `Comparator<T>` *(I)* | `int compare(T o1, T o2)` *(Custom sort strategy)* |
+| **`Keywords & OOP Modifiers`** | `extends`, `implements`, `super`, `this`, `final`, `abstract`, `@Override`, `default`, `static`, `instanceof` | `super(args);` *(MUST be on Line 1 of subclass constructor)*<br>`super.methodName()` *(Calls parent overridden method)*<br>`super.fieldName` *(Accesses shadowed parent variable)*<br>`final class X` *(Cannot be subclassed)*, `final void m()` *(Cannot be overridden)*<br>`abstract class X` *(Cannot use new)*, `abstract void m();` *(No body)*<br>`default void log(String s) {}` *(Concrete method in interface, Java 8+)*<br>`if (animal instanceof Dog d)` *(Pattern matching downcast check)*<br>⚠️ *Interface methods implemented in a class MUST be explicitly declared `public`!* |
 
 ---
 

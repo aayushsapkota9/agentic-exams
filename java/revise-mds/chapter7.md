@@ -4,19 +4,15 @@
 
 ---
 
-## 1. 🚨 Exact Classes, Interfaces & Annotations You Must Know
+## 1. 📦 Package & Framework Quick Reference Table
 
-| Symbol / Class / Annotation | Exact Package / Import | Type | Purpose / Exam Trigger |
-| :--- | :--- | :--- | :--- |
-| `SessionFactory`, `Session` | `org.hibernate.*` | Interfaces | Heavyweight factory & lightweight CRUD bridge |
-| `Transaction` | `org.hibernate.Transaction` | Interface | Atomic unit of database work (`tx.commit()`) |
-| `@Entity`, `@Table`, `@Id` | `javax.persistence.*` / `jakarta.persistence.*` | Annotations | Maps class $\rightarrow$ table and primary key |
-| `@GeneratedValue`, `@Column`| `javax.persistence.*` | Annotations | Auto-increment key & column customization |
-| `@SpringBootApplication` | `org.springframework.boot.autoconfigure.*`| Annotation | Bundles Config + AutoConfig + ComponentScan |
-| `@RestController`, `@RequestMapping`| `org.springframework.web.bind.annotation.*`| Annotations | RESTful controller & endpoint routing |
-| `@GetMapping`, `@PathVariable`| `org.springframework.web.bind.annotation.*`| Annotations | GET handler & URL path parameter binding |
-| `Thread`, `Runnable` | `java.lang.*` | Class / SAM | Core Java multithreading primitives |
-| `synchronized`, `wait()`, `notify()`| `java.lang.Object` / Keyword | Monitor / Sync | Mutual exclusion & inter-thread communication |
+| Package / Category | Classes, Interfaces & Components | Crucial Methods, Signatures & Things You Forget |
+| :--- | :--- | :--- |
+| **`org.hibernate.*` & `org.hibernate.cfg.*`** | `Configuration`, `SessionFactory` *(I - Heavyweight, 1 per DB)*, `Session` *(I - Lightweight CRUD bridge)*, `Transaction` *(I)*, `Query<T>` *(I)* | `Configuration cfg = new Configuration().configure();`<br>`SessionFactory factory = cfg.buildSessionFactory();`<br>`Session session = factory.openSession();`<br>`Transaction tx = session.beginTransaction();`<br>`session.save(entityObj);`<br>`Student s = session.get(Student.class, 1);`<br>`session.update(s); session.delete(s);`<br>`List<Student> list = session.createQuery("FROM Student s WHERE s.gpa > :gpa", Student.class).setParameter("gpa", 3.5).list();`<br>`tx.commit(); tx.rollback(); session.close();`<br>⚠️ *HQL class & property names are case-sensitive (`Student s`, `s.gpa`)!* |
+| **`javax.persistence.*` / `jakarta.persistence.*`** | `@Entity`, `@Table`, `@Id`, `@GeneratedValue`, `@GenerationType`, `@Column`, `@Transient` | `@Entity`<br>`@Table(name = "students")`<br>`@Id`<br>`@GeneratedValue(strategy = GenerationType.IDENTITY)`<br>`@Column(name = "full_name", nullable = false)`<br>`@Transient` *(Ignores field from DB)* |
+| **`org.springframework.boot.*` & `org.springframework.web.bind.annotation.*`** | `@SpringBootApplication`, `SpringApplication`, `@RestController`, `@Controller`, `@RequestMapping`, `@GetMapping`, `@PostMapping`, `@PathVariable`, `@RequestBody`, `@RequestParam` | `@SpringBootApplication` *(Combines @SpringBootConfiguration + @EnableAutoConfiguration + @ComponentScan)*<br>`SpringApplication.run(Application.class, args);`<br>`@RestController`<br>`@RequestMapping("/api/students")`<br>`@GetMapping("/{id}")`<br>`public Student getById(@PathVariable("id") int id) { ... }` *(Auto-serialized to JSON)* |
+| **`java.lang.*` & `java.util.concurrent.*`** | `Thread` *(C)*, `Runnable` *(I - SAM)*, `Callable<V>` *(I)*, `Future<V>` *(I)*, `ExecutorService` *(I)*, `Executors`, `synchronized`, `wait()`, `notify()`, `notifyAll()` | `Thread t = new Thread(runnableTask);`<br>`t.start();` *(Spawns new OS thread; t.run() does NOT!)*<br>`t.join();` *(Waits for thread termination)*<br>`Thread.sleep(1000);` *(Pauses thread but DOES NOT release monitor lock!)*<br>`synchronized void increment() { count++; }`<br>`synchronized(lockObj) { while(!ready) { lockObj.wait(); } lockObj.notify(); }` *(wait() RELEASES monitor lock!)* |
+| **`Design Patterns`** | `Singleton`, `Factory Method`, `Abstract Factory` | **Singleton**: `private static Instance instance;`, `private Constructor() {}`, `public static synchronized getInstance()`<br>**Factory**: `Notification n = NotificationFactory.create("SMS"); n.send(msg);`<br>**Abstract Factory**: `GUIFactory f = new WinFactory(); Button b = f.createButton(); Checkbox c = f.createCheckbox();` |
 
 ---
 

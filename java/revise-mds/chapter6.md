@@ -4,19 +4,13 @@
 
 ---
 
-## 1. 🚨 Exact Classes, Interfaces & Imports You Must Know
+## 1. 📦 Package & Classes Quick Reference Table
 
-| Class / Interface / Annotation | Exact Package / Import | Type | Purpose / Exam Trigger |
-| :--- | :--- | :--- | :--- |
-| `HttpServlet` | `jakarta.servlet.http.HttpServlet` | Abstract Class | Base class for all HTTP servlets (extend this) |
-| `HttpServletRequest` | `jakarta.servlet.http.*` | Interface | Input wrapper (`getParameter()`, `getSession()`, `getCookies()`) |
-| `HttpServletResponse` | `jakarta.servlet.http.*` | Interface | Output wrapper (`setContentType()`, `getWriter()`, `addCookie()`) |
-| `@WebServlet` | `jakarta.servlet.annotation.WebServlet`| Annotation | URL mapping (`@WebServlet("/login")`) |
-| `PrintWriter` | `java.io.PrintWriter` | Class | Character stream to send HTML to client (`resp.getWriter()`) |
-| `Cookie` | `jakarta.servlet.http.Cookie` | Class | Client-side key-value cookie (`new Cookie("user", "val")`) |
-| `HttpSession` | `jakarta.servlet.http.HttpSession` | Interface | Server-side user state (`session.setAttribute()`, `getAttribute()`) |
-| `RequestDispatcher` | `jakarta.servlet.RequestDispatcher` | Interface | Server-side request forwarding (`dispatcher.forward(req, resp)`) |
-| `ServletException` | `jakarta.servlet.ServletException` | Checked Exc | Mandatory exception thrown by `doGet` and `doPost` |
+| Package / Module | Classes, Interfaces & Components | Crucial Methods, Signatures & Things You Forget |
+| :--- | :--- | :--- |
+| **`jakarta.servlet.*`** | `Servlet` *(I)*, `GenericServlet` *(A)*, `ServletRequest` *(I)*, `ServletResponse` *(I)*, `ServletConfig` *(I)*, `ServletContext` *(I)*, `RequestDispatcher` *(I)*, `ServletException` | Lifecycle: `init(ServletConfig config)`, `service(ServletRequest, ServletResponse)`, `destroy()`<br>`RequestDispatcher rd = req.getRequestDispatcher("home.jsp");`<br>`rd.forward(req, resp);` *(Server-side transfer, URL unchanged)*<br>`rd.include(req, resp);` |
+| **`jakarta.servlet.http.*`** | `HttpServlet` *(A)*, `HttpServletRequest` *(I)*, `HttpServletResponse` *(I)*, `Cookie`, `HttpSession` *(I)* | `protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException`<br>`protected void doPost(HttpServletRequest req, HttpServletResponse resp)`<br>`String val = req.getParameter("txtName");` *(Returns String - parse manually!)*<br>`String[] hobbies = req.getParameterValues("chkHobby");`<br>`resp.setContentType("text/html");` *(MUST BE CALLED BEFORE getWriter!)*<br>`PrintWriter out = resp.getWriter(); out.println("<html>...</html>");`<br>`resp.sendRedirect("login.html");` *(Client-side 302 redirect, URL changes)*<br>`Cookie c = new Cookie("user", "Alex"); c.setMaxAge(24*60*60); resp.addCookie(c);`<br>`Cookie[] cookies = req.getCookies(); if (cookies != null) for (Cookie c : cookies) c.getValue();`<br>`HttpSession session = req.getSession();` *(or getSession(false))`<br>`session.setAttribute("user", userObj);`<br>`User u = (User) session.getAttribute("user");`<br>`session.invalidate();` *(Terminates session & wipes RAM)*<br>⚠️ *Web Container creates only ONE servlet instance shared across threads; do NOT store user state in class fields!* |
+| **`jakarta.servlet.annotation.*`** | `@WebServlet` | `@WebServlet("/register")` *(Class-level annotation replacing web.xml)* |
 
 ---
 

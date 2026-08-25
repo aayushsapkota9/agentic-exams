@@ -4,19 +4,12 @@
 
 ---
 
-## 1. 🚨 Exact Classes, Interfaces & Imports You Must Know
+## 1. 📦 Package & Classes Quick Reference Table
 
-| Class / Interface | Exact Package / Import | Type | Purpose / Exam Trigger |
-| :--- | :--- | :--- | :--- |
-| `DriverManager` | `java.sql.DriverManager` | Class | Manages drivers & opens connections (`getConnection()`) |
-| `Connection` | `java.sql.Connection` | **Interface** | Physical connection to database (NEVER use `new Connection()`) |
-| `Statement` | `java.sql.Statement` | Interface | Executes static SQL queries without parameters |
-| `PreparedStatement` | `java.sql.PreparedStatement` | Interface | Pre-compiled SQL with `?` placeholders (Prevents SQL Injection) |
-| `CallableStatement` | `java.sql.CallableStatement` | Interface | Executes Stored Procedures (`{call sp_name(?, ?)}`) |
-| `ResultSet` | `java.sql.ResultSet` | Interface | Tabular row cursor returned by `SELECT` queries |
-| `SQLException` | `java.sql.SQLException` | Checked Exc | Captures SQL state, vendor error codes & chained errors |
-| `Savepoint` | `java.sql.Savepoint` | Interface | Transaction checkpoint for partial rollbacks |
-| `CachedRowSet`, `RowSetProvider`| `javax.sql.rowset.*` | Interface/Class | **Disconnected**, serializable, in-memory table wrapper |
+| Package / Module | Classes, Interfaces & Components | Crucial Methods, Signatures & Things You Forget |
+| :--- | :--- | :--- |
+| **`java.sql.*`** | `DriverManager`, `Connection` *(I)*, `Statement` *(I)*, `PreparedStatement` *(I)*, `CallableStatement` *(I)*, `ResultSet` *(I)*, `ResultSetMetaData` *(I)*, `Savepoint` *(I)*, `SQLException`, `Types`, `Driver` | `Connection conn = DriverManager.getConnection(url, user, pass);` *(Never new Connection!)*<br>`Statement stmt = conn.createStatement();`<br>`PreparedStatement pstmt = conn.prepareStatement(sql, Statement.RETURN_GENERATED_KEYS);`<br>`pstmt.setInt(1, 100); pstmt.setString(2, "Alice");` *(1-based indexing!)*<br>`CallableStatement cstmt = conn.prepareCall("{call sp_name(?, ?)}");`<br>`cstmt.registerOutParameter(2, Types.DOUBLE); cstmt.execute(); cstmt.getDouble(2);`<br>`stmt.executeQuery(sql)` $\rightarrow$ Returns `ResultSet` *(SELECT)*<br>`stmt.executeUpdate(sql)` $\rightarrow$ Returns `int` *(Rows affected for INSERT, UPDATE, DELETE)*<br>`stmt.execute(sql)` $\rightarrow$ Returns `boolean` *(true if ResultSet, false if update/DDL)*<br>`ResultSet rs = pstmt.getGeneratedKeys(); if (rs.next()) long id = rs.getLong(1);`<br>`while (rs.next()) { rs.getInt("id"); rs.getString(1); }`<br>`conn.setAutoCommit(false); conn.commit(); conn.rollback();`<br>`Savepoint sp = conn.setSavepoint("sp1"); conn.rollback(sp);`<br>`e.getSQLState()`, `e.getErrorCode()`, `e.getNextException()` |
+| **`javax.sql.rowset.*`** | `RowSet` *(I)*, `CachedRowSet` *(I)*, `RowSetProvider` | `CachedRowSet crs = RowSetProvider.newFactory().createCachedRowSet();`<br>`crs.setUrl("jdbc:mysql://localhost:3306/db"); crs.setUsername("root"); crs.setPassword("pass");`<br>`crs.setCommand("SELECT * FROM students"); crs.execute();`<br>*(Disconnected model: Loads into RAM and closes DB connection immediately; Serializable)* |
 
 ---
 

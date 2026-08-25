@@ -4,22 +4,13 @@
 
 ---
 
-## 1. 🚨 Exact Classes, Interfaces & Imports You Must Know
+## 1. 📦 Package & Classes Quick Reference Table
 
-| Class / Interface / Enum | Exact Package / Import | Type | Purpose / Key Use |
-| :--- | :--- | :--- | :--- |
-| `Scanner` | `java.util.Scanner` | Class | Console & stream input (`scanner.nextLine()`, `scanner.nextInt()`) |
-| `ArrayList<E>` | `java.util.ArrayList` | Class | Resizable dynamic array ($O(1)$ random access) |
-| `LinkedList<E>` | `java.util.LinkedList` | Class | Doubly-linked list (`addFirst()`, `addLast()`, `removeFirst()`) |
-| `HashSet<E>` | `java.util.HashSet` | Class | Unordered unique elements ($O(1)$ lookup) |
-| `TreeSet<E>` | `java.util.TreeSet` | Class | Sorted unique elements ($O(\log n)$ Red-Black Tree) |
-| `HashMap<K,V>` | `java.util.HashMap` | Class | Key-Value pairs, unordered ($O(1)$ average) |
-| `TreeMap<K,V>` | `java.util.TreeMap` | Class | Key-Value pairs sorted by Key ($O(\log n)$) |
-| `Map.Entry<K,V>` | `java.util.Map.Entry` | Interface | Single key-value pair for iterating over maps |
-| `Throwable` | `java.lang.Throwable` | Class | Root superclass of all errors and exceptions in Java |
-| `Exception` | `java.lang.Exception` | Class | Superclass for checked & application exceptions |
-| `RuntimeException` | `java.lang.RuntimeException` | Class | Superclass for all **Unchecked** exceptions |
-| `Error` | `java.lang.Error` | Class | Fatal JVM system problems (e.g., `OutOfMemoryError`) |
+| Package / Module | Classes, Interfaces & Components | Crucial Methods, Signatures & Things You Forget |
+| :--- | :--- | :--- |
+| **`java.lang.*`** *(Auto-imported)* | `Object`, `System`, `Math`, `String`, `StringBuilder`, `StringBuffer`, `Integer`, `Double`, `Float`, `Long`, `Boolean`, `Character`<br><br>**Exceptions / Errors**:<br>`Throwable`, `Error` (`OutOfMemoryError`, `StackOverflowError`), `Exception`, `RuntimeException` (`NullPointerException`, `ArithmeticException`, `ArrayIndexOutOfBoundsException`, `ClassCastException`, `NumberFormatException`, `IllegalArgumentException`), `ClassNotFoundException`, `InterruptedException` | `Integer.parseInt(str)` $\rightarrow$ `int`<br>`Double.parseDouble(str)` $\rightarrow$ `double`<br>`Math.max(a, b)`, `Math.min()`, `Math.PI`<br>`System.out.println()`, `System.err.println()`<br>`e.getMessage()`, `e.printStackTrace()`<br>`throw new CustomException("error msg");`<br>`float f = 3.14f;` *(f required!)*<br>`long l = 9999999999L;` *(L required!)* |
+| **`java.util.*`** | **Input**: `Scanner`<br>**Lists**: `List` *(I)*, `ArrayList`, `LinkedList`, `Vector`, `Stack`<br>**Sets**: `Set` *(I)*, `HashSet`, `TreeSet` *(Sorted)*, `LinkedHashSet`<br>**Queues**: `Queue` *(I)*, `Deque` *(I)*, `PriorityQueue`<br>**Maps**: `Map` *(I)*, `HashMap`, `TreeMap` *(Sorted by Key)*, `LinkedHashMap`, `Map.Entry` *(I)*<br>**Utilities**: `Arrays`, `Collections`, `Properties` | `scanner.nextLine()`, `scanner.nextInt()`, `scanner.hasNextLine()`<br>`list.add(e)`, `list.get(index)`, `list.remove(index)`, `list.size()`<br>`deque.addFirst(e)`, `deque.addLast(e)`, `deque.removeFirst()`<br>`set.add(e)`, `set.contains(e)` *(rejects duplicates silently)*<br>`map.put(key, value)`, `map.get(key)`, `map.containsKey(k)`<br>`for (Map.Entry<K,V> e : map.entrySet()) { e.getKey(); e.getValue(); }`<br>`Arrays.equals(arr1, arr2)`, `Arrays.asList(arr)`<br>`Collections.sort(list)` |
+| **`java.io.*`** | `IOException`, `FileNotFoundException`, `EOFException`, `BufferedReader`, `InputStreamReader`, `PrintWriter`, `FileReader`, `FileWriter`, `File`, `Serializable` *(Marker Interface)* | `new BufferedReader(new InputStreamReader(is))` $\rightarrow$ `reader.readLine()`<br>`new PrintWriter(os, true)` $\rightarrow$ `out.println()`<br>`file.exists()`, `file.length()`, `file.createNewFile()` |
 
 ---
 

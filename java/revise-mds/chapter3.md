@@ -4,27 +4,17 @@
 
 ---
 
-## 1. 🚨 Exact Classes, Interfaces & Imports You Must Know
+## 1. 📦 Package & Components Quick Reference Table
 
-| Class / Interface / Adapter | Exact Package / Import | Type | Purpose / Exam Trigger |
-| :--- | :--- | :--- | :--- |
-| `JFrame`, `JPanel`, `JLabel`, `JButton` | `javax.swing.*` | Classes | Standard Swing window, container, text, button |
-| `JTextField`, `JPasswordField`, `JTextArea` | `javax.swing.*` | Classes | Single-line, password masked, multi-line text |
-| `JRadioButton`, `ButtonGroup` | `javax.swing.*` | Classes | Radio option (`genderGroup.add(male)`) |
-| `JCheckBox`, `JComboBox<T>` | `javax.swing.*` | Classes | Checkbox, dropdown selection list |
-| `JMenuBar`, `JMenu`, `JMenuItem` | `javax.swing.*` | Classes | Top menu system (`frame.setJMenuBar(mb)`) |
-| `JOptionPane` | `javax.swing.JOptionPane` | Class | Static popups (`showMessageDialog`, `showInputDialog`, `showConfirmDialog`) |
-| `JDialog` | `javax.swing.JDialog` | Class | Custom popup window (`new JDialog(frame, "Title", true)`) |
-| `BorderLayout`, `FlowLayout`, `GridLayout` | `java.awt.*` | Classes | Layout managers for panels/frames |
-| `Color`, `Font`, `Dimension`, `Graphics` | `java.awt.*` | Classes | AWT styling, drawing canvas, dimensions |
-| `ActionEvent`, `ActionListener` | `java.awt.event.*` | Event / SAM | Button clicks, Enter key in text fields |
-| `MouseEvent`, `MouseListener`, `MouseMotionListener` | `java.awt.event.*` | Event / Intf | Clicks/enters (5 methods) / moves/drags (2 methods) |
-| `MouseAdapter`, `MouseMotionAdapter`, `KeyAdapter` | `java.awt.event.*` | Classes | Pre-built adapters to override single mouse/key methods |
-| `KeyEvent`, `KeyListener` | `java.awt.event.*` | Event / Intf | Key typing/pressing (`e.getKeyCode() == KeyEvent.VK_ENTER`) |
-| `Applet` | `java.applet.Applet` | Class | Embedded web GUI (`paint(Graphics g)`) |
-| `Application`, `Stage`, `Scene` | `javafx.application.*`, `javafx.stage.*`, `javafx.scene.*` | Classes | JavaFX core window and canvas framework |
-| `VBox`, `HBox`, `BorderPane`, `GridPane`, `StackPane`| `javafx.scene.layout.*` | Classes | JavaFX layout panes (use `.getChildren().addAll()`) |
-| `Button`, `Label`, `TextField`, `PasswordField` | `javafx.scene.control.*` | Classes | JavaFX UI controls (use `.setOnAction(e -> )`) |
+| Package / Module | Classes, Interfaces & Components | Crucial Methods, Signatures & Things You Forget |
+| :--- | :--- | :--- |
+| **`javax.swing.*`** | **Windows & Containers**: `JFrame`, `JPanel`, `JDialog`<br>**Popups**: `JOptionPane`<br>**Buttons & Groups**: `JButton`, `JCheckBox`, `JRadioButton`, `ButtonGroup`<br>**Text**: `JLabel`, `JTextField`, `JPasswordField`, `JTextArea`<br>**Menus & Lists**: `JMenuBar`, `JMenu`, `JMenuItem`, `JComboBox<T>` | `frame.getContentPane().setBackground(Color.RED);` *(10-mark exam trap!)*<br>`frame.setSize(w, h)`, `frame.setVisible(true)`, `frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE)`<br>`frame.setJMenuBar(menuBar)`<br>`JOptionPane.showMessageDialog(frame, "msg")`<br>`String val = JOptionPane.showInputDialog(frame, "Prompt")`<br>`int choice = JOptionPane.showConfirmDialog(frame, "Sure?")` *(0=Yes, 1=No, 2=Cancel)*<br>`JDialog d = new JDialog(frame, "Title", true);` $\rightarrow$ `d.dispose();`<br>`ButtonGroup bg = new ButtonGroup(); bg.add(male); bg.add(female);`<br>`radio.isSelected()`, `checkBox.isSelected()`<br>`tf.getText()`, `tf.setText("text")` |
+| **`java.awt.*`** | **Layouts**: `BorderLayout`, `FlowLayout`, `GridLayout`, `GridBagLayout`, `GridBagConstraints`, `CardLayout`<br>**Styling & 2D**: `Color`, `Font`, `Graphics`, `Dimension` | `new BorderLayout()`, `frame.add(comp, BorderLayout.NORTH)`<br>`new GridLayout(rows, cols, hgap, vgap)`<br>`new FlowLayout()`<br>`g.setColor(Color.RED)`<br>`g.drawString("text", x, y)`<br>`g.fillRect(x, y, w, h)`, `g.fillOval(x, y, w, h)`<br>`g.fillArc(x, y, w, h, startAngle, arcAngle)` *(Pie chart slice)* |
+| **`java.awt.event.*`** | **Action**: `ActionEvent`, `ActionListener` *(SAM)*<br>**Mouse**: `MouseEvent`, `MouseListener` $\rightarrow$ `MouseAdapter`, `MouseMotionListener` $\rightarrow$ `MouseMotionAdapter`<br>**Key**: `KeyEvent`, `KeyListener` $\rightarrow$ `KeyAdapter`<br>**Window**: `WindowEvent`, `WindowListener` $\rightarrow$ `WindowAdapter` | `btn.addActionListener(e -> { ... })`<br>`if (e.getSource() == redBtn) { ... }` or `switch(e.getActionCommand())`<br>`canvas.addMouseListener(new MouseAdapter() { public void mouseEntered(MouseEvent e) {} })`<br>`e.getX()`, `e.getY()`, `e.getXOnScreen()`, `e.getYOnScreen()`<br>`tf.addKeyListener(new KeyAdapter() { public void keyPressed(KeyEvent e) { if (e.getKeyCode() == KeyEvent.VK_ENTER) {} } })`<br>`frame.setFocusable(true);` *(Required for keyboard events!)* |
+| **`java.applet.*`** | `Applet` | Lifecycle: `public void init()`, `start()`, `paint(Graphics g)`, `stop()`, `destroy()`<br>`<applet code="MyApplet.class" width="300" height="300"></applet>` |
+| **`javafx.application.*` & `javafx.stage.*`** | `Application`, `Stage` | `public class App extends Application`<br>`@Override public void start(Stage stage) { stage.setScene(scene); stage.show(); }`<br>`public static void main(String[] args) { launch(args); }` |
+| **`javafx.scene.*` & `javafx.scene.layout.*`** | `Scene`, `Node`, `Parent`<br>**Panes**: `VBox`, `HBox`, `BorderPane`, `GridPane`, `StackPane`, `FlowPane` | `new Scene(rootPane, width, height)`<br>`vbox.getChildren().addAll(node1, node2)`<br>`borderPane.setTop(header)`, `borderPane.setCenter(content)`<br>`grid.add(node, col, row)`<br>`pane.setStyle("-fx-background-color: #333; -fx-padding: 10px;")` |
+| **`javafx.scene.control.*` & `javafx.scene.input.*`** | `Button`, `Label`, `TextField`, `PasswordField`, `CheckBox`, `RadioButton`, `ToggleGroup`, `ComboBox<T>`, `MouseEvent`, `KeyEvent`, `KeyCode` | `btn.setOnAction(e -> { ... })`<br>`radio.setToggleGroup(toggleGroup)`<br>`combo.getItems().addAll("A", "B")`, `combo.getValue()`<br>`node.setOnMouseMoved(e -> { e.getX(); })`<br>`tf.setOnKeyPressed(e -> { if (e.getCode() == KeyCode.ENTER) {} })` |
 
 ---
 

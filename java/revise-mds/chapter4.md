@@ -4,22 +4,17 @@
 
 ---
 
-## 1. 🚨 Exact Classes, Interfaces & Imports You Must Know
+## 1. 📦 Package & Classes Quick Reference Table
 
-| Class / Interface | Exact Package / Import | Type | Purpose / Exam Trigger |
-| :--- | :--- | :--- | :--- |
-| `ServerSocket`, `Socket` | `java.net.*` | Classes | Connection-oriented TCP Server & Client |
-| `DatagramSocket`, `DatagramPacket` | `java.net.*` | Classes | Connectionless UDP communication |
-| `InetAddress` | `java.net.InetAddress` | Class | IP address lookup (`InetAddress.getByName("localhost")`) |
-| `URI`, `URL`, `URLConnection` | `java.net.*` | Classes | Web URLs, HTTP headers & resource streaming |
-| `Session`, `Authenticator` | `jakarta.mail.*` / `javax.mail.*` | Classes | Mail session creation with credentials |
-| `MimeMessage`, `InternetAddress` | `jakarta.mail.internet.*` | Classes | MIME-compliant email header & body builder |
-| `Transport` | `jakarta.mail.Transport` | Class | Static email dispatcher (`Transport.send(msg)`) |
-| `Remote` | `java.rmi.Remote` | **Interface** | Marker interface that all RMI services MUST extend |
-| `RemoteException` | `java.rmi.RemoteException` | Checked Exc | Mandatory exception thrown by all RMI methods |
-| `UnicastRemoteObject` | `java.rmi.server.*` | Class | Base class for RMI servants to export point-to-point stubs |
-| `LocateRegistry`, `Registry` | `java.rmi.registry.*` | Classes | RMI lookup registry (`createRegistry(1099)`, `rebind()`, `lookup()`) |
-| `ORB`, `POA`, `NamingContextExt`| `org.omg.CORBA.*`, `org.omg.CosNaming.*` | Classes | CORBA Request Broker & Naming service |
+| Package / Module | Classes, Interfaces & Components | Crucial Methods, Signatures & Things You Forget |
+| :--- | :--- | :--- |
+| **`java.net.*`** | **TCP**: `ServerSocket`, `Socket`<br>**UDP**: `DatagramSocket`, `DatagramPacket`<br>**Addressing**: `InetAddress`<br>**URLs**: `URI`, `URL`, `URLConnection`, `HttpURLConnection` | **TCP Server**: `ServerSocket server = new ServerSocket(port); Socket client = server.accept();`<br>**TCP Client**: `Socket s = new Socket("localhost", port);`<br>**Streams**: `s.getInputStream()`, `s.getOutputStream()`<br>**UDP Server**: `DatagramSocket sock = new DatagramSocket(port);`<br>**UDP Client**: `DatagramSocket sock = new DatagramSocket();`<br>**UDP Receive Packet**: `new DatagramPacket(buf, buf.length);` *(2 args)*<br>**UDP Send Packet**: `new DatagramPacket(buf, buf.length, inetAddr, port);` *(4 args)*<br>`socket.send(packet)`, `socket.receive(packet)`<br>`new String(packet.getData(), 0, packet.getLength())`<br>`packet.getAddress()`, `packet.getPort()`<br>`InetAddress.getByName("localhost")`<br>`URI uri = new URI("https://..."); URL url = uri.toURL();`<br>`URLConnection conn = url.openConnection(); conn.getContentType(); conn.getInputStream()` |
+| **`jakarta.mail.*`** / **`javax.mail.*`** | `Session`, `Authenticator`, `PasswordAuthentication`, `Message` *(A)*, `Transport`, `MessagingException` | `Session session = Session.getInstance(props, new Authenticator() { protected PasswordAuthentication getPasswordAuthentication() { return new PasswordAuthentication(user, pass); } });`<br>`Transport.send(message);` *(Throws MessagingException)* |
+| **`jakarta.mail.internet.*`** | `MimeMessage`, `InternetAddress` | `Message msg = new MimeMessage(session);`<br>`msg.setFrom(new InternetAddress("sender@gmail.com"));`<br>`msg.setRecipients(Message.RecipientType.TO, InternetAddress.parse("to@gmail.com"));`<br>`msg.setSubject("Subject line");`<br>`msg.setText("Body text");` |
+| **`java.rmi.*`** | `Remote` *(Marker Interface)*, `RemoteException` *(Checked Exc)* | `public interface ComputeService extends Remote { int add(int a, int b) throws RemoteException; }` |
+| **`java.rmi.server.*`** | `UnicastRemoteObject` | `public class ComputeServiceImpl extends UnicastRemoteObject implements ComputeService { public ComputeServiceImpl() throws RemoteException { super(); } }` |
+| **`java.rmi.registry.*`** | `LocateRegistry`, `Registry` *(I)* | `Registry reg = LocateRegistry.createRegistry(1099); reg.rebind("Calc", serviceObj);`<br>`Registry reg = LocateRegistry.getRegistry("localhost", 1099); ComputeService comp = (ComputeService) reg.lookup("Calc");` |
+| **`org.omg.CORBA.*` & `org.omg.PortableServer.*`** | `ORB`, `POA`, `POAHelper`, `Servant` $\rightarrow$ `GeneratedPOA`, `NamingContextExt`, `NamingContextExtHelper` | `ORB orb = ORB.init(args, null);`<br>`POA rootpoa = POAHelper.narrow(orb.resolve_initial_references("RootPOA"));`<br>`rootpoa.the_POAManager().activate();`<br>`Adder href = AdderHelper.narrow(ncRef.resolve_str("AdderService"));` |
 
 ---
 
