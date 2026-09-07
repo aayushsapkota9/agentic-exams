@@ -6,3 +6,4 @@
 - **4.3 Extensions of Turing machine**
 - **4.4 Unrestricted grammar**
 - **4.5 Recursively enumerable languages**
+- **4.6 Computable languages and functions**
