@@ -96,6 +96,59 @@ a) Define Turing Machine. Design a Turing Machine that accepts the language $L =
 
 ---
 
+##### 2025 Spring - Pokhara University
+a) Design a Turing machine that accepts the language $L=\{a^nb^nc^n:n \ge 0\}$. **[7]**
+
+```markdown
+a) Design a Turing machine that accepts the language $L=\{a^nb^nc^n:n \ge 0\}$. **[7]**
+```
+
+---
+
+##### 2025 Spring (New Course) - Pokhara University
+b) What is Unrestricted Grammar? Design a Turing Machine to accept the language $L = \{0^n1^n : n \ge 1\}$. **[8]**  
+**OR**  
+Formally define a Turing Machine $M = (Q, \Sigma, \Gamma, \delta, q_0, B, F)$ that accepts the language: $L = \{ w \in \{a, b\}^* \mid w \text{ is a palindrome}\}$. Trace the steps of the machine when processing the input string abba.abba.
+
+```markdown
+b) What is Unrestricted Grammar? Design a Turing Machine to accept the language $L = \{0^n1^n : n \ge 1\}$. **[8]**  
+**OR**  
+Formally define a Turing Machine $M = (Q, \Sigma, \Gamma, \delta, q_0, B, F)$ that accepts the language: $L = \{ w \in \{a, b\}^* \mid w \text{ is a palindrome}\}$. Trace the steps of the machine when processing the input string abba.abba.
+```
+
+---
+
+##### 2025 Fall - Pokhara University
+b) Define Turing machine. Design a Turing machine that accepts the language $L = \{a^nb^nc^n : n \ge 0\}$. Also explain your key idea. **[8]**
+
+```markdown
+b) Define Turing machine. Design a Turing machine that accepts the language $L = \{a^nb^nc^n : n \ge 0\}$. Also explain your key idea. **[8]**
+```
+
+---
+
+##### 2025 Fall (New Course) - Pokhara University
+b) Design a Turing machine for the following language: $L = \{w \in \{a,b\}^* / w \text{ has equal number of a's and b's}\}$. **[8]**  
+**OR**  
+Design a Turing machine which works as copying machine for $w \in \{a, b\}^+$.
+
+```markdown
+b) Design a Turing machine for the following language: $L = \{w \in \{a,b\}^* / w \text{ has equal number of a's and b's}\}$. **[8]**  
+**OR**  
+Design a Turing machine which works as copying machine for $w \in \{a, b\}^+$.
+```
+
+---
+
+##### 2025 Fall (New Course) - Pokhara University
+b) Unrestricted grammar (Short Note) **[5]**
+
+```markdown
+b) Unrestricted grammar (Short Note) **[5]**
+```
+
+---
+
 ## 1(b)
 
 ##### 2018 Fall - Pokhara University
@@ -188,3 +241,51 @@ b) How does a Turing Machine compute a function of natural numbers? Describe. Sh
 
 ---
 
+##### 2025 Spring - Pokhara University
+b) How can multi-tape turing machine be simulated through single tape turing machine? Explain with an example. **[8]**  
+**OR**  
+Explain concept of having storage capability in state of Turing machine with suitable example.
+
+```markdown
+b) How can multi-tape turing machine be simulated through single tape turing machine? Explain with an example. **[8]**  
+**OR**  
+Explain concept of having storage capability in state of Turing machine with suitable example.
+```
+
+---
+
+##### 2025 Spring - Pokhara University
+c) Turing Machine Computing a function (Short Note) **[5]**
+
+```markdown
+c) Turing Machine Computing a function (Short Note) **[5]**
+```
+
+---
+
+##### 2025 Spring (New Course) - Pokhara University
+a) How does Turing Machine compute a function? Design a Turing machine to compute a function $f(m)=m+1$ where m belongs to set of Natural numbers. **[7]**
+
+```markdown
+a) How does Turing Machine compute a function? Design a Turing machine to compute a function $f(m)=m+1$ where m belongs to set of Natural numbers. **[7]**
+```
+
+---
+
+##### 2025 Fall - Pokhara University
+a) How can you represent Turing machine for computing a function? Show that the function $f(n) = n + 1$, is Turing computable. **[7]**
+
+```markdown
+a) How can you represent Turing machine for computing a function? Show that the function $f(n) = n + 1$, is Turing computable. **[7]**
+```
+
+---
+
+##### 2025 Fall (New Course) - Pokhara University
+a) How can multi-tape turing machine be simulated through single tape turing machine? Explain with an example. **[7]**
+
+```markdown
+a) How can multi-tape turing machine be simulated through single tape turing machine? Explain with an example. **[7]**
+```
+
+---

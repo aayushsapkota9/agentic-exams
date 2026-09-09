@@ -42,6 +42,24 @@ b) Is $P = NP$? Explain. Also differentiate between Tractable and Intractable pr
 
 ---
 
+##### 2025 Fall (New Course) - Pokhara University
+b) Define tractable and intractable problems. Explain why finding a polynomial-time solution for any NP-complete problem would solve all NP problems. **[8]**
+
+```markdown
+b) Define tractable and intractable problems. Explain why finding a polynomial-time solution for any NP-complete problem would solve all NP problems. **[8]**
+```
+
+---
+
+##### 2025 Fall (New Course) - Pokhara University
+d) Complexity Analysis (Short Note) **[5]**
+
+```markdown
+d) Complexity Analysis (Short Note) **[5]**
+```
+
+---
+
 ## 1(b)
 
 ##### 2018 Fall - Pokhara University
@@ -107,3 +125,29 @@ b) What are P, NP and NP-Complete problems? Explain with examples. **[8]**
 
 ---
 
+##### 2025 Spring - Pokhara University
+b) Explain P and NP class problems with suitable example. How do they relate to NP complete problems? **[8]**
+
+```markdown
+b) Explain P and NP class problems with suitable example. How do they relate to NP complete problems? **[8]**
+```
+
+---
+
+##### 2025 Spring (New Course) - Pokhara University
+b) What is meant by time and space complexity? Explain the classes P and NP in detail with examples. How are they related to real-world problem-solving? **[8]**
+
+```markdown
+b) What is meant by time and space complexity? Explain the classes P and NP in detail with examples. How are they related to real-world problem-solving? **[8]**
+```
+
+---
+
+##### 2025 Fall - Pokhara University
+b) Explain Computational Complexity Theory. What are P, NP and NP-Complete problems? Explain with examples. **[8]**
+
+```markdown
+b) Explain Computational Complexity Theory. What are P, NP and NP-Complete problems? Explain with examples. **[8]**
+```
+
+---

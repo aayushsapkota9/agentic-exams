@@ -114,6 +114,67 @@ a) What is CFG? Design a CFG for language $L = \{a^m b^n \mid m \ge 1, n \ge 1\}
 
 ---
 
+##### 2025 Spring - Pokhara University
+a) When is a grammar is ambiguous? For given grammar rule:  
+$S \to aSa$  
+$S \to bSb$  
+$S \to c$  
+Check Ambiguity for it. **[7]**
+
+```markdown
+a) When is a grammar is ambiguous? For given grammar rule:  
+$S \to aSa$  
+$S \to bSb$  
+$S \to c$  
+Check Ambiguity for it. **[7]**
+```
+
+---
+
+##### 2025 Spring (New Course) - Pokhara University
+a) When is the grammar is said to be ambiguous? Prove the grammar is ambiguous: $S \to 0S1 \mid 1S0 \mid SS \mid \varepsilon$. **[7]**
+
+```markdown
+a) When is the grammar is said to be ambiguous? Prove the grammar is ambiguous: $S \to 0S1 \mid 1S0 \mid SS \mid \varepsilon$. **[7]**
+```
+
+---
+
+##### 2025 Fall - Pokhara University
+a) What is Context Free Grammar? Design CFG for language $L = \{a^mb^n : m \ge 1, n \ge 1\}$. Test the grammar for derivation of $aaabbbb$ and also draw equivalent parse tree. **[7]**
+
+```markdown
+a) What is Context Free Grammar? Design CFG for language $L = \{a^mb^n : m \ge 1, n \ge 1\}$. Test the grammar for derivation of $aaabbbb$ and also draw equivalent parse tree. **[7]**
+```
+
+---
+
+##### 2025 Fall - Pokhara University
+b) Define Ambiguous Grammar. Prove that following grammar is ambiguous. **[8]**  
+$S \to iCtS$  
+$S \to iCtSeS$  
+$S \to a$  
+$C \to b$
+
+```markdown
+b) Define Ambiguous Grammar. Prove that following grammar is ambiguous. **[8]**  
+$S \to iCtS$  
+$S \to iCtSeS$  
+$S \to a$  
+$C \to b$
+```
+
+---
+
+##### 2025 Fall (New Course) - Pokhara University
+a) Define a Context-Free Grammar (CFG). Construct a CFG for the language $L = \{a^n b^m c^n \mid n > 1, m > 1\}$. Provide the formal 4-tuple $\{V, T, P, S\}$ for your grammar. **[7]**
+
+```markdown
+a) Define a Context-Free Grammar (CFG). Construct a CFG for the language $L = \{a^n b^m c^n \mid n > 1, m > 1\}$. Provide the formal 4-tuple $\{V, T, P, S\}$ for your grammar. **[7]**
+```
+
+---
+
 ## 1(b)
 
 ##### 2018 Fall - Pokhara University
@@ -175,6 +236,52 @@ b) Convert the following grammar into Chomsky Normal Form (CNF). **[7]**
 
 ```markdown
 b) Convert the following grammar into Chomsky Normal Form (CNF). **[7]**
+```
+
+---
+
+##### 2025 Spring - Pokhara University
+b) Define CNF. Convert the following grammar into CNF.  
+$S \to ASB \mid \varepsilon, A \to aAS \mid a, B \to AB \mid b \mid \varepsilon$ **[8]**
+
+```markdown
+b) Define CNF. Convert the following grammar into CNF.  
+$S \to ASB \mid \varepsilon, A \to aAS \mid a, B \to AB \mid b \mid \varepsilon$ **[8]**
+```
+
+---
+
+##### 2025 Spring - Pokhara University
+a) Simplification of CFG (Short Note) **[5]**
+
+```markdown
+a) Simplification of CFG (Short Note) **[5]**
+```
+
+---
+
+##### 2025 Spring (New Course) - Pokhara University
+a) What is GNF? Convert the following CFG into GNF. **[7]**  
+$S \to XA \mid BB$  
+$B \to b \mid SB$  
+$X \to b$  
+$A \to a$
+
+```markdown
+a) What is GNF? Convert the following CFG into GNF. **[7]**  
+$S \to XA \mid BB$  
+$B \to b \mid SB$  
+$X \to b$  
+$A \to a$
+```
+
+---
+
+##### 2025 Fall - Pokhara University
+b) Normal Forms: CNF and GNF (Short Note) **[5]**
+
+```markdown
+b) Normal Forms: CNF and GNF (Short Note) **[5]**
 ```
 
 ---
@@ -316,6 +423,55 @@ a) Define PDA with block diagram. Design a PDA which accepts the language $L = \
 
 ---
 
+##### 2025 Spring - Pokhara University
+a) Define PDA with block diagram? Design a PDA which accepts the language $L=\{w \in \{0,1\}^* : w \text{ has equal number of 0's and 1's}\}$. **[7]**
+
+```markdown
+a) Define PDA with block diagram? Design a PDA which accepts the language $L=\{w \in \{0,1\}^* : w \text{ has equal number of 0's and 1's}\}$. **[7]**
+```
+
+---
+
+##### 2025 Spring (New Course) - Pokhara University
+b) Design a PDA which accepts the language $L=\{w \in \{0,1\}^* : w \text{ has equal number of 0's and 1's}\}$ and also test your design for strings "010110" and "11010". **[8]**  
+**OR**  
+Design a PDA which accepts the language $L=\{a^ib^jc^k : k = i+j\}$ and also test your design for strings "aabccc" and "bbccc".
+
+```markdown
+b) Design a PDA which accepts the language $L=\{w \in \{0,1\}^* : w \text{ has equal number of 0's and 1's}\}$ and also test your design for strings "010110" and "11010". **[8]**  
+**OR**  
+Design a PDA which accepts the language $L=\{a^ib^jc^k : k = i+j\}$ and also test your design for strings "aabccc" and "bbccc".
+```
+
+---
+
+##### 2025 Fall - Pokhara University
+b) "For every CFG there is an equivalent Push Down Automata". Justify this statement with an example. **[8]**
+
+```markdown
+b) "For every CFG there is an equivalent Push Down Automata". Justify this statement with an example. **[8]**
+```
+
+---
+
+##### 2025 Fall - Pokhara University
+b) Define PDA with block diagram? Design a PDA which accepts the language $L = \{a^nb^{2n} : n \ge 1\}$ and test for strings aabbbb and aab. **[8]**
+
+```markdown
+b) Define PDA with block diagram? Design a PDA which accepts the language $L = \{a^nb^{2n} : n \ge 1\}$ and test for strings aabbbb and aab. **[8]**
+```
+
+---
+
+##### 2025 Fall (New Course) - Pokhara University
+b) Define PDA formally. Design a PDA for $L = \{ a^nb^{2n} : n > 0 \}$. **[8]**
+
+```markdown
+b) Define PDA formally. Design a PDA for $L = \{ a^nb^{2n} : n > 0 \}$. **[8]**
+```
+
+---
+
 ## 2(b)
 
 ##### 2018 Fall - Pokhara University
@@ -417,3 +573,60 @@ b) Show that the language $L = \{a^n b^n c^n \mid n > 0\}$ is not context-free u
 
 ---
 
+##### 2025 Spring - Pokhara University
+b) State pumping lemma for context free language. Prove that language $L = \{WW \mid W \in \{0, 1\}\}$ is not Context free. **[8]**
+
+```markdown
+b) State pumping lemma for context free language. Prove that language $L = \{WW \mid W \in \{0, 1\}\}$ is not Context free. **[8]**
+```
+
+---
+
+##### 2025 Spring (New Course) - Pokhara University
+b) Pumping Lemma for CFL (Short Note) **[5]**
+
+```markdown
+b) Pumping Lemma for CFL (Short Note) **[5]**
+```
+
+---
+
+##### 2025 Fall - Pokhara University
+a) What is pumping lemma for CFL? Show that language $L = \{a^nb^nc^n : n > 0\}$ is not a CFL using pumping lemma for CFL. **[7]**
+
+```markdown
+a) What is pumping lemma for CFL? Show that language $L = \{a^nb^nc^n : n > 0\}$ is not a CFL using pumping lemma for CFL. **[7]**
+```
+
+---
+
+##### 2025 Fall - Pokhara University
+c) Decision Algorithm for CFL (Short Note) **[5]**
+
+```markdown
+c) Decision Algorithm for CFL (Short Note) **[5]**
+```
+
+---
+
+##### 2025 Fall (New Course) - Pokhara University
+b) Apply the pumping lemma to prove $L = \{a^nb^nc^n \mid n \ge 0\}$ is not context-free. Show all steps of the proof. **[8]**  
+**OR**  
+Explain important properties of context-free languages (CFLs) with examples.
+
+```markdown
+b) Apply the pumping lemma to prove $L = \{a^nb^nc^n \mid n \ge 0\}$ is not context-free. Show all steps of the proof. **[8]**  
+**OR**  
+Explain important properties of context-free languages (CFLs) with examples.
+```
+
+---
+
+##### 2025 Fall (New Course) - Pokhara University
+a) State decision properties of CFL. Show that CFL are not closed under complementation. **[7]**
+
+```markdown
+a) State decision properties of CFL. Show that CFL are not closed under complementation. **[7]**
+```
+
+---

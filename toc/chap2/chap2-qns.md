@@ -87,6 +87,42 @@ b) Differentiate between DFA and NFA. Design a DFA that accepts the language giv
 
 ---
 
+##### 2025 Spring - Pokhara University
+b) Define DFA and NFA. Design a DFA that accepts the language given by $L=\{w: \{a,b\}^* : \text{the number of 'a' in w is multiple of 3}\}$. **[8]**
+
+```markdown
+b) Define DFA and NFA. Design a DFA that accepts the language given by $L=\{w: \{a,b\}^* : \text{the number of 'a' in w is multiple of 3}\}$. **[8]**
+```
+
+---
+
+##### 2025 Spring (New Course) - Pokhara University
+b) Differentiate Between DFA and NFA? Design a DFA that accepts the language given by $L=\{w \in \{0,1\}^* : w \text{ contains '00' or '11' as substring }\}$. Hence test your design for 101001 and 0101010. **[8]**
+
+```markdown
+b) Differentiate Between DFA and NFA? Design a DFA that accepts the language given by $L=\{w \in \{0,1\}^* : w \text{ contains '00' or '11' as substring }\}$. Hence test your design for 101001 and 0101010. **[8]**
+```
+
+---
+
+##### 2025 Fall - Pokhara University
+a) Define Finite Automata. Design a FA that accepts set of strings which doesn't starts with 0 and ends with 1 over the given alphabet $\Sigma = \{0, 1\}$. **[7]**
+
+```markdown
+a) Define Finite Automata. Design a FA that accepts set of strings which doesn't starts with 0 and ends with 1 over the given alphabet $\Sigma = \{0, 1\}$. **[7]**
+```
+
+---
+
+##### 2025 Fall (New Course) - Pokhara University
+a) Explain Finite Automata? Design a DFA that accepts the language given by $L=\{w \in \{a,b\}^* : w \text{ does not contain three consecutive b's}\}$. Hence test your design for $abaabb$ and $babbba$. **[7]**
+
+```markdown
+a) Explain Finite Automata? Design a DFA that accepts the language given by $L=\{w \in \{a,b\}^* : w \text{ does not contain three consecutive b's}\}$. Hence test your design for $abaabb$ and $babbba$. **[7]**
+```
+
+---
+
 ## 1(b)
 
 ##### 2018 Fall - Pokhara University
@@ -170,6 +206,74 @@ a) Convert the given NFA to its equivalent DFA. **[7]**
 
 ---
 
+##### 2025 Spring - Pokhara University
+a) Convert the following NFA to its equivalent DFA. **[7]**  
+*(Refer to the NFA diagram with states $q_0, q_1, q_2, q_3$ in the original paper)*
+
+```markdown
+a) Convert the following NFA to its equivalent DFA. **[7]**  
+*(Refer to the NFA diagram with states $q_0, q_1, q_2, q_3$ in the original paper)*
+```
+
+---
+
+##### 2025 Spring (New Course) - Pokhara University
+a) Minimize the following DFA (Draw initial diagram first). Specify performed operations in each step. **[7]**
+
+| $\delta/\Sigma$ | 0 | 1 |
+|---|---|---|
+| $\to$Q0 | Q1 | Q2 |
+| *Q1 | Q1 | Q3 |
+| *Q2 | Q2 | Q2 |
+| *Q3 | Q5 | Q2 |
+| *Q4 | Q4 | Q2 |
+| *Q5 | Q4 | Q2 |
+| Q6 | Q5 | Q6 |
+| Q7 | Q5 | Q6 |
+
+*(Note: $\to$ for start state, * for final state)*
+
+```markdown
+a) Minimize the following DFA (Draw initial diagram first). Specify performed operations in each step. **[7]**
+
+| $\delta/\Sigma$ | 0 | 1 |
+|---|---|---|
+| $\to$Q0 | Q1 | Q2 |
+| *Q1 | Q1 | Q3 |
+| *Q2 | Q2 | Q2 |
+| *Q3 | Q5 | Q2 |
+| *Q4 | Q4 | Q2 |
+| *Q5 | Q4 | Q2 |
+| Q6 | Q5 | Q6 |
+| Q7 | Q5 | Q6 |
+
+*(Note: $\to$ for start state, * for final state)*
+```
+
+---
+
+##### 2025 Fall - Pokhara University
+b) Convert the following NFA to its equivalent DFA. **[8]**  
+*(Refer to the NFA diagram with states $q_0, q_1, q_2$ in the original paper)*
+
+```markdown
+b) Convert the following NFA to its equivalent DFA. **[8]**  
+*(Refer to the NFA diagram with states $q_0, q_1, q_2$ in the original paper)*
+```
+
+---
+
+##### 2025 Fall (New Course) - Pokhara University
+b) Construct a DFA equivalent to NFA as shown: **[8]**  
+*(Refer to the NFA diagram with states A, B, C, D, E in the original paper)*
+
+```markdown
+b) Construct a DFA equivalent to NFA as shown: **[8]**  
+*(Refer to the NFA diagram with states A, B, C, D, E in the original paper)*
+```
+
+---
+
 ## 2(a)
 
 ##### 2018 Spring - Pokhara University
@@ -226,6 +330,35 @@ b) What are Regular Expressions (RE)? Construct an NFA for the RE $(a+b)^* a b c
 
 ---
 
+##### 2025 Spring - Pokhara University
+b) Find Regular Expression of following Finite Automata using Arden's Theorem. **[8]**  
+*(Refer to the FA diagram with states A, B, C, D in the original paper)*
+
+```markdown
+b) Find Regular Expression of following Finite Automata using Arden's Theorem. **[8]**  
+*(Refer to the FA diagram with states A, B, C, D in the original paper)*
+```
+
+---
+
+##### 2025 Fall - Pokhara University
+a) Applications of Regular expressions (Short Note) **[5]**
+
+```markdown
+a) Applications of Regular expressions (Short Note) **[5]**
+```
+
+---
+
+##### 2025 Fall (New Course) - Pokhara University
+b) What is a regular expression? Construct a regular expression for the language of all strings over $\{a,b\}$ containing exactly two a's. Also draw a DFA for the expression. **[8]**
+
+```markdown
+b) What is a regular expression? Construct a regular expression for the language of all strings over $\{a,b\}$ containing exactly two a's. Also draw a DFA for the expression. **[8]**
+```
+
+---
+
 ## 2(b)
 
 ##### 2018 Fall - Pokhara University
@@ -255,3 +388,11 @@ b) Define Pumping Lemma for regular language. Show that $L = \{a^n b^{2n} \mid n
 
 ---
 
+##### 2025 Spring (New Course) - Pokhara University
+b) State Pumping Lemma for regular set. Use pumping lemma to prove that the language $L=\{0^n1^n : n>0\}$. **[8]**
+
+```markdown
+b) State Pumping Lemma for regular set. Use pumping lemma to prove that the language $L=\{0^n1^n : n>0\}$. **[8]**
+```
+
+---
