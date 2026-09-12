@@ -38,18 +38,18 @@
   $$-2x_1 + 6x_2 + x_3 = 9$$
   $$-x_1 + x_2 + 7x_3 = -6$$
 * **Spring:** Find the largest eigen value and corresponding eigen vector of given matrix using power method:
-  $$\begin{bmatrix} 1 & 4 & 4 \\ 4 & 1 & 8 \\ 4 & 8 & 1 \end{bmatrix}$$
+  $$\begin{bmatrix} 1 & 4 & 4 \\\\ 4 & 1 & 8 \\\\ 4 & 8 & 1 \end{bmatrix}$$
 
 ### 2024
 * **Fall (New):** Use power method to find the smallest Eigen value and Eigen vector of the following matrix:
-  $$A = \begin{bmatrix} 15 & -4 & -3 \\ -10 & 12 & -6 \\ -20 & 4 & -2 \end{bmatrix}$$
+  $$A = \begin{bmatrix} 15 & -4 & -3 \\\\ -10 & 12 & -6 \\\\ -20 & 4 & -2 \end{bmatrix}$$
 * **Fall:** Find the inverse of matrix using Gauss Jordan Method:
-  $$\begin{bmatrix} 1 & 1 & 3 \\ 3 & 3 & -3 \\ -2 & -4 & -4 \end{bmatrix}$$
+  $$\begin{bmatrix} 1 & 1 & 3 \\\\ 3 & 3 & -3 \\\\ -2 & -4 & -4 \end{bmatrix}$$
 * **Spring (New):** Solve by Gauss elimination method:
   $$3x + 2y + z = 10$$
   $$2x + 3y + 2z = 14$$
   $$x + 2y + 3z = 14$$
-* **Spring:** Find the inverse of the square matrix $A = \begin{bmatrix} 4 & 1 & 2 \\ 2 & 3 & -1 \\ 1 & -2 & 2 \end{bmatrix}$ by using Gauss-Jordan elimination method.
+* **Spring:** Find the inverse of the square matrix $A = \begin{bmatrix} 4 & 1 & 2 \\\\ 2 & 3 & -1 \\\\ 1 & -2 & 2 \end{bmatrix}$ by using Gauss-Jordan elimination method.
 
 ### 2023
 * **Fall (New):** Solve the following system of Linear equations using partial pivoting method:
@@ -73,7 +73,7 @@
 
 ### 2021
 * **Fall:** Find the inverse of the matrix using Gauss Jordan method:
-  $$A = \begin{bmatrix} 1 & 2 & 4 \\ 1 & 3 & -5 \\ -2 & -4 & -4 \end{bmatrix}$$
+  $$A = \begin{bmatrix} 1 & 2 & 4 \\\\ 1 & 3 & -5 \\\\ -2 & -4 & -4 \end{bmatrix}$$
 * **Spring:** Solve the following system of equations by using relaxation method correct to two decimal places:
   $$9x - y + 2z = 9$$
   $$x + 10y - 2z = 15$$
@@ -85,7 +85,7 @@
 
 ### 2025
 * **Fall (New):** Find the largest Eigen value and corresponding Eigen vector from the following matrix:
-  $$\begin{bmatrix} 2 & 4 & 1 \\ 0 & 2 & 3 \\ 1 & 0 & 3 \end{bmatrix}$$
+  $$\begin{bmatrix} 2 & 4 & 1 \\\\ 0 & 2 & 3 \\\\ 1 & 0 & 3 \end{bmatrix}$$
   using power method.
 * **Fall:** Using Doolittle LU decomposition method, solve the following system of equations:
   $$3x + 2y + z = 10$$
@@ -107,7 +107,7 @@
   $$2x - 3y + 20z = 25$$
   $$3x + 20y - z = -18$$
 * **Fall:** Find the largest Eigen value and corresponding Eigen vector of the matrix:
-  $$A = \begin{bmatrix} 1 & 4 & 4 \\ 4 & 1 & 8 \\ 4 & 8 & 1 \end{bmatrix}$$
+  $$A = \begin{bmatrix} 1 & 4 & 4 \\\\ 4 & 1 & 8 \\\\ 4 & 8 & 1 \end{bmatrix}$$
   using Power Method.
 * **Spring (New):** Solve the following system of equations using Crout method:
   $$x + y + z = 4$$
@@ -115,7 +115,7 @@
   $$x + 6y + 2z = 6$$
   **OR**  
   Find largest eigen value and corresponding eigen vector of the matrix:
-  $$\begin{bmatrix} 3 & -1 & 0 \\ -2 & 4 & -3 \\ 0 & -1 & 1 \end{bmatrix}$$
+  $$\begin{bmatrix} 3 & -1 & 0 \\\\ -2 & 4 & -3 \\\\ 0 & -1 & 1 \end{bmatrix}$$
 * **Spring:** Find the solution of the given simultaneous linear equations using Gauss Seidel method:
   $$6x - 2y + z = 11$$
   $$-2x + 7y + 2z = 5$$
@@ -143,7 +143,7 @@
 
 ### 2021
 * **Fall:** Find the largest Eigen-value and the corresponding Eigen-vector of the following square matrix using Power method:
-  $$\begin{bmatrix} 25 & 1 & 2 \\ 1 & 3 & 0 \\ 2 & 0 & 4 \end{bmatrix}$$
+  $$\begin{bmatrix} 25 & 1 & 2 \\\\ 1 & 3 & 0 \\\\ 2 & 0 & 4 \end{bmatrix}$$
 * **Spring:** Using Doolittle LU decomposition method, solve the following system of equations:
   $$3x + 2y + z = 10$$
   $$2x + 3y + 2z = 14$$
@@ -161,12 +161,12 @@
 
 ### 2023
 * **Fall (New):** Find the largest Eigen value and Corresponding Eigen vector of given matrix using power method:
-  $$A = \begin{bmatrix} 2 & 5 & 1 \\ 5 & -2 & 3 \\ 1 & 3 & 10 \end{bmatrix}$$
+  $$A = \begin{bmatrix} 2 & 5 & 1 \\\\ 5 & -2 & 3 \\\\ 1 & 3 & 10 \end{bmatrix}$$
 * **Fall (Old):** Determine the largest eigenvalue and the corresponding eigenvector of the matrix:
-  $$A = \begin{bmatrix} 1 & -3 & 2 \\ 4 & 4 & -1 \\ 6 & 3 & 5 \end{bmatrix}$$
+  $$A = \begin{bmatrix} 1 & -3 & 2 \\\\ 4 & 4 & -1 \\\\ 6 & 3 & 5 \end{bmatrix}$$
   using the power method.
 * **Spring:** Find the largest eigen value and the corresponding eigen vector of the matrix using power method:
-  $$\begin{bmatrix} 2 & -1 & 0 \\ -1 & 2 & -1 \\ 0 & -1 & 2 \end{bmatrix}$$
+  $$\begin{bmatrix} 2 & -1 & 0 \\\\ -1 & 2 & -1 \\\\ 0 & -1 & 2 \end{bmatrix}$$
 
 ### 2021
 * **Fall:** Solve the following set of equations by using LU Crout method:
